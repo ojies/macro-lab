@@ -17,7 +17,9 @@ uv run python usa/usa_monetary_var.py
 | `usa_var_irf_ratehike.csv` | Model output — impulse response to a +100bp hike |
 | `usa_presidents.csv` | Economic outcomes by administration (Truman→2026): GDP, jobs, unemployment, inflation, S&P, deficit, debt |
 | `usa_presidential.py` | **Presidential scorecard** — rankings + by-party pattern, framed on-watch-not-causation |
-| *(staging 27–29)* | Sourced data notes (FRED ids, transforms, NBER dating, presidential-framing caveats) |
+| `usa_debt_cycle_gauges.csv` | US Big-Debt-Cycle gauges 1960–2025: debt/GDP, deficit, interest/revenue, foreign-held share, USD reserve share, NIIP, real yield |
+| `usa_debt_cycle.py` | **US big-debt-cycle diagnosis** (Dalio lens) + the programmatic **US-vs-Nigeria "two poles" comparison** |
+| *(staging 27–30)* | Sourced data notes (FRED/IMF/BEA/Treasury ids, transforms, framing caveats) |
 
 ## What the model finds
 
@@ -34,13 +36,24 @@ uv run python usa/usa_monetary_var.py
 - **Shocks set the sign:** the only net job loss (Trump-1, COVID) and near-zero gain (G.W. Bush, GFC) were exogenous-recession terms — the shock, not the president.
 - Framed throughout as **accountability-with-context, not causation** (presidents inherit the economy; Fed independence; Congress controls spending; ~1–2yr lags).
 
-## The two poles of macro-lab
-| | **USA** (this module) | **Nigeria** (`debt_cycle/`) |
-|---|---|---|
-| Cycle type | reserve-currency, late-stage | inflationary EM deleveraging |
-| Central lever | the Fed (rates + balance sheet) | almost none — FX float + import of inflation |
-| Debt currency | own currency, reserve status | mostly local, but no reserve privilege |
-| Household shock via | unemployment (rate hikes) | the naira / dollarization |
-| Same toolkit | VAR, scenario, graph, SFC — different parameters | — |
+**4. US big-debt-cycle diagnosis (`usa_debt_cycle.py`)** — the Dalio lens applied to the US, the *leading reserve power late in its cycle*: debt held by public ~98% of GDP (gross ~120%), a **structural ~6% peacetime deficit**, **interest/revenue ~21%** (interest now exceeds defense), real yields swung −0.6%→+2.0%, and the reserve privilege eroding (USD **72%→57%** of reserves; foreign Treasury share 34%→24%; NIIP **−71%**). The resolution is *not* external default — it's inflation/financial-repression/slow privilege-loss. Late-stage, chronic, not acute.
 
-Next in the US module (per the plan): presidential economic scorecard, US big-debt-cycle diagnosis, fiscal multipliers.
+## The two poles of macro-lab
+`usa_debt_cycle.py` prints this programmatically (loading both modules' gauges):
+
+| Dimension | **United States** | **Nigeria** |
+|---|---|---|
+| Position in the cycle | LATE (reserve power) | MID inflationary deleveraging |
+| Debt currency | own reserve currency | ~47% external + local |
+| Reserve status | yes — 57% of reserves (eroding) | none |
+| Deleveraging type | printing / debasement (latent) | inflation + devaluation (underway) |
+| Debt / GDP | ~98% public (~120% gross) | ~39% (rebased) |
+| Debt-service / revenue | ~21% (interest only) | ~44% gross / >100% retained |
+| Central-bank lever | the Fed — vast | almost none |
+| Household shock via | inflation, rates, unemployment | naira collapse / dollarization |
+| External-default risk | ≈ nil (own currency) | real (FX / rollover) |
+| The trap | exorbitant privilege eroding | no privilege to begin with |
+
+> **The US is running down its exorbitant privilege slowly; Nigeria never had it.** Same Dalio template, opposite ends.
+
+Remaining in the US module (per the plan): fiscal multipliers / stimulus-effect view, and the QE-balance-sheet channel folded into the monetary model.
