@@ -49,6 +49,42 @@ def crossover_year(cg, target):
     return ys[0] if gs[0] >= target else None
 
 
+def equiv_year(cdf, col, target, increasing=True):
+    """Interpolate the calendar year a country's `col` first reached `target`
+    (increasing series: life exp, urban; decreasing: fertility, agriculture share)."""
+    cdf = cdf.dropna(subset=[col]).sort_values("year")
+    ys, xs = cdf["year"].values, cdf[col].values
+    for i in range(1, len(ys)):
+        lo, hi = (xs[i-1], xs[i]) if increasing else (xs[i], xs[i-1])
+        if lo < target <= hi:
+            a, b = (xs[i-1], xs[i])
+            f = (target-a)/(b-a) if b != a else 0
+            return ys[i-1] + f*(ys[i]-ys[i-1])
+    return None
+
+
+def composite_dev_age(g, d, ref="South Korea"):
+    """Composite 'development age': blend income + health + urbanization + structure + demography,
+    then find the year the reference country (Korea) had Nigeria's current composite level.
+    Also returns each single-dimension equivalent year, to expose UNEVEN development."""
+    yrs = [1960, 1970, 1980, 1990, 2000, 2010, 2020]
+    gg = g[g.year.isin(yrs+[2022])].copy(); gg["y"] = gg["year"].replace({2022: 2023})
+    dd = d[d.year.isin(yrs+[2023])].copy(); dd["y"] = dd["year"]
+    m = pd.merge(gg[["country", "y", "gdp_pc_ppp"]],
+                 dd[["country", "y", "life_expectancy", "urban_pct",
+                     "agriculture_pct_gdp", "fertility_rate"]], on=["country", "y"], how="inner")
+    m["loggdp"] = np.log(m["gdp_pc_ppp"]); m["nonagri"] = 100-m["agriculture_pct_gdp"]
+    m["lowfert"] = 8-m["fertility_rate"]
+    comps = ["loggdp", "life_expectancy", "urban_pct", "nonagri", "lowfert"]
+    for cc in comps:
+        m[cc+"_z"] = (m[cc]-m[cc].mean())/(m[cc].std()+1e-9)
+    m["composite"] = m[[cc+"_z" for cc in comps]].mean(axis=1)
+    nig = m[(m.country == "Nigeria") & (m.y == 2023)]["composite"].iloc[0]
+    ref_series = m[m.country == ref][["y", "composite"]].rename(columns={"y": "year", "composite": "gdp_pc_ppp"})
+    comp_year = equiv_year(ref_series, "gdp_pc_ppp", nig, increasing=True)
+    return m, nig, comp_year
+
+
 def main():
     g, d, c, v = load()
     nig_now = g[(g.country == NIG)].sort_values("year").iloc[-1]
@@ -71,6 +107,27 @@ def main():
             print(f"    Nigeria {YEAR}  ≈  {ctry:<15} in ~{yr:.0f}   ({YEAR-yr:.0f} years 'behind')")
             rows.append({"country": ctry, "frontier_equiv_year": round(yr),
                          "years_behind": round(YEAR-yr)})
+
+    # ---- 1b. COMPOSITE development-age + per-dimension spread (UNEVEN development) ----
+    nig_ind = d[(d.country == NIG) & (d.year == 2023)].iloc[0]
+    kor = d[d.country == "South Korea"]
+    dims = [("income (GDP/capita)", crossover_year(g[g.country == "South Korea"], LEVEL)),
+            ("health (life expectancy)", equiv_year(kor, "life_expectancy", nig_ind["life_expectancy"], True)),
+            ("urbanization", equiv_year(kor, "urban_pct", nig_ind["urban_pct"], True)),
+            ("demography (fertility)", equiv_year(kor, "fertility_rate", nig_ind["fertility_rate"], False)),
+            ("structure (agriculture %)", equiv_year(kor, "agriculture_pct_gdp", nig_ind["agriculture_pct_gdp"], False))]
+    _, nig_comp, comp_year = composite_dev_age(g, d)
+    print("\n[1b] DEVELOPMENT AGE ACROSS DIMENSIONS — Nigeria mapped onto SOUTH KOREA's timeline:")
+    print("     (if development were even, all dimensions would point to the same Korea-year)")
+    valid = [(n, y) for n, y in dims if y]
+    for n, y in valid:
+        print(f"     {n:<28} ≈ Korea in ~{y:.0f}")
+    yy = [y for _, y in valid]
+    print(f"     COMPOSITE (income+health+urban+structure+demography) ≈ Korea in ~{comp_year:.0f}"
+          if comp_year else "     COMPOSITE ≈ n/a")
+    print(f"     -> spread of ~{max(yy)-min(yy):.0f} years across dimensions: URBANIZATION has run"
+          f" ~{max(yy)-min(yy):.0f}yrs AHEAD of health/structure — development is UNEVEN, not a")
+    print("        coherent stage. Nigeria built cities before jobs, health, or industry caught up.")
 
     # ---- 2. STRUCTURAL ANOMALY vs the escapers at the SAME income ----
     print("\n[2] STRUCTURAL ANOMALY — Nigeria vs the East-Asian escapers AT THE SAME INCOME:")

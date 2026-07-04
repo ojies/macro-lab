@@ -23,6 +23,20 @@ On Maddison's consistent 2011$ PPP base, **Nigeria (2022) = $2,207/capita**. Tha
 
 **Korea-1970 is the tightest match** — so the question the model answers is *"can Nigeria do from here what Korea did?"* And a sobering fact frames it: **Nigeria's per-capita income peaked c.2010 ($2,269) and has *fallen* to $2,207** — it has spent a lost decade going backwards, not forwards.
 
+## 1b. Development is *uneven* — a 22-year spread across dimensions
+
+The composite index (income + health + urbanization + structure + demography) nets to **Korea-1970**, but mapping each dimension onto Korea's timeline shows Nigeria is at very different "ages" on different axes:
+
+| Dimension | Nigeria ≈ Korea in… |
+|---|---|
+| Income (GDP/capita) | ~1970 |
+| Demography (fertility) | ~1970 |
+| Structure (agriculture share) | ~1969 |
+| **Health (life expectancy)** | **~1961** (behind) |
+| **Urbanization** | **~1983** (ahead) |
+
+**A ~22-year spread.** Urbanization has run ~22 years *ahead* of health and structure — Nigeria **built cities before jobs, health, or industry caught up**. That incoherence is itself a warning: the escapers developed these dimensions roughly *together* (industrial jobs pulled people into cities as health and skills rose); Nigeria's urbanization is running on informal services, not a rising-productivity base.
+
 ## 2. The structural anomaly — urbanizing *without* industrializing
 
 At the **same income**, Nigeria looks structurally unlike the East-Asian escapers:
