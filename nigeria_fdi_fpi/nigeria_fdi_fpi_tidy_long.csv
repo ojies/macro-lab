@@ -1,0 +1,1917 @@
+year,variable,value,category,source,unit,basis
+2000,d_covid_2020,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2000,d_fx_liberalization_2023ff,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2000,d_gfc_2008_09,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2000,d_oil_crash_2014_16,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2000,d_recession_2016,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2000,current_account_balance_usd,7427061115.99,External/markets,World Bank WDI,,
+2000,current_account_pct_gdp,10.7372,External/markets,World Bank WDI,,
+2000,debt_service_pct_exports,9.0257,External/markets,World Bank WDI,,
+2000,electricity_access_pct,43.2,External/markets,World Bank WDI,,
+2000,external_debt_stock_usd,33514256077.2,External/markets,World Bank WDI,,
+2000,fdi_net_outflows_usd,168938510,External/markets,World Bank WDI,,
+2000,gdp_deflator_inflation_pct,22.6737,External/markets,World Bank WDI,,
+2000,interest_rate_risk_premium_pct,5.7742,External/markets,World Bank WDI,,
+2000,net_errors_omissions_usd,1848718386.59,External/markets,World Bank WDI,,
+2000,oil_rents_pct_gdp,22.0499,External/markets,World Bank WDI,,
+2000,real_effective_exch_rate_idx,70.1588,External/markets,World Bank WDI,,
+2000,total_reserves_usd,10099448197.54,External/markets,World Bank WDI,,
+2000,cbn_fdi_naira_million,115952.2,FDI,CBN,Naira million,net
+2000,unctad_fdi_inflows_usd_million,1309.7,FDI,UNCTAD,US$ million,net inflow
+2000,unctad_fdi_inward_stock_usd_million,23786.4,FDI,UNCTAD,US$ million,stock
+2000,unctad_fdi_outflows_usd_million,168.9,FDI,UNCTAD,US$ million,net outflow
+2000,wb_fdi_net_inflows_pct_gdp,1.648,FDI,World Bank WDI,% of GDP,net
+2000,wb_imf_fdi_net_inflows_usd,1140167556.02,FDI,World Bank WDI / IMF BoP,current US$,net
+2000,cbn_fpi_naira_million,51079.1,FPI,CBN,Naira million,net
+2000,wb_portfolio_investment_net_usd,-502264890.59,FPI,World Bank WDI,current US$,net (equity+debt)
+2000,brent_crude_usd_bbl,28.66,Global push factor,FRED / World Bank,,
+2000,global_fdi_inflows_usd_billion,1569.5,Global push factor,FRED / World Bank,,
+2000,us_10y_treasury_yield_pct,6.03,Global push factor,FRED / World Bank,,
+2000,us_cpi_index_1982_84_100,172.19,Global push factor,FRED / World Bank,,
+2000,us_fed_funds_rate_pct,6.236,Global push factor,FRED / World Bank,,
+2000,vix_index,23.32,Global push factor,FRED / World Bank,,
+2000,CC_est,-1.427,Governance,World Bank WGI (Control of Corruption),index (-2.5..2.5),estimate
+2000,CC_score_0_100,18.96,Governance,World Bank WGI (Control of Corruption),score 0-100,percentile
+2000,GE_est,-1.267,Governance,World Bank WGI (Government Effectiveness),index (-2.5..2.5),estimate
+2000,GE_score_0_100,26.7,Governance,World Bank WGI (Government Effectiveness),score 0-100,percentile
+2000,PV_est,-1.627,Governance,World Bank WGI (Political Stability),index (-2.5..2.5),estimate
+2000,PV_score_0_100,38.11,Governance,World Bank WGI (Political Stability),score 0-100,percentile
+2000,RL_est,-1.226,Governance,World Bank WGI (Rule of Law),index (-2.5..2.5),estimate
+2000,RL_score_0_100,35.87,Governance,World Bank WGI (Rule of Law),score 0-100,percentile
+2000,RQ_est,-1.202,Governance,World Bank WGI (Regulatory Quality),index (-2.5..2.5),estimate
+2000,RQ_score_0_100,35.9,Governance,World Bank WGI (Regulatory Quality),score 0-100,percentile
+2000,VA_est,-0.87,Governance,World Bank WGI (Voice & Accountability),index (-2.5..2.5),estimate
+2000,VA_score_0_100,41.63,Governance,World Bank WGI (Voice & Accountability),score 0-100,percentile
+2000,fraser_efw_index_0_10,4.96,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2000,fraser_efw_rank,129,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2000,heritage_econ_freedom_score,53.1,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2000,ti_cpi_rank,90,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2000,ti_cpi_score,1.2,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2000,domestic_credit_private_pct_gdp,8.249,Macro control,World Bank WDI,% of GDP,level
+2000,exchange_rate_lcu_per_usd,101.6973,Macro control,World Bank WDI,LCU per US$,level
+2000,gdp_current_usd,69171451627.25,Macro control,World Bank WDI,current US$,level
+2000,gdp_growth_pct,5.0159,Macro control,World Bank WDI,annual %,level
+2000,gdp_per_capita_usd,547.3183,Macro control,World Bank WDI,current US$,level
+2000,inflation_cpi_pct,6.9333,Macro control,World Bank WDI,annual %,level
+2000,internet_users_pct,0.0641,Macro control,World Bank WDI,% of population,level
+2000,natural_resource_rents_pct_gdp,24.9357,Macro control,World Bank WDI,% of GDP,level
+2000,population_total,126382494,Macro control,World Bank WDI,persons,level
+2000,real_interest_rate_pct,-1.1409,Macro control,World Bank WDI,%,level
+2000,unemployment_pct,3.953,Macro control,World Bank WDI,% of labor force,level
+2000,cbn_mpr_pct_yearend,14.0,Markets & monetary,CBN/NGX/DMO/FRED,,
+2000,external_reserves_usd_billion,10.1,Markets & monetary,CBN/NGX/DMO/FRED,,
+2000,ngx_asi_yearend,8111.01,Markets & monetary,CBN/NGX/DMO/FRED,,
+2000,ngx_equity_mcap_naira_trillion,0.466,Markets & monetary,CBN/NGX/DMO/FRED,,
+2000,tbill_91day_pct,15.5,Markets & monetary,CBN/NGX/DMO/FRED,,
+2001,d_covid_2020,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2001,d_fx_liberalization_2023ff,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2001,d_gfc_2008_09,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2001,d_oil_crash_2014_16,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2001,d_recession_2016,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2001,current_account_balance_usd,2477762769.01,External/markets,World Bank WDI,,
+2001,current_account_pct_gdp,3.3685,External/markets,World Bank WDI,,
+2001,debt_service_pct_exports,13.139,External/markets,World Bank WDI,,
+2001,electricity_access_pct,43.9,External/markets,World Bank WDI,,
+2001,external_debt_stock_usd,34976644763.9,External/markets,World Bank WDI,,
+2001,fdi_net_outflows_usd,93883560,External/markets,World Bank WDI,,
+2001,gdp_deflator_inflation_pct,10.0765,External/markets,World Bank WDI,,
+2001,interest_rate_risk_premium_pct,5.9383,External/markets,World Bank WDI,,
+2001,net_errors_omissions_usd,779100747.32,External/markets,World Bank WDI,,
+2001,oil_rents_pct_gdp,15.2355,External/markets,World Bank WDI,,
+2001,real_effective_exch_rate_idx,78.1794,External/markets,World Bank WDI,,
+2001,total_reserves_usd,10646598366.05,External/markets,World Bank WDI,,
+2001,cbn_fdi_naira_million,132433.6,FDI,CBN,Naira million,net
+2001,unctad_fdi_inflows_usd_million,1277.4,FDI,UNCTAD,US$ million,net inflow
+2001,unctad_fdi_inward_stock_usd_million,25063.8,FDI,UNCTAD,US$ million,stock
+2001,unctad_fdi_outflows_usd_million,93.9,FDI,UNCTAD,US$ million,net outflow
+2001,wb_fdi_net_inflows_pct_gdp,1.619,FDI,World Bank WDI,% of GDP,net
+2001,wb_imf_fdi_net_inflows_usd,1190618643.59,FDI,World Bank WDI / IMF BoP,current US$,net
+2001,cbn_fpi_naira_million,92518.9,FPI,CBN,Naira million,net
+2001,wb_portfolio_investment_net_usd,-831771646.91,FPI,World Bank WDI,current US$,net (equity+debt)
+2001,brent_crude_usd_bbl,24.46,Global push factor,FRED / World Bank,,
+2001,global_fdi_inflows_usd_billion,895.92,Global push factor,FRED / World Bank,,
+2001,us_10y_treasury_yield_pct,5.021,Global push factor,FRED / World Bank,,
+2001,us_cpi_index_1982_84_100,177.04,Global push factor,FRED / World Bank,,
+2001,us_fed_funds_rate_pct,3.888,Global push factor,FRED / World Bank,,
+2001,vix_index,25.75,Global push factor,FRED / World Bank,,
+2001,fraser_efw_index_0_10,4.87,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2001,fraser_efw_rank,133,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2001,heritage_econ_freedom_score,49.6,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2001,ti_cpi_rank,90,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2001,ti_cpi_score,1.0,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2001,domestic_credit_private_pct_gdp,9.8808,Macro control,World Bank WDI,% of GDP,level
+2001,exchange_rate_lcu_per_usd,111.2313,Macro control,World Bank WDI,LCU per US$,level
+2001,gdp_current_usd,73557840064.49,Macro control,World Bank WDI,current US$,level
+2001,gdp_growth_pct,5.9177,Macro control,World Bank WDI,annual %,level
+2001,gdp_per_capita_usd,566.4282,Macro control,World Bank WDI,current US$,level
+2001,inflation_cpi_pct,18.8736,Macro control,World Bank WDI,annual %,level
+2001,internet_users_pct,0.0899,Macro control,World Bank WDI,% of population,level
+2001,natural_resource_rents_pct_gdp,18.1012,Macro control,World Bank WDI,% of GDP,level
+2001,population_total,129862595,Macro control,World Bank WDI,persons,level
+2001,real_interest_rate_pct,12.1387,Macro control,World Bank WDI,%,level
+2001,unemployment_pct,3.9,Macro control,World Bank WDI,% of labor force,level
+2001,cbn_mpr_pct_yearend,20.5,Markets & monetary,CBN/NGX/DMO/FRED,,
+2001,external_reserves_usd_billion,10.65,Markets & monetary,CBN/NGX/DMO/FRED,,
+2001,ngx_asi_yearend,10963.11,Markets & monetary,CBN/NGX/DMO/FRED,,
+2001,ngx_equity_mcap_naira_trillion,0.648,Markets & monetary,CBN/NGX/DMO/FRED,,
+2001,tbill_91day_pct,17.5,Markets & monetary,CBN/NGX/DMO/FRED,,
+2002,d_covid_2020,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2002,d_fx_liberalization_2023ff,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2002,d_gfc_2008_09,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2002,d_oil_crash_2014_16,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2002,d_recession_2016,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2002,current_account_balance_usd,1083110754.1,External/markets,World Bank WDI,,
+2002,current_account_pct_gdp,1.1395,External/markets,World Bank WDI,,
+2002,debt_service_pct_exports,8.4017,External/markets,World Bank WDI,,
+2002,electricity_access_pct,44.6,External/markets,World Bank WDI,,
+2002,external_debt_stock_usd,36779630348.3,External/markets,World Bank WDI,,
+2002,fdi_net_outflows_usd,172161490,External/markets,World Bank WDI,,
+2002,gdp_deflator_inflation_pct,21.1091,External/markets,World Bank WDI,,
+2002,interest_rate_risk_premium_pct,5.7383,External/markets,World Bank WDI,,
+2002,net_errors_omissions_usd,837436077.94,External/markets,World Bank WDI,,
+2002,oil_rents_pct_gdp,11.1446,External/markets,World Bank WDI,,
+2002,real_effective_exch_rate_idx,78.4168,External/markets,World Bank WDI,,
+2002,stock_market_cap_pct_gdp,2.4975,External/markets,World Bank WDI,,
+2002,stock_market_cap_usd,2373940000,External/markets,World Bank WDI,,
+2002,total_reserves_usd,7566806239.09,External/markets,World Bank WDI,,
+2002,cbn_fdi_naira_million,225224.8,FDI,CBN,Naira million,net
+2002,unctad_fdi_inflows_usd_million,2040.2,FDI,UNCTAD,US$ million,net inflow
+2002,unctad_fdi_inward_stock_usd_million,27104.0,FDI,UNCTAD,US$ million,stock
+2002,unctad_fdi_outflows_usd_million,172.2,FDI,UNCTAD,US$ million,net outflow
+2002,wb_fdi_net_inflows_pct_gdp,1.972,FDI,World Bank WDI,% of GDP,net
+2002,wb_imf_fdi_net_inflows_usd,1874070753.14,FDI,World Bank WDI / IMF BoP,current US$,net
+2002,cbn_fpi_naira_million,24789.2,FPI,CBN,Naira million,net
+2002,wb_portfolio_investment_net_usd,-133938021.8,FPI,World Bank WDI,current US$,net (equity+debt)
+2002,brent_crude_usd_bbl,24.99,Global push factor,FRED / World Bank,,
+2002,global_fdi_inflows_usd_billion,752.29,Global push factor,FRED / World Bank,,
+2002,us_10y_treasury_yield_pct,4.613,Global push factor,FRED / World Bank,,
+2002,us_cpi_index_1982_84_100,179.87,Global push factor,FRED / World Bank,,
+2002,us_fed_funds_rate_pct,1.667,Global push factor,FRED / World Bank,,
+2002,vix_index,27.29,Global push factor,FRED / World Bank,,
+2002,CC_est,-1.688,Governance,World Bank WGI (Control of Corruption),index (-2.5..2.5),estimate
+2002,CC_score_0_100,13.68,Governance,World Bank WGI (Control of Corruption),score 0-100,percentile
+2002,GE_est,-1.526,Governance,World Bank WGI (Government Effectiveness),index (-2.5..2.5),estimate
+2002,GE_score_0_100,21.66,Governance,World Bank WGI (Government Effectiveness),score 0-100,percentile
+2002,PV_est,-2.064,Governance,World Bank WGI (Political Stability),index (-2.5..2.5),estimate
+2002,PV_score_0_100,30.64,Governance,World Bank WGI (Political Stability),score 0-100,percentile
+2002,RL_est,-1.526,Governance,World Bank WGI (Rule of Law),index (-2.5..2.5),estimate
+2002,RL_score_0_100,30.7,Governance,World Bank WGI (Rule of Law),score 0-100,percentile
+2002,RQ_est,-1.156,Governance,World Bank WGI (Regulatory Quality),index (-2.5..2.5),estimate
+2002,RQ_score_0_100,36.64,Governance,World Bank WGI (Regulatory Quality),score 0-100,percentile
+2002,VA_est,-0.911,Governance,World Bank WGI (Voice & Accountability),index (-2.5..2.5),estimate
+2002,VA_score_0_100,40.9,Governance,World Bank WGI (Voice & Accountability),score 0-100,percentile
+2002,fraser_efw_index_0_10,5.39,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2002,fraser_efw_rank,120,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2002,heritage_econ_freedom_score,50.9,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2002,ti_cpi_rank,101,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2002,ti_cpi_score,1.6,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2002,domestic_credit_private_pct_gdp,8.0843,Macro control,World Bank WDI,% of GDP,level
+2002,exchange_rate_lcu_per_usd,120.5782,Macro control,World Bank WDI,LCU per US$,level
+2002,gdp_current_usd,95054059302.7,Macro control,World Bank WDI,current US$,level
+2002,gdp_growth_pct,15.3292,Macro control,World Bank WDI,annual %,level
+2002,gdp_per_capita_usd,712.1649,Macro control,World Bank WDI,current US$,level
+2002,inflation_cpi_pct,12.8766,Macro control,World Bank WDI,annual %,level
+2002,internet_users_pct,0.3205,Macro control,World Bank WDI,% of population,level
+2002,natural_resource_rents_pct_gdp,13.6048,Macro control,World Bank WDI,% of GDP,level
+2002,population_total,133471989,Macro control,World Bank WDI,persons,level
+2002,real_interest_rate_pct,3.0235,Macro control,World Bank WDI,%,level
+2002,unemployment_pct,3.669,Macro control,World Bank WDI,% of labor force,level
+2002,cbn_mpr_pct_yearend,16.5,Markets & monetary,CBN/NGX/DMO/FRED,,
+2002,external_reserves_usd_billion,7.57,Markets & monetary,CBN/NGX/DMO/FRED,,
+2002,ngx_asi_yearend,12137.7,Markets & monetary,CBN/NGX/DMO/FRED,,
+2002,ngx_equity_mcap_naira_trillion,0.749,Markets & monetary,CBN/NGX/DMO/FRED,,
+2002,tbill_91day_pct,19.03,Markets & monetary,CBN/NGX/DMO/FRED,,
+2003,d_covid_2020,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2003,d_fx_liberalization_2023ff,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2003,d_gfc_2008_09,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2003,d_oil_crash_2014_16,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2003,d_recession_2016,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2003,current_account_balance_usd,3390606191.58,External/markets,World Bank WDI,,
+2003,current_account_pct_gdp,3.2372,External/markets,World Bank WDI,,
+2003,debt_service_pct_exports,6.189,External/markets,World Bank WDI,,
+2003,electricity_access_pct,52.2,External/markets,World Bank WDI,,
+2003,external_debt_stock_usd,41856858871.2,External/markets,World Bank WDI,,
+2003,fdi_net_outflows_usd,167321370,External/markets,World Bank WDI,,
+2003,gdp_deflator_inflation_pct,9.8043,External/markets,World Bank WDI,,
+2003,interest_rate_risk_premium_pct,5.9233,External/markets,World Bank WDI,,
+2003,net_errors_omissions_usd,5633567567.84,External/markets,World Bank WDI,,
+2003,oil_rents_pct_gdp,12.1202,External/markets,World Bank WDI,,
+2003,real_effective_exch_rate_idx,73.6695,External/markets,World Bank WDI,,
+2003,total_reserves_usd,7415087386.0,External/markets,World Bank WDI,,
+2003,cbn_fdi_naira_million,258388.6,FDI,CBN,Naira million,net
+2003,unctad_fdi_inflows_usd_million,2171.4,FDI,UNCTAD,US$ million,net inflow
+2003,unctad_fdi_inward_stock_usd_million,29275.4,FDI,UNCTAD,US$ million,stock
+2003,unctad_fdi_outflows_usd_million,167.3,FDI,UNCTAD,US$ million,net outflow
+2003,wb_fdi_net_inflows_pct_gdp,1.915,FDI,World Bank WDI,% of GDP,net
+2003,wb_imf_fdi_net_inflows_usd,2005353563.06,FDI,World Bank WDI / IMF BoP,current US$,net
+2003,cbn_fpi_naira_million,23555.5,FPI,CBN,Naira million,net
+2003,wb_portfolio_investment_net_usd,-182894058.19,FPI,World Bank WDI,current US$,net (equity+debt)
+2003,brent_crude_usd_bbl,28.85,Global push factor,FRED / World Bank,,
+2003,global_fdi_inflows_usd_billion,738.38,Global push factor,FRED / World Bank,,
+2003,us_10y_treasury_yield_pct,4.014,Global push factor,FRED / World Bank,,
+2003,us_cpi_index_1982_84_100,184.0,Global push factor,FRED / World Bank,,
+2003,us_fed_funds_rate_pct,1.127,Global push factor,FRED / World Bank,,
+2003,vix_index,21.98,Global push factor,FRED / World Bank,,
+2003,CC_est,-1.516,Governance,World Bank WGI (Control of Corruption),index (-2.5..2.5),estimate
+2003,CC_score_0_100,17.18,Governance,World Bank WGI (Control of Corruption),score 0-100,percentile
+2003,GE_est,-1.373,Governance,World Bank WGI (Government Effectiveness),index (-2.5..2.5),estimate
+2003,GE_score_0_100,24.65,Governance,World Bank WGI (Government Effectiveness),score 0-100,percentile
+2003,PV_est,-1.857,Governance,World Bank WGI (Political Stability),index (-2.5..2.5),estimate
+2003,PV_score_0_100,34.18,Governance,World Bank WGI (Political Stability),score 0-100,percentile
+2003,RL_est,-1.425,Governance,World Bank WGI (Rule of Law),index (-2.5..2.5),estimate
+2003,RL_score_0_100,32.43,Governance,World Bank WGI (Rule of Law),score 0-100,percentile
+2003,RQ_est,-1.148,Governance,World Bank WGI (Regulatory Quality),index (-2.5..2.5),estimate
+2003,RQ_score_0_100,36.75,Governance,World Bank WGI (Regulatory Quality),score 0-100,percentile
+2003,VA_est,-0.879,Governance,World Bank WGI (Voice & Accountability),index (-2.5..2.5),estimate
+2003,VA_score_0_100,41.47,Governance,World Bank WGI (Voice & Accountability),score 0-100,percentile
+2003,greenfield_num_projects,24,Greenfield/M&A,UNCTAD WIR 2025,,
+2003,greenfield_value_usd_million,4223.5,Greenfield/M&A,UNCTAD WIR 2025,,
+2003,manda_net_purchases_usd_million,0.122,Greenfield/M&A,UNCTAD WIR 2025,,
+2003,manda_net_sales_usd_million,0,Greenfield/M&A,UNCTAD WIR 2025,,
+2003,fraser_efw_index_0_10,5.52,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2003,fraser_efw_rank,116,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2003,heritage_econ_freedom_score,49.5,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2003,ti_cpi_rank,132,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2003,ti_cpi_score,1.4,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2003,domestic_credit_private_pct_gdp,8.9095,Macro control,World Bank WDI,% of GDP,level
+2003,exchange_rate_lcu_per_usd,129.2224,Macro control,World Bank WDI,LCU per US$,level
+2003,gdp_current_usd,104738954264.23,Macro control,World Bank WDI,current US$,level
+2003,gdp_growth_pct,7.3472,Macro control,World Bank WDI,annual %,level
+2003,gdp_per_capita_usd,763.3887,Macro control,World Bank WDI,current US$,level
+2003,inflation_cpi_pct,14.0318,Macro control,World Bank WDI,annual %,level
+2003,internet_users_pct,0.5586,Macro control,World Bank WDI,% of population,level
+2003,natural_resource_rents_pct_gdp,15.5125,Macro control,World Bank WDI,% of GDP,level
+2003,population_total,137202644,Macro control,World Bank WDI,persons,level
+2003,real_interest_rate_pct,9.9357,Macro control,World Bank WDI,%,level
+2003,unemployment_pct,3.637,Macro control,World Bank WDI,% of labor force,level
+2003,cbn_mpr_pct_yearend,15.0,Markets & monetary,CBN/NGX/DMO/FRED,,
+2003,external_reserves_usd_billion,7.42,Markets & monetary,CBN/NGX/DMO/FRED,,
+2003,ngx_asi_yearend,20128.94,Markets & monetary,CBN/NGX/DMO/FRED,,
+2003,ngx_equity_mcap_naira_trillion,1.326,Markets & monetary,CBN/NGX/DMO/FRED,,
+2003,tbill_91day_pct,14.79,Markets & monetary,CBN/NGX/DMO/FRED,,
+2004,d_covid_2020,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2004,d_fx_liberalization_2023ff,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2004,d_gfc_2008_09,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2004,d_oil_crash_2014_16,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2004,d_recession_2016,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2004,current_account_balance_usd,16840536007.67,External/markets,World Bank WDI,,
+2004,current_account_pct_gdp,12.4042,External/markets,World Bank WDI,,
+2004,debt_service_pct_exports,4.8415,External/markets,World Bank WDI,,
+2004,electricity_access_pct,46.1,External/markets,World Bank WDI,,
+2004,external_debt_stock_usd,45910626685.7,External/markets,World Bank WDI,,
+2004,fdi_net_outflows_usd,-260755090,External/markets,World Bank WDI,,
+2004,gdp_deflator_inflation_pct,22.3683,External/markets,World Bank WDI,,
+2004,interest_rate_risk_premium_pct,4.8417,External/markets,World Bank WDI,,
+2004,net_errors_omissions_usd,4711164756.94,External/markets,World Bank WDI,,
+2004,oil_rents_pct_gdp,14.4183,External/markets,World Bank WDI,,
+2004,real_effective_exch_rate_idx,75.3143,External/markets,World Bank WDI,,
+2004,stock_market_cap_pct_gdp,11.6863,External/markets,World Bank WDI,,
+2004,stock_market_cap_usd,15865940000,External/markets,World Bank WDI,,
+2004,total_reserves_usd,17256543969.16,External/markets,World Bank WDI,,
+2004,cbn_fdi_naira_million,248224.5,FDI,CBN,Naira million,net
+2004,unctad_fdi_inflows_usd_million,2127.1,FDI,UNCTAD,US$ million,net inflow
+2004,unctad_fdi_inward_stock_usd_million,31402.5,FDI,UNCTAD,US$ million,stock
+2004,unctad_fdi_outflows_usd_million,-260.8,FDI,UNCTAD,US$ million,net outflow
+2004,wb_fdi_net_inflows_pct_gdp,1.38,FDI,World Bank WDI,% of GDP,net
+2004,wb_imf_fdi_net_inflows_usd,1874060886.98,FDI,World Bank WDI / IMF BoP,current US$,net
+2004,cbn_fpi_naira_million,23541.0,FPI,CBN,Naira million,net
+2004,wb_portfolio_investment_net_usd,-177818881.72,FPI,World Bank WDI,current US$,net (equity+debt)
+2004,brent_crude_usd_bbl,38.26,Global push factor,FRED / World Bank,,
+2004,global_fdi_inflows_usd_billion,1010.34,Global push factor,FRED / World Bank,,
+2004,us_10y_treasury_yield_pct,4.271,Global push factor,FRED / World Bank,,
+2004,us_cpi_index_1982_84_100,188.91,Global push factor,FRED / World Bank,,
+2004,us_fed_funds_rate_pct,1.349,Global push factor,FRED / World Bank,,
+2004,vix_index,15.48,Global push factor,FRED / World Bank,,
+2004,CC_est,-1.396,Governance,World Bank WGI (Control of Corruption),index (-2.5..2.5),estimate
+2004,CC_score_0_100,19.6,Governance,World Bank WGI (Control of Corruption),score 0-100,percentile
+2004,GE_est,-1.092,Governance,World Bank WGI (Government Effectiveness),index (-2.5..2.5),estimate
+2004,GE_score_0_100,30.11,Governance,World Bank WGI (Government Effectiveness),score 0-100,percentile
+2004,PV_est,-1.725,Governance,World Bank WGI (Political Stability),index (-2.5..2.5),estimate
+2004,PV_score_0_100,36.44,Governance,World Bank WGI (Political Stability),score 0-100,percentile
+2004,RL_est,-1.239,Governance,World Bank WGI (Rule of Law),index (-2.5..2.5),estimate
+2004,RL_score_0_100,35.64,Governance,World Bank WGI (Rule of Law),score 0-100,percentile
+2004,RQ_est,-1.238,Governance,World Bank WGI (Regulatory Quality),index (-2.5..2.5),estimate
+2004,RQ_score_0_100,35.34,Governance,World Bank WGI (Regulatory Quality),score 0-100,percentile
+2004,VA_est,-0.87,Governance,World Bank WGI (Voice & Accountability),index (-2.5..2.5),estimate
+2004,VA_score_0_100,41.63,Governance,World Bank WGI (Voice & Accountability),score 0-100,percentile
+2004,greenfield_num_projects,18,Greenfield/M&A,UNCTAD WIR 2025,,
+2004,greenfield_value_usd_million,5995.1,Greenfield/M&A,UNCTAD WIR 2025,,
+2004,manda_net_purchases_usd_million,0,Greenfield/M&A,UNCTAD WIR 2025,,
+2004,manda_net_sales_usd_million,9.628,Greenfield/M&A,UNCTAD WIR 2025,,
+2004,fraser_efw_index_0_10,5.51,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2004,fraser_efw_rank,121,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2004,heritage_econ_freedom_score,49.2,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2004,ti_cpi_rank,144,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2004,ti_cpi_score,1.6,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2004,domestic_credit_private_pct_gdp,8.4617,Macro control,World Bank WDI,% of GDP,level
+2004,exchange_rate_lcu_per_usd,132.888,Macro control,World Bank WDI,LCU per US$,level
+2004,gdp_current_usd,135764731645.61,Macro control,World Bank WDI,current US$,level
+2004,gdp_growth_pct,9.2506,Macro control,World Bank WDI,annual %,level
+2004,gdp_per_capita_usd,962.481,Macro control,World Bank WDI,current US$,level
+2004,inflation_cpi_pct,14.998,Macro control,World Bank WDI,annual %,level
+2004,internet_users_pct,1.2861,Macro control,World Bank WDI,% of population,level
+2004,natural_resource_rents_pct_gdp,16.7755,Macro control,World Bank WDI,% of GDP,level
+2004,population_total,141057045,Macro control,World Bank WDI,persons,level
+2004,real_interest_rate_pct,-2.6048,Macro control,World Bank WDI,%,level
+2004,unemployment_pct,3.59,Macro control,World Bank WDI,% of labor force,level
+2004,cbn_mpr_pct_yearend,15.0,Markets & monetary,CBN/NGX/DMO/FRED,,
+2004,external_reserves_usd_billion,17.26,Markets & monetary,CBN/NGX/DMO/FRED,,
+2004,ngx_asi_yearend,23844.5,Markets & monetary,CBN/NGX/DMO/FRED,,
+2004,ngx_equity_mcap_naira_trillion,1.927,Markets & monetary,CBN/NGX/DMO/FRED,,
+2004,ngx_equity_mcap_usd_billion,15.87,Markets & monetary,CBN/NGX/DMO/FRED,,
+2004,tbill_91day_pct,14.34,Markets & monetary,CBN/NGX/DMO/FRED,,
+2005,d_covid_2020,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2005,d_fx_liberalization_2023ff,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2005,d_gfc_2008_09,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2005,d_oil_crash_2014_16,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2005,d_recession_2016,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2005,current_account_balance_usd,36529017085.34,External/markets,World Bank WDI,,
+2005,current_account_pct_gdp,20.794,External/markets,World Bank WDI,,
+2005,debt_service_pct_exports,16.3965,External/markets,World Bank WDI,,
+2005,electricity_access_pct,46.8,External/markets,World Bank WDI,,
+2005,external_debt_stock_usd,33654648314.5,External/markets,World Bank WDI,,
+2005,fdi_net_outflows_usd,14635077.18,External/markets,World Bank WDI,,
+2005,gdp_deflator_inflation_pct,19.8585,External/markets,World Bank WDI,,
+2005,interest_rate_risk_premium_pct,10.1208,External/markets,World Bank WDI,,
+2005,net_errors_omissions_usd,-17344525180.09,External/markets,World Bank WDI,,
+2005,oil_rents_pct_gdp,17.6958,External/markets,World Bank WDI,,
+2005,real_effective_exch_rate_idx,86.2637,External/markets,World Bank WDI,,
+2005,stock_market_cap_pct_gdp,12.6623,External/markets,World Bank WDI,,
+2005,stock_market_cap_usd,22244000000,External/markets,World Bank WDI,,
+2005,total_reserves_usd,28632051717.21,External/markets,World Bank WDI,,
+2005,cbn_fdi_usd_million,4978.3,FDI,CBN,US$ million,net/inflow
+2005,unctad_fdi_inflows_usd_million,4978.3,FDI,UNCTAD,US$ million,net inflow
+2005,unctad_fdi_inward_stock_usd_million,26345.0,FDI,UNCTAD,US$ million,stock
+2005,unctad_fdi_outflows_usd_million,14.6,FDI,UNCTAD,US$ million,net outflow
+2005,wb_fdi_net_inflows_pct_gdp,2.836,FDI,World Bank WDI,% of GDP,net
+2005,wb_imf_fdi_net_inflows_usd,4982533930.22,FDI,World Bank WDI / IMF BoP,current US$,net
+2005,cbn_fpi_usd_million,883.0,FPI,CBN,US$ million,net liabilities (equity+debt)
+2005,wb_portfolio_equity_net_inflows_usd,750775094.4,FPI,World Bank WDI,current US$,net (equity only)
+2005,wb_portfolio_investment_net_usd,487949764.23,FPI,World Bank WDI,current US$,net (equity+debt)
+2005,brent_crude_usd_bbl,54.57,Global push factor,FRED / World Bank,,
+2005,global_fdi_inflows_usd_billion,1556.87,Global push factor,FRED / World Bank,,
+2005,us_10y_treasury_yield_pct,4.289,Global push factor,FRED / World Bank,,
+2005,us_cpi_index_1982_84_100,195.27,Global push factor,FRED / World Bank,,
+2005,us_fed_funds_rate_pct,3.213,Global push factor,FRED / World Bank,,
+2005,vix_index,12.81,Global push factor,FRED / World Bank,,
+2005,CC_est,-1.28,Governance,World Bank WGI (Control of Corruption),index (-2.5..2.5),estimate
+2005,CC_score_0_100,21.95,Governance,World Bank WGI (Control of Corruption),score 0-100,percentile
+2005,GE_est,-1.09,Governance,World Bank WGI (Government Effectiveness),index (-2.5..2.5),estimate
+2005,GE_score_0_100,30.15,Governance,World Bank WGI (Government Effectiveness),score 0-100,percentile
+2005,PV_est,-1.734,Governance,World Bank WGI (Political Stability),index (-2.5..2.5),estimate
+2005,PV_score_0_100,36.28,Governance,World Bank WGI (Political Stability),score 0-100,percentile
+2005,RL_est,-1.266,Governance,World Bank WGI (Rule of Law),index (-2.5..2.5),estimate
+2005,RL_score_0_100,35.17,Governance,World Bank WGI (Rule of Law),score 0-100,percentile
+2005,RQ_est,-1.019,Governance,World Bank WGI (Regulatory Quality),index (-2.5..2.5),estimate
+2005,RQ_score_0_100,38.79,Governance,World Bank WGI (Regulatory Quality),score 0-100,percentile
+2005,VA_est,-0.783,Governance,World Bank WGI (Voice & Accountability),index (-2.5..2.5),estimate
+2005,VA_score_0_100,43.14,Governance,World Bank WGI (Voice & Accountability),score 0-100,percentile
+2005,greenfield_num_projects,32,Greenfield/M&A,UNCTAD WIR 2025,,
+2005,greenfield_value_usd_million,8429.9,Greenfield/M&A,UNCTAD WIR 2025,,
+2005,manda_net_purchases_usd_million,0,Greenfield/M&A,UNCTAD WIR 2025,,
+2005,manda_net_sales_usd_million,25,Greenfield/M&A,UNCTAD WIR 2025,,
+2005,fraser_efw_index_0_10,5.85,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2005,fraser_efw_rank,108,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2005,heritage_econ_freedom_score,48.4,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2005,ti_cpi_rank,152,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2005,ti_cpi_score,1.9,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2005,domestic_credit_private_pct_gdp,8.4351,Macro control,World Bank WDI,% of GDP,level
+2005,exchange_rate_lcu_per_usd,131.2743,Macro control,World Bank WDI,LCU per US$,level
+2005,gdp_current_usd,175670569969.35,Macro control,World Bank WDI,current US$,level
+2005,gdp_growth_pct,6.4385,Macro control,World Bank WDI,annual %,level
+2005,gdp_per_capita_usd,1211.38,Macro control,World Bank WDI,current US$,level
+2005,inflation_cpi_pct,17.8635,Macro control,World Bank WDI,annual %,level
+2005,internet_users_pct,3.5492,Macro control,World Bank WDI,% of population,level
+2005,natural_resource_rents_pct_gdp,19.3876,Macro control,World Bank WDI,% of GDP,level
+2005,population_total,145017253,Macro control,World Bank WDI,persons,level
+2005,real_interest_rate_pct,-1.5937,Macro control,World Bank WDI,%,level
+2005,unemployment_pct,3.727,Macro control,World Bank WDI,% of labor force,level
+2005,cbn_mpr_pct_yearend,13.0,Markets & monetary,CBN/NGX/DMO/FRED,,
+2005,external_reserves_usd_billion,28.63,Markets & monetary,CBN/NGX/DMO/FRED,,
+2005,ngx_asi_yearend,24085.76,Markets & monetary,CBN/NGX/DMO/FRED,,
+2005,ngx_equity_mcap_naira_trillion,2.524,Markets & monetary,CBN/NGX/DMO/FRED,,
+2005,ngx_equity_mcap_usd_billion,22.24,Markets & monetary,CBN/NGX/DMO/FRED,,
+2005,tbill_91day_pct,7.83,Markets & monetary,CBN/NGX/DMO/FRED,,
+2006,d_covid_2020,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2006,d_fx_liberalization_2023ff,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2006,d_gfc_2008_09,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2006,d_oil_crash_2014_16,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2006,d_recession_2016,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2006,current_account_balance_usd,36517576727.87,External/markets,World Bank WDI,,
+2006,current_account_pct_gdp,15.3142,External/markets,World Bank WDI,,
+2006,debt_service_pct_exports,11.5792,External/markets,World Bank WDI,,
+2006,electricity_access_pct,47.6,External/markets,World Bank WDI,,
+2006,external_debt_stock_usd,17491682578.5,External/markets,World Bank WDI,,
+2006,fdi_net_outflows_usd,319618789.76,External/markets,World Bank WDI,,
+2006,gdp_deflator_inflation_pct,23.8644,External/markets,World Bank WDI,,
+2006,interest_rate_risk_premium_pct,8.0142,External/markets,World Bank WDI,,
+2006,net_errors_omissions_usd,-17150967081.65,External/markets,World Bank WDI,,
+2006,oil_rents_pct_gdp,14.8804,External/markets,World Bank WDI,,
+2006,real_effective_exch_rate_idx,91.4368,External/markets,World Bank WDI,,
+2006,stock_market_cap_pct_gdp,13.768,External/markets,World Bank WDI,,
+2006,stock_market_cap_usd,32830510000,External/markets,World Bank WDI,,
+2006,total_reserves_usd,42735039033.31,External/markets,World Bank WDI,,
+2006,cbn_fdi_usd_million,4897.8,FDI,CBN,US$ million,net/inflow
+2006,unctad_fdi_inflows_usd_million,4897.8,FDI,UNCTAD,US$ million,net inflow
+2006,unctad_fdi_inward_stock_usd_million,31242.8,FDI,UNCTAD,US$ million,stock
+2006,unctad_fdi_outflows_usd_million,322.5,FDI,UNCTAD,US$ million,net outflow
+2006,wb_fdi_net_inflows_pct_gdp,2.036,FDI,World Bank WDI,% of GDP,net
+2006,wb_imf_fdi_net_inflows_usd,4854353979.09,FDI,World Bank WDI / IMF BoP,current US$,net
+2006,cbn_fpi_usd_million,2825.6,FPI,CBN,US$ million,net liabilities (equity+debt)
+2006,wb_portfolio_equity_net_inflows_usd,1769162544.86,FPI,World Bank WDI,current US$,net (equity only)
+2006,wb_portfolio_investment_net_usd,-1288018525.48,FPI,World Bank WDI,current US$,net (equity+debt)
+2006,brent_crude_usd_bbl,65.16,Global push factor,FRED / World Bank,,
+2006,global_fdi_inflows_usd_billion,2196.87,Global push factor,FRED / World Bank,,
+2006,us_10y_treasury_yield_pct,4.795,Global push factor,FRED / World Bank,,
+2006,us_cpi_index_1982_84_100,201.56,Global push factor,FRED / World Bank,,
+2006,us_fed_funds_rate_pct,4.964,Global push factor,FRED / World Bank,,
+2006,vix_index,12.81,Global push factor,FRED / World Bank,,
+2006,CC_est,-1.189,Governance,World Bank WGI (Control of Corruption),index (-2.5..2.5),estimate
+2006,CC_score_0_100,23.79,Governance,World Bank WGI (Control of Corruption),score 0-100,percentile
+2006,GE_est,-1.045,Governance,World Bank WGI (Government Effectiveness),index (-2.5..2.5),estimate
+2006,GE_score_0_100,31.01,Governance,World Bank WGI (Government Effectiveness),score 0-100,percentile
+2006,PV_est,-1.829,Governance,World Bank WGI (Political Stability),index (-2.5..2.5),estimate
+2006,PV_score_0_100,34.66,Governance,World Bank WGI (Political Stability),score 0-100,percentile
+2006,RL_est,-1.107,Governance,World Bank WGI (Rule of Law),index (-2.5..2.5),estimate
+2006,RL_score_0_100,37.92,Governance,World Bank WGI (Rule of Law),score 0-100,percentile
+2006,RQ_est,-0.899,Governance,World Bank WGI (Regulatory Quality),index (-2.5..2.5),estimate
+2006,RQ_score_0_100,40.68,Governance,World Bank WGI (Regulatory Quality),score 0-100,percentile
+2006,VA_est,-0.662,Governance,World Bank WGI (Voice & Accountability),index (-2.5..2.5),estimate
+2006,VA_score_0_100,45.26,Governance,World Bank WGI (Voice & Accountability),score 0-100,percentile
+2006,greenfield_num_projects,23,Greenfield/M&A,UNCTAD WIR 2025,,
+2006,greenfield_value_usd_million,5649.4,Greenfield/M&A,UNCTAD WIR 2025,,
+2006,manda_net_purchases_usd_million,0,Greenfield/M&A,UNCTAD WIR 2025,,
+2006,manda_net_sales_usd_million,4008.149,Greenfield/M&A,UNCTAD WIR 2025,,
+2006,doingbiz_rank_reportyear,94,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2006,fraser_efw_index_0_10,6.04,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2006,fraser_efw_rank,103,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2006,heritage_econ_freedom_score,48.7,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2006,ti_cpi_rank,142,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2006,ti_cpi_score,2.2,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2006,domestic_credit_private_pct_gdp,8.1204,Macro control,World Bank WDI,% of GDP,level
+2006,exchange_rate_lcu_per_usd,128.6517,Macro control,World Bank WDI,LCU per US$,level
+2006,gdp_current_usd,238454997161.48,Macro control,World Bank WDI,current US$,level
+2006,gdp_growth_pct,6.0594,Macro control,World Bank WDI,annual %,level
+2006,gdp_per_capita_usd,1599.54,Macro control,World Bank WDI,current US$,level
+2006,inflation_cpi_pct,8.2252,Macro control,World Bank WDI,annual %,level
+2006,internet_users_pct,5.545,Macro control,World Bank WDI,% of population,level
+2006,natural_resource_rents_pct_gdp,16.699,Macro control,World Bank WDI,% of GDP,level
+2006,population_total,149077334,Macro control,World Bank WDI,persons,level
+2006,real_interest_rate_pct,-5.628,Macro control,World Bank WDI,%,level
+2006,unemployment_pct,3.749,Macro control,World Bank WDI,% of labor force,level
+2006,cbn_mpr_pct_yearend,10.0,Markets & monetary,CBN/NGX/DMO/FRED,,
+2006,external_reserves_usd_billion,42.74,Markets & monetary,CBN/NGX/DMO/FRED,,
+2006,fgn_10yr_domestic_yield_pct,11.99,Markets & monetary,CBN/NGX/DMO/FRED,,
+2006,ngx_asi_yearend,33189.3,Markets & monetary,CBN/NGX/DMO/FRED,,
+2006,ngx_equity_mcap_naira_trillion,4.228,Markets & monetary,CBN/NGX/DMO/FRED,,
+2006,ngx_equity_mcap_usd_billion,32.83,Markets & monetary,CBN/NGX/DMO/FRED,,
+2006,tbill_91day_pct,7.75,Markets & monetary,CBN/NGX/DMO/FRED,,
+2007,d_covid_2020,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2007,d_fx_liberalization_2023ff,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2007,d_gfc_2008_09,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2007,d_oil_crash_2014_16,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2007,d_recession_2016,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2007,current_account_balance_usd,27648255973.96,External/markets,World Bank WDI,,
+2007,current_account_pct_gdp,9.9361,External/markets,World Bank WDI,,
+2007,debt_service_pct_exports,2.3726,External/markets,World Bank WDI,,
+2007,electricity_access_pct,50.1,External/markets,World Bank WDI,,
+2007,external_debt_stock_usd,19484330676.5,External/markets,World Bank WDI,,
+2007,fdi_net_outflows_usd,867680640.35,External/markets,World Bank WDI,,
+2007,gdp_deflator_inflation_pct,7.0997,External/markets,World Bank WDI,,
+2007,interest_rate_risk_premium_pct,10.1192,External/markets,World Bank WDI,,
+2007,net_errors_omissions_usd,-14401689658.98,External/markets,World Bank WDI,,
+2007,oil_rents_pct_gdp,13.8344,External/markets,World Bank WDI,,
+2007,real_effective_exch_rate_idx,90.5243,External/markets,World Bank WDI,,
+2007,stock_market_cap_pct_gdp,30.509,External/markets,World Bank WDI,,
+2007,stock_market_cap_usd,84894570000,External/markets,World Bank WDI,,
+2007,total_reserves_usd,51906164585.68,External/markets,World Bank WDI,,
+2007,cbn_fdi_usd_million,6086.7,FDI,CBN,US$ million,net/inflow
+2007,unctad_fdi_inflows_usd_million,6086.7,FDI,UNCTAD,US$ million,net inflow
+2007,unctad_fdi_inward_stock_usd_million,37329.5,FDI,UNCTAD,US$ million,stock
+2007,unctad_fdi_outflows_usd_million,875.0,FDI,UNCTAD,US$ million,net outflow
+2007,wb_fdi_net_inflows_pct_gdp,2.169,FDI,World Bank WDI,% of GDP,net
+2007,wb_imf_fdi_net_inflows_usd,6036021404.82,FDI,World Bank WDI / IMF BoP,current US$,net
+2007,cbn_fpi_usd_million,2665.5,FPI,CBN,US$ million,net liabilities (equity+debt)
+2007,wb_portfolio_equity_net_inflows_usd,1447330958.33,FPI,World Bank WDI,current US$,net (equity only)
+2007,wb_portfolio_investment_net_usd,-799672941.06,FPI,World Bank WDI,current US$,net (equity+debt)
+2007,brent_crude_usd_bbl,72.44,Global push factor,FRED / World Bank,,
+2007,global_fdi_inflows_usd_billion,3114.61,Global push factor,FRED / World Bank,,
+2007,us_10y_treasury_yield_pct,4.635,Global push factor,FRED / World Bank,,
+2007,us_cpi_index_1982_84_100,207.34,Global push factor,FRED / World Bank,,
+2007,us_fed_funds_rate_pct,5.019,Global push factor,FRED / World Bank,,
+2007,vix_index,17.54,Global push factor,FRED / World Bank,,
+2007,CC_est,-1.158,Governance,World Bank WGI (Control of Corruption),index (-2.5..2.5),estimate
+2007,CC_score_0_100,24.42,Governance,World Bank WGI (Control of Corruption),score 0-100,percentile
+2007,GE_est,-0.956,Governance,World Bank WGI (Government Effectiveness),index (-2.5..2.5),estimate
+2007,GE_score_0_100,32.75,Governance,World Bank WGI (Government Effectiveness),score 0-100,percentile
+2007,PV_est,-1.707,Governance,World Bank WGI (Political Stability),index (-2.5..2.5),estimate
+2007,PV_score_0_100,36.73,Governance,World Bank WGI (Political Stability),score 0-100,percentile
+2007,RL_est,-1.04,Governance,World Bank WGI (Rule of Law),index (-2.5..2.5),estimate
+2007,RL_score_0_100,39.06,Governance,World Bank WGI (Rule of Law),score 0-100,percentile
+2007,RQ_est,-0.841,Governance,World Bank WGI (Regulatory Quality),index (-2.5..2.5),estimate
+2007,RQ_score_0_100,41.59,Governance,World Bank WGI (Regulatory Quality),score 0-100,percentile
+2007,VA_est,-0.698,Governance,World Bank WGI (Voice & Accountability),index (-2.5..2.5),estimate
+2007,VA_score_0_100,44.64,Governance,World Bank WGI (Voice & Accountability),score 0-100,percentile
+2007,greenfield_num_projects,19,Greenfield/M&A,UNCTAD WIR 2025,,
+2007,greenfield_value_usd_million,1762.7,Greenfield/M&A,UNCTAD WIR 2025,,
+2007,manda_net_purchases_usd_million,195.852,Greenfield/M&A,UNCTAD WIR 2025,,
+2007,manda_net_sales_usd_million,484.97,Greenfield/M&A,UNCTAD WIR 2025,,
+2007,doingbiz_rank_reportyear,108,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2007,fraser_efw_index_0_10,6.02,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2007,fraser_efw_rank,110,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2007,heritage_econ_freedom_score,55.6,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2007,heritage_rank,131,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2007,ti_cpi_rank,147,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2007,ti_cpi_score,2.2,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2007,domestic_credit_private_pct_gdp,13.797,Macro control,World Bank WDI,% of GDP,level
+2007,exchange_rate_lcu_per_usd,125.8081,Macro control,World Bank WDI,LCU per US$,level
+2007,gdp_current_usd,278260846800.1,Macro control,World Bank WDI,current US$,level
+2007,gdp_growth_pct,6.5911,Macro control,World Bank WDI,annual %,level
+2007,gdp_per_capita_usd,1815.53,Macro control,World Bank WDI,current US$,level
+2007,inflation_cpi_pct,5.388,Macro control,World Bank WDI,annual %,level
+2007,internet_users_pct,6.77,Macro control,World Bank WDI,% of population,level
+2007,natural_resource_rents_pct_gdp,15.861,Macro control,World Bank WDI,% of GDP,level
+2007,population_total,153267261,Macro control,World Bank WDI,persons,level
+2007,real_interest_rate_pct,9.1872,Macro control,World Bank WDI,%,level
+2007,unemployment_pct,3.794,Macro control,World Bank WDI,% of labor force,level
+2007,cbn_mpr_pct_yearend,9.5,Markets & monetary,CBN/NGX/DMO/FRED,,
+2007,external_reserves_usd_billion,51.91,Markets & monetary,CBN/NGX/DMO/FRED,,
+2007,fgn_10yr_domestic_yield_pct,11.03,Markets & monetary,CBN/NGX/DMO/FRED,,
+2007,ngx_asi_yearend,57990.22,Markets & monetary,CBN/NGX/DMO/FRED,,
+2007,ngx_equity_mcap_naira_trillion,10.18,Markets & monetary,CBN/NGX/DMO/FRED,,
+2007,ngx_equity_mcap_usd_billion,84.89,Markets & monetary,CBN/NGX/DMO/FRED,,
+2007,tbill_91day_pct,7.75,Markets & monetary,CBN/NGX/DMO/FRED,,
+2008,d_covid_2020,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2008,d_fx_liberalization_2023ff,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2008,d_gfc_2008_09,1,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2008,d_oil_crash_2014_16,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2008,d_recession_2016,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2008,current_account_balance_usd,29145209282.71,External/markets,World Bank WDI,,
+2008,current_account_pct_gdp,8.5853,External/markets,World Bank WDI,,
+2008,debt_service_pct_exports,0.8892,External/markets,World Bank WDI,,
+2008,electricity_access_pct,50.3,External/markets,World Bank WDI,,
+2008,external_debt_stock_usd,20418957892.7,External/markets,World Bank WDI,,
+2008,fdi_net_outflows_usd,1051265239.84,External/markets,World Bank WDI,,
+2008,gdp_deflator_inflation_pct,7.9214,External/markets,World Bank WDI,,
+2008,interest_rate_risk_premium_pct,6.9325,External/markets,World Bank WDI,,
+2008,net_errors_omissions_usd,-20776244179.22,External/markets,World Bank WDI,,
+2008,oil_rents_pct_gdp,15.5299,External/markets,World Bank WDI,,
+2008,real_effective_exch_rate_idx,99.5581,External/markets,World Bank WDI,,
+2008,stock_market_cap_pct_gdp,14.1578,External/markets,World Bank WDI,,
+2008,stock_market_cap_usd,48062280000,External/markets,World Bank WDI,,
+2008,total_reserves_usd,53598093556.54,External/markets,World Bank WDI,,
+2008,cbn_fdi_usd_million,8248.6,FDI,CBN,US$ million,net/inflow
+2008,unctad_fdi_inflows_usd_million,8248.6,FDI,UNCTAD,US$ million,net inflow
+2008,unctad_fdi_inward_stock_usd_million,45578.2,FDI,UNCTAD,US$ million,stock
+2008,unctad_fdi_outflows_usd_million,1058.3,FDI,UNCTAD,US$ million,net outflow
+2008,wb_fdi_net_inflows_pct_gdp,2.414,FDI,World Bank WDI,% of GDP,net
+2008,wb_imf_fdi_net_inflows_usd,8194071895.46,FDI,World Bank WDI / IMF BoP,current US$,net
+2008,cbn_fpi_usd_million,1334.3,FPI,CBN,US$ million,net liabilities (equity+debt)
+2008,wb_portfolio_equity_net_inflows_usd,-953448580.26,FPI,World Bank WDI,current US$,net (equity only)
+2008,wb_portfolio_investment_net_usd,3401810908.07,FPI,World Bank WDI,current US$,net (equity+debt)
+2008,brent_crude_usd_bbl,96.94,Global push factor,FRED / World Bank,,
+2008,global_fdi_inflows_usd_billion,2438.72,Global push factor,FRED / World Bank,,
+2008,us_10y_treasury_yield_pct,3.664,Global push factor,FRED / World Bank,,
+2008,us_cpi_index_1982_84_100,215.25,Global push factor,FRED / World Bank,,
+2008,us_fed_funds_rate_pct,1.927,Global push factor,FRED / World Bank,,
+2008,vix_index,32.69,Global push factor,FRED / World Bank,,
+2008,CC_est,-1.043,Governance,World Bank WGI (Control of Corruption),index (-2.5..2.5),estimate
+2008,CC_score_0_100,26.75,Governance,World Bank WGI (Control of Corruption),score 0-100,percentile
+2008,GE_est,-1.017,Governance,World Bank WGI (Government Effectiveness),index (-2.5..2.5),estimate
+2008,GE_score_0_100,31.57,Governance,World Bank WGI (Government Effectiveness),score 0-100,percentile
+2008,PV_est,-1.599,Governance,World Bank WGI (Political Stability),index (-2.5..2.5),estimate
+2008,PV_score_0_100,38.57,Governance,World Bank WGI (Political Stability),score 0-100,percentile
+2008,RL_est,-0.999,Governance,World Bank WGI (Rule of Law),index (-2.5..2.5),estimate
+2008,RL_score_0_100,39.77,Governance,World Bank WGI (Rule of Law),score 0-100,percentile
+2008,RQ_est,-0.761,Governance,World Bank WGI (Regulatory Quality),index (-2.5..2.5),estimate
+2008,RQ_score_0_100,42.87,Governance,World Bank WGI (Regulatory Quality),score 0-100,percentile
+2008,VA_est,-0.741,Governance,World Bank WGI (Voice & Accountability),index (-2.5..2.5),estimate
+2008,VA_score_0_100,43.88,Governance,World Bank WGI (Voice & Accountability),score 0-100,percentile
+2008,greenfield_num_projects,40,Greenfield/M&A,UNCTAD WIR 2025,,
+2008,greenfield_value_usd_million,25122.8,Greenfield/M&A,UNCTAD WIR 2025,,
+2008,manda_net_purchases_usd_million,418.388,Greenfield/M&A,UNCTAD WIR 2025,,
+2008,manda_net_sales_usd_million,-597.193,Greenfield/M&A,UNCTAD WIR 2025,,
+2008,doingbiz_rank_reportyear,108,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2008,fraser_efw_index_0_10,5.75,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2008,fraser_efw_rank,114,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2008,heritage_econ_freedom_score,55.1,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2008,heritage_rank,105,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2008,ti_cpi_rank,121,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2008,ti_cpi_score,2.7,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2008,domestic_credit_private_pct_gdp,18.633,Macro control,World Bank WDI,% of GDP,level
+2008,exchange_rate_lcu_per_usd,118.5667,Macro control,World Bank WDI,LCU per US$,level
+2008,gdp_current_usd,339476276257.79,Macro control,World Bank WDI,current US$,level
+2008,gdp_growth_pct,6.7645,Macro control,World Bank WDI,annual %,level
+2008,gdp_per_capita_usd,2154.11,Macro control,World Bank WDI,current US$,level
+2008,inflation_cpi_pct,11.5811,Macro control,World Bank WDI,annual %,level
+2008,internet_users_pct,8,Macro control,World Bank WDI,% of population,level
+2008,natural_resource_rents_pct_gdp,17.5903,Macro control,World Bank WDI,% of GDP,level
+2008,population_total,157595014,Macro control,World Bank WDI,persons,level
+2008,real_interest_rate_pct,6.6849,Macro control,World Bank WDI,%,level
+2008,unemployment_pct,3.792,Macro control,World Bank WDI,% of labor force,level
+2008,cbn_mpr_pct_yearend,9.75,Markets & monetary,CBN/NGX/DMO/FRED,,
+2008,external_reserves_usd_billion,53.6,Markets & monetary,CBN/NGX/DMO/FRED,,
+2008,fgn_10yr_domestic_yield_pct,12.45,Markets & monetary,CBN/NGX/DMO/FRED,,
+2008,ngx_asi_yearend,31450.78,Markets & monetary,CBN/NGX/DMO/FRED,,
+2008,ngx_equity_mcap_naira_trillion,6.96,Markets & monetary,CBN/NGX/DMO/FRED,,
+2008,ngx_equity_mcap_usd_billion,48.06,Markets & monetary,CBN/NGX/DMO/FRED,,
+2008,tbill_91day_pct,5.61,Markets & monetary,CBN/NGX/DMO/FRED,,
+2009,d_covid_2020,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2009,d_fx_liberalization_2023ff,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2009,d_gfc_2008_09,1,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2009,d_oil_crash_2014_16,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2009,d_recession_2016,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2009,current_account_balance_usd,13869493318.0,External/markets,World Bank WDI,,
+2009,current_account_pct_gdp,4.7014,External/markets,World Bank WDI,,
+2009,debt_service_pct_exports,1.0916,External/markets,World Bank WDI,,
+2009,electricity_access_pct,50,External/markets,World Bank WDI,,
+2009,external_debt_stock_usd,22748897639.8,External/markets,World Bank WDI,,
+2009,fdi_net_outflows_usd,1525344474.74,External/markets,World Bank WDI,,
+2009,gdp_deflator_inflation_pct,0.6861,External/markets,World Bank WDI,,
+2009,interest_rate_risk_premium_pct,15.2058,External/markets,World Bank WDI,,
+2009,net_errors_omissions_usd,-26380225476.87,External/markets,World Bank WDI,,
+2009,oil_rents_pct_gdp,8.674,External/markets,World Bank WDI,,
+2009,real_effective_exch_rate_idx,92.6484,External/markets,World Bank WDI,,
+2009,stock_market_cap_pct_gdp,10.9229,External/markets,World Bank WDI,,
+2009,stock_market_cap_usd,32223400000,External/markets,World Bank WDI,,
+2009,total_reserves_usd,43129830238.1,External/markets,World Bank WDI,,
+2009,cbn_fdi_usd_million,8649.5,FDI,CBN,US$ million,net/inflow
+2009,unctad_fdi_inflows_usd_million,8649.5,FDI,UNCTAD,US$ million,net inflow
+2009,unctad_fdi_inward_stock_usd_million,54227.7,FDI,UNCTAD,US$ million,stock
+2009,unctad_fdi_outflows_usd_million,1542.0,FDI,UNCTAD,US$ million,net outflow
+2009,wb_fdi_net_inflows_pct_gdp,2.9,FDI,World Bank WDI,% of GDP,net
+2009,wb_imf_fdi_net_inflows_usd,8555990006.72,FDI,World Bank WDI / IMF BoP,current US$,net
+2009,cbn_fpi_usd_million,481.7,FPI,CBN,US$ million,net liabilities (equity+debt)
+2009,wb_portfolio_equity_net_inflows_usd,487342221.92,FPI,World Bank WDI,current US$,net (equity only)
+2009,wb_portfolio_investment_net_usd,345305077.92,FPI,World Bank WDI,current US$,net (equity+debt)
+2009,brent_crude_usd_bbl,61.74,Global push factor,FRED / World Bank,,
+2009,global_fdi_inflows_usd_billion,1516.92,Global push factor,FRED / World Bank,,
+2009,us_10y_treasury_yield_pct,3.264,Global push factor,FRED / World Bank,,
+2009,us_cpi_index_1982_84_100,214.56,Global push factor,FRED / World Bank,,
+2009,us_fed_funds_rate_pct,0.16,Global push factor,FRED / World Bank,,
+2009,vix_index,31.48,Global push factor,FRED / World Bank,,
+2009,CC_est,-1.071,Governance,World Bank WGI (Control of Corruption),index (-2.5..2.5),estimate
+2009,CC_score_0_100,26.19,Governance,World Bank WGI (Control of Corruption),score 0-100,percentile
+2009,GE_est,-1.12,Governance,World Bank WGI (Government Effectiveness),index (-2.5..2.5),estimate
+2009,GE_score_0_100,29.56,Governance,World Bank WGI (Government Effectiveness),score 0-100,percentile
+2009,PV_est,-1.482,Governance,World Bank WGI (Political Stability),index (-2.5..2.5),estimate
+2009,PV_score_0_100,40.58,Governance,World Bank WGI (Political Stability),score 0-100,percentile
+2009,RL_est,-1.004,Governance,World Bank WGI (Rule of Law),index (-2.5..2.5),estimate
+2009,RL_score_0_100,39.68,Governance,World Bank WGI (Rule of Law),score 0-100,percentile
+2009,RQ_est,-0.751,Governance,World Bank WGI (Regulatory Quality),index (-2.5..2.5),estimate
+2009,RQ_score_0_100,43.02,Governance,World Bank WGI (Regulatory Quality),score 0-100,percentile
+2009,VA_est,-0.838,Governance,World Bank WGI (Voice & Accountability),index (-2.5..2.5),estimate
+2009,VA_score_0_100,42.18,Governance,World Bank WGI (Voice & Accountability),score 0-100,percentile
+2009,greenfield_num_projects,43,Greenfield/M&A,UNCTAD WIR 2025,,
+2009,greenfield_value_usd_million,6827.0,Greenfield/M&A,UNCTAD WIR 2025,,
+2009,manda_net_purchases_usd_million,24.705,Greenfield/M&A,UNCTAD WIR 2025,,
+2009,manda_net_sales_usd_million,-197,Greenfield/M&A,UNCTAD WIR 2025,,
+2009,doingbiz_rank_reportyear,118,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2009,fraser_efw_index_0_10,5.65,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2009,fraser_efw_rank,124,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2009,heritage_econ_freedom_score,55.1,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2009,heritage_rank,117,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2009,ti_cpi_rank,130,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2009,ti_cpi_score,2.5,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2009,domestic_credit_private_pct_gdp,19.6256,Macro control,World Bank WDI,% of GDP,level
+2009,exchange_rate_lcu_per_usd,148.88,Macro control,World Bank WDI,LCU per US$,level
+2009,gdp_current_usd,295008835381.0,Macro control,World Bank WDI,current US$,level
+2009,gdp_growth_pct,8.0369,Macro control,World Bank WDI,annual %,level
+2009,gdp_per_capita_usd,1820.49,Macro control,World Bank WDI,current US$,level
+2009,inflation_cpi_pct,12.5378,Macro control,World Bank WDI,annual %,level
+2009,internet_users_pct,9.3,Macro control,World Bank WDI,% of population,level
+2009,natural_resource_rents_pct_gdp,10.6511,Macro control,World Bank WDI,% of GDP,level
+2009,population_total,162049464,Macro control,World Bank WDI,persons,level
+2009,real_interest_rate_pct,18.18,Macro control,World Bank WDI,%,level
+2009,unemployment_pct,3.763,Macro control,World Bank WDI,% of labor force,level
+2009,cbn_mpr_pct_yearend,6.0,Markets & monetary,CBN/NGX/DMO/FRED,,
+2009,external_reserves_usd_billion,43.13,Markets & monetary,CBN/NGX/DMO/FRED,,
+2009,fgn_10yr_domestic_yield_pct,8.32,Markets & monetary,CBN/NGX/DMO/FRED,,
+2009,ngx_asi_yearend,20827.17,Markets & monetary,CBN/NGX/DMO/FRED,,
+2009,ngx_equity_mcap_naira_trillion,4.99,Markets & monetary,CBN/NGX/DMO/FRED,,
+2009,ngx_equity_mcap_usd_billion,32.22,Markets & monetary,CBN/NGX/DMO/FRED,,
+2009,tbill_91day_pct,4.0,Markets & monetary,CBN/NGX/DMO/FRED,,
+2010,nbs_other,1399.86,Capital importation,NBS Capital Importation,US$ million,gross
+2010,nbs_total,5995.7,Capital importation,NBS Capital Importation,US$ million,gross
+2010,d_covid_2020,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2010,d_fx_liberalization_2023ff,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2010,d_gfc_2008_09,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2010,d_oil_crash_2014_16,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2010,d_recession_2016,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2010,current_account_balance_usd,13111276866.05,External/markets,World Bank WDI,,
+2010,current_account_pct_gdp,3.5726,External/markets,World Bank WDI,,
+2010,debt_service_pct_exports,0.7163,External/markets,World Bank WDI,,
+2010,electricity_access_pct,48,External/markets,World Bank WDI,,
+2010,external_debt_stock_usd,29148883008.7,External/markets,World Bank WDI,,
+2010,fdi_net_outflows_usd,911719866.47,External/markets,World Bank WDI,,
+2010,gdp_deflator_inflation_pct,16.3428,External/markets,World Bank WDI,,
+2010,interest_rate_risk_premium_pct,13.7367,External/markets,World Bank WDI,,
+2010,net_errors_omissions_usd,-15144320037.3,External/markets,World Bank WDI,,
+2010,oil_rents_pct_gdp,12.0986,External/markets,World Bank WDI,,
+2010,real_effective_exch_rate_idx,100,External/markets,World Bank WDI,,
+2010,stock_market_cap_pct_gdp,13.7732,External/markets,World Bank WDI,,
+2010,stock_market_cap_usd,50546400000,External/markets,World Bank WDI,,
+2010,total_reserves_usd,33305051215.7,External/markets,World Bank WDI,,
+2010,cbn_fdi_usd_million,6099.0,FDI,CBN,US$ million,net/inflow
+2010,nbs_fdi_gross_usd_million,728.93,FDI,NBS Capital Importation,US$ million,gross
+2010,unctad_fdi_inflows_usd_million,6099.0,FDI,UNCTAD,US$ million,net inflow
+2010,unctad_fdi_inward_stock_usd_million,66796.6,FDI,UNCTAD,US$ million,stock
+2010,unctad_fdi_outflows_usd_million,922.7,FDI,UNCTAD,US$ million,net outflow
+2010,wb_fdi_net_inflows_pct_gdp,1.642,FDI,World Bank WDI,% of GDP,net
+2010,wb_imf_fdi_net_inflows_usd,6026253091.35,FDI,World Bank WDI / IMF BoP,current US$,net
+2010,cbn_fpi_usd_million,3747.9,FPI,CBN,US$ million,net liabilities (equity+debt)
+2010,nbs_portfolio_investment_gross_usd_million,3866.91,FPI,NBS Capital Importation,US$ million,gross
+2010,wb_portfolio_equity_net_inflows_usd,2153299955.09,FPI,World Bank WDI,current US$,net (equity only)
+2010,wb_portfolio_investment_net_usd,-2586452803.89,FPI,World Bank WDI,current US$,net (equity+debt)
+2010,brent_crude_usd_bbl,79.61,Global push factor,FRED / World Bank,,
+2010,global_fdi_inflows_usd_billion,1843.47,Global push factor,FRED / World Bank,,
+2010,us_10y_treasury_yield_pct,3.215,Global push factor,FRED / World Bank,,
+2010,us_cpi_index_1982_84_100,218.08,Global push factor,FRED / World Bank,,
+2010,us_fed_funds_rate_pct,0.175,Global push factor,FRED / World Bank,,
+2010,vix_index,22.55,Global push factor,FRED / World Bank,,
+2010,CC_est,-1.131,Governance,World Bank WGI (Control of Corruption),index (-2.5..2.5),estimate
+2010,CC_score_0_100,24.96,Governance,World Bank WGI (Control of Corruption),score 0-100,percentile
+2010,GE_est,-1.138,Governance,World Bank WGI (Government Effectiveness),index (-2.5..2.5),estimate
+2010,GE_score_0_100,29.22,Governance,World Bank WGI (Government Effectiveness),score 0-100,percentile
+2010,PV_est,-2.025,Governance,World Bank WGI (Political Stability),index (-2.5..2.5),estimate
+2010,PV_score_0_100,31.31,Governance,World Bank WGI (Political Stability),score 0-100,percentile
+2010,RL_est,-1.116,Governance,World Bank WGI (Rule of Law),index (-2.5..2.5),estimate
+2010,RL_score_0_100,37.76,Governance,World Bank WGI (Rule of Law),score 0-100,percentile
+2010,RQ_est,-0.911,Governance,World Bank WGI (Regulatory Quality),index (-2.5..2.5),estimate
+2010,RQ_score_0_100,40.49,Governance,World Bank WGI (Regulatory Quality),score 0-100,percentile
+2010,VA_est,-0.887,Governance,World Bank WGI (Voice & Accountability),index (-2.5..2.5),estimate
+2010,VA_score_0_100,41.32,Governance,World Bank WGI (Voice & Accountability),score 0-100,percentile
+2010,greenfield_num_projects,34,Greenfield/M&A,UNCTAD WIR 2025,,
+2010,greenfield_value_usd_million,7834.1,Greenfield/M&A,UNCTAD WIR 2025,,
+2010,manda_net_purchases_usd_million,0,Greenfield/M&A,UNCTAD WIR 2025,,
+2010,manda_net_sales_usd_million,476.05,Greenfield/M&A,UNCTAD WIR 2025,,
+2010,doingbiz_rank_reportyear,125,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2010,fraser_efw_index_0_10,5.86,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2010,fraser_efw_rank,121,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2010,heritage_econ_freedom_score,56.8,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2010,heritage_rank,106,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2010,ti_cpi_rank,134,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2010,ti_cpi_score,2.4,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2010,domestic_credit_private_pct_gdp,13.4907,Macro control,World Bank WDI,% of GDP,level
+2010,exchange_rate_lcu_per_usd,150.2975,Macro control,World Bank WDI,LCU per US$,level
+2010,gdp_current_usd,366990417129.04,Macro control,World Bank WDI,current US$,level
+2010,gdp_growth_pct,8.0057,Macro control,World Bank WDI,annual %,level
+2010,gdp_per_capita_usd,2202.26,Macro control,World Bank WDI,current US$,level
+2010,inflation_cpi_pct,13.7401,Macro control,World Bank WDI,annual %,level
+2010,internet_users_pct,11.5,Macro control,World Bank WDI,% of population,level
+2010,natural_resource_rents_pct_gdp,13.803,Macro control,World Bank WDI,% of GDP,level
+2010,population_total,166642886,Macro control,World Bank WDI,persons,level
+2010,real_interest_rate_pct,1.0677,Macro control,World Bank WDI,%,level
+2010,unemployment_pct,3.744,Macro control,World Bank WDI,% of labor force,level
+2010,cbn_mpr_pct_yearend,6.25,Markets & monetary,CBN/NGX/DMO/FRED,,
+2010,external_reserves_usd_billion,33.31,Markets & monetary,CBN/NGX/DMO/FRED,,
+2010,fgn_10yr_domestic_yield_pct,7.15,Markets & monetary,CBN/NGX/DMO/FRED,,
+2010,ngx_asi_yearend,24770.52,Markets & monetary,CBN/NGX/DMO/FRED,,
+2010,ngx_equity_mcap_naira_trillion,7.91,Markets & monetary,CBN/NGX/DMO/FRED,,
+2010,ngx_equity_mcap_usd_billion,50.55,Markets & monetary,CBN/NGX/DMO/FRED,,
+2010,tbill_91day_pct,7.47,Markets & monetary,CBN/NGX/DMO/FRED,,
+2011,nbs_other,1637.3,Capital importation,NBS Capital Importation,US$ million,gross
+2011,nbs_total,7903.77,Capital importation,NBS Capital Importation,US$ million,gross
+2011,d_covid_2020,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2011,d_fx_liberalization_2023ff,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2011,d_gfc_2008_09,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2011,d_oil_crash_2014_16,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2011,d_recession_2016,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2011,current_account_balance_usd,10668377374.36,External/markets,World Bank WDI,,
+2011,current_account_pct_gdp,2.574,External/markets,World Bank WDI,,
+2011,debt_service_pct_exports,0.677,External/markets,World Bank WDI,,
+2011,electricity_access_pct,55.9,External/markets,World Bank WDI,,
+2011,external_debt_stock_usd,34129232146,External/markets,World Bank WDI,,
+2011,fdi_net_outflows_usd,816759862.41,External/markets,World Bank WDI,,
+2011,gdp_deflator_inflation_pct,9.7785,External/markets,World Bank WDI,,
+2011,interest_rate_risk_premium_pct,6.3192,External/markets,World Bank WDI,,
+2011,net_errors_omissions_usd,-5264809973.44,External/markets,World Bank WDI,,
+2011,oil_rents_pct_gdp,15.5113,External/markets,World Bank WDI,,
+2011,real_effective_exch_rate_idx,100.5038,External/markets,World Bank WDI,,
+2011,stock_market_cap_pct_gdp,9.4165,External/markets,World Bank WDI,,
+2011,stock_market_cap_usd,39028390000,External/markets,World Bank WDI,,
+2011,total_reserves_usd,33691784435.74,External/markets,World Bank WDI,,
+2011,cbn_fdi_usd_million,8914.9,FDI,CBN,US$ million,net/inflow
+2011,nbs_fdi_gross_usd_million,1753.34,FDI,NBS Capital Importation,US$ million,gross
+2011,unctad_fdi_inflows_usd_million,8914.9,FDI,UNCTAD,US$ million,net inflow
+2011,unctad_fdi_inward_stock_usd_million,80138.7,FDI,UNCTAD,US$ million,stock
+2011,unctad_fdi_outflows_usd_million,823.6,FDI,UNCTAD,US$ million,net outflow
+2011,wb_fdi_net_inflows_pct_gdp,2.133,FDI,World Bank WDI,% of GDP,net
+2011,wb_imf_fdi_net_inflows_usd,8841062050.77,FDI,World Bank WDI / IMF BoP,current US$,net
+2011,cbn_fpi_usd_million,5192.8,FPI,CBN,US$ million,net liabilities (equity+debt)
+2011,nbs_portfolio_investment_gross_usd_million,4513.12,FPI,NBS Capital Importation,US$ million,gross
+2011,wb_portfolio_equity_net_inflows_usd,2570808286.62,FPI,World Bank WDI,current US$,net (equity only)
+2011,wb_portfolio_investment_net_usd,-3540318310.01,FPI,World Bank WDI,current US$,net (equity+debt)
+2011,brent_crude_usd_bbl,111.26,Global push factor,FRED / World Bank,,
+2011,global_fdi_inflows_usd_billion,2388.43,Global push factor,FRED / World Bank,,
+2011,us_10y_treasury_yield_pct,2.782,Global push factor,FRED / World Bank,,
+2011,us_cpi_index_1982_84_100,224.92,Global push factor,FRED / World Bank,,
+2011,us_fed_funds_rate_pct,0.102,Global push factor,FRED / World Bank,,
+2011,vix_index,24.2,Global push factor,FRED / World Bank,,
+2011,CC_est,-1.141,Governance,World Bank WGI (Control of Corruption),index (-2.5..2.5),estimate
+2011,CC_score_0_100,24.76,Governance,World Bank WGI (Control of Corruption),score 0-100,percentile
+2011,GE_est,-1.121,Governance,World Bank WGI (Government Effectiveness),index (-2.5..2.5),estimate
+2011,GE_score_0_100,29.54,Governance,World Bank WGI (Government Effectiveness),score 0-100,percentile
+2011,PV_est,-1.946,Governance,World Bank WGI (Political Stability),index (-2.5..2.5),estimate
+2011,PV_score_0_100,32.66,Governance,World Bank WGI (Political Stability),score 0-100,percentile
+2011,RL_est,-1.061,Governance,World Bank WGI (Rule of Law),index (-2.5..2.5),estimate
+2011,RL_score_0_100,38.7,Governance,World Bank WGI (Rule of Law),score 0-100,percentile
+2011,RQ_est,-0.876,Governance,World Bank WGI (Regulatory Quality),index (-2.5..2.5),estimate
+2011,RQ_score_0_100,41.05,Governance,World Bank WGI (Regulatory Quality),score 0-100,percentile
+2011,VA_est,-0.774,Governance,World Bank WGI (Voice & Accountability),index (-2.5..2.5),estimate
+2011,VA_score_0_100,43.3,Governance,World Bank WGI (Voice & Accountability),score 0-100,percentile
+2011,greenfield_num_projects,52,Greenfield/M&A,UNCTAD WIR 2025,,
+2011,greenfield_value_usd_million,3904.3,Greenfield/M&A,UNCTAD WIR 2025,,
+2011,manda_net_purchases_usd_million,0.922,Greenfield/M&A,UNCTAD WIR 2025,,
+2011,manda_net_sales_usd_million,539.361,Greenfield/M&A,UNCTAD WIR 2025,,
+2011,doingbiz_rank_reportyear,137,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2011,fraser_efw_index_0_10,6.11,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2011,fraser_efw_rank,105,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2011,heritage_econ_freedom_score,56.7,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2011,heritage_rank,111,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2011,icrg_political_risk_0_100,45.6,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2011,ti_cpi_rank,143,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2011,ti_cpi_score,2.4,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2011,domestic_credit_private_pct_gdp,11.0436,Macro control,World Bank WDI,% of GDP,level
+2011,exchange_rate_lcu_per_usd,153.8625,Macro control,World Bank WDI,LCU per US$,level
+2011,gdp_current_usd,414466676831.16,Macro control,World Bank WDI,current US$,level
+2011,gdp_growth_pct,5.3079,Macro control,World Bank WDI,annual %,level
+2011,gdp_per_capita_usd,2418.41,Macro control,World Bank WDI,current US$,level
+2011,inflation_cpi_pct,10.8261,Macro control,World Bank WDI,annual %,level
+2011,internet_users_pct,13.8,Macro control,World Bank WDI,% of population,level
+2011,natural_resource_rents_pct_gdp,17.5539,Macro control,World Bank WDI,% of GDP,level
+2011,population_total,171379598,Macro control,World Bank WDI,persons,level
+2011,real_interest_rate_pct,5.6856,Macro control,World Bank WDI,%,level
+2011,unemployment_pct,3.77,Macro control,World Bank WDI,% of labor force,level
+2011,cbn_mpr_pct_yearend,12.0,Markets & monetary,CBN/NGX/DMO/FRED,,
+2011,eurobond_10yr_yield_pct,6.3,Markets & monetary,CBN/NGX/DMO/FRED,,
+2011,eurobond_minus_us10y_spread_bps,441,Markets & monetary,CBN/NGX/DMO/FRED,,
+2011,external_reserves_usd_billion,33.69,Markets & monetary,CBN/NGX/DMO/FRED,,
+2011,fgn_10yr_domestic_yield_pct,11.49,Markets & monetary,CBN/NGX/DMO/FRED,,
+2011,ngx_asi_yearend,20730.63,Markets & monetary,CBN/NGX/DMO/FRED,,
+2011,ngx_equity_mcap_naira_trillion,6.53,Markets & monetary,CBN/NGX/DMO/FRED,,
+2011,ngx_equity_mcap_usd_billion,39.03,Markets & monetary,CBN/NGX/DMO/FRED,,
+2011,tbill_91day_pct,14.27,Markets & monetary,CBN/NGX/DMO/FRED,,
+2012,nbs_other,1128.53,Capital importation,NBS Capital Importation,US$ million,gross
+2012,nbs_total,16615.92,Capital importation,NBS Capital Importation,US$ million,gross
+2012,d_covid_2020,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2012,d_fx_liberalization_2023ff,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2012,d_gfc_2008_09,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2012,d_oil_crash_2014_16,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2012,d_recession_2016,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2012,current_account_balance_usd,17374274674.83,External/markets,World Bank WDI,,
+2012,current_account_pct_gdp,3.7447,External/markets,World Bank WDI,,
+2012,debt_service_pct_exports,0.8521,External/markets,World Bank WDI,,
+2012,electricity_access_pct,53,External/markets,World Bank WDI,,
+2012,external_debt_stock_usd,39282745538.8,External/markets,World Bank WDI,,
+2012,fdi_net_outflows_usd,1530123712.35,External/markets,World Bank WDI,,
+2012,gdp_deflator_inflation_pct,9.9476,External/markets,World Bank WDI,,
+2012,interest_rate_risk_premium_pct,3.1567,External/markets,World Bank WDI,,
+2012,net_errors_omissions_usd,-4998421610.23,External/markets,World Bank WDI,,
+2012,oil_rents_pct_gdp,13.0905,External/markets,World Bank WDI,,
+2012,real_effective_exch_rate_idx,110.498,External/markets,World Bank WDI,,
+2012,stock_market_cap_pct_gdp,12.1139,External/markets,World Bank WDI,,
+2012,stock_market_cap_usd,56205200000,External/markets,World Bank WDI,,
+2012,total_reserves_usd,44973806131.66,External/markets,World Bank WDI,,
+2012,cbn_fdi_usd_million,7127.4,FDI,CBN,US$ million,net/inflow
+2012,nbs_fdi_gross_usd_million,1999.87,FDI,NBS Capital Importation,US$ million,gross
+2012,unctad_fdi_inflows_usd_million,7127.4,FDI,UNCTAD,US$ million,net inflow
+2012,unctad_fdi_inward_stock_usd_million,97514.1,FDI,UNCTAD,US$ million,stock
+2012,unctad_fdi_outflows_usd_million,1542.6,FDI,UNCTAD,US$ million,net outflow
+2012,wb_fdi_net_inflows_pct_gdp,1.524,FDI,World Bank WDI,% of GDP,net
+2012,wb_imf_fdi_net_inflows_usd,7069908427.94,FDI,World Bank WDI / IMF BoP,current US$,net
+2012,cbn_fpi_usd_million,17200.5,FPI,CBN,US$ million,net liabilities (equity+debt)
+2012,nbs_portfolio_investment_gross_usd_million,13487.51,FPI,NBS Capital Importation,US$ million,gross
+2012,wb_portfolio_equity_net_inflows_usd,9959018733.21,FPI,World Bank WDI,current US$,net (equity only)
+2012,wb_portfolio_investment_net_usd,-14992409829.63,FPI,World Bank WDI,current US$,net (equity+debt)
+2012,brent_crude_usd_bbl,111.57,Global push factor,FRED / World Bank,,
+2012,global_fdi_inflows_usd_billion,2070.4,Global push factor,FRED / World Bank,,
+2012,us_10y_treasury_yield_pct,1.803,Global push factor,FRED / World Bank,,
+2012,us_cpi_index_1982_84_100,229.59,Global push factor,FRED / World Bank,,
+2012,us_fed_funds_rate_pct,0.14,Global push factor,FRED / World Bank,,
+2012,vix_index,17.8,Global push factor,FRED / World Bank,,
+2012,CC_est,-1.147,Governance,World Bank WGI (Control of Corruption),index (-2.5..2.5),estimate
+2012,CC_score_0_100,24.64,Governance,World Bank WGI (Control of Corruption),score 0-100,percentile
+2012,GE_est,-0.97,Governance,World Bank WGI (Government Effectiveness),index (-2.5..2.5),estimate
+2012,GE_score_0_100,32.48,Governance,World Bank WGI (Government Effectiveness),score 0-100,percentile
+2012,PV_est,-2.088,Governance,World Bank WGI (Political Stability),index (-2.5..2.5),estimate
+2012,PV_score_0_100,30.22,Governance,World Bank WGI (Political Stability),score 0-100,percentile
+2012,RL_est,-1.085,Governance,World Bank WGI (Rule of Law),index (-2.5..2.5),estimate
+2012,RL_score_0_100,38.28,Governance,World Bank WGI (Rule of Law),score 0-100,percentile
+2012,RQ_est,-0.753,Governance,World Bank WGI (Regulatory Quality),index (-2.5..2.5),estimate
+2012,RQ_score_0_100,42.99,Governance,World Bank WGI (Regulatory Quality),score 0-100,percentile
+2012,VA_est,-0.654,Governance,World Bank WGI (Voice & Accountability),index (-2.5..2.5),estimate
+2012,VA_score_0_100,45.4,Governance,World Bank WGI (Voice & Accountability),score 0-100,percentile
+2012,greenfield_num_projects,67,Greenfield/M&A,UNCTAD WIR 2025,,
+2012,greenfield_value_usd_million,4314.3,Greenfield/M&A,UNCTAD WIR 2025,,
+2012,manda_net_purchases_usd_million,39.77,Greenfield/M&A,UNCTAD WIR 2025,,
+2012,manda_net_sales_usd_million,-159.154,Greenfield/M&A,UNCTAD WIR 2025,,
+2012,doingbiz_rank_reportyear,133,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2012,fraser_efw_index_0_10,6.02,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2012,fraser_efw_rank,112,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2012,heritage_econ_freedom_score,56.3,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2012,icrg_political_risk_0_100,45.0,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2012,ti_cpi_rank,139,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2012,ti_cpi_score,27,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2012,domestic_credit_private_pct_gdp,10.6047,Macro control,World Bank WDI,% of GDP,level
+2012,exchange_rate_lcu_per_usd,157.5,Macro control,World Bank WDI,LCU per US$,level
+2012,gdp_current_usd,463971018239.28,Macro control,World Bank WDI,current US$,level
+2012,gdp_growth_pct,4.2301,Macro control,World Bank WDI,annual %,level
+2012,gdp_per_capita_usd,2633.2,Macro control,World Bank WDI,current US$,level
+2012,inflation_cpi_pct,12.2242,Macro control,World Bank WDI,annual %,level
+2012,internet_users_pct,16.1,Macro control,World Bank WDI,% of population,level
+2012,natural_resource_rents_pct_gdp,15.1485,Macro control,World Bank WDI,% of GDP,level
+2012,population_total,176200625,Macro control,World Bank WDI,persons,level
+2012,real_interest_rate_pct,6.2248,Macro control,World Bank WDI,%,level
+2012,unemployment_pct,3.761,Macro control,World Bank WDI,% of labor force,level
+2012,cbn_mpr_pct_yearend,12.0,Markets & monetary,CBN/NGX/DMO/FRED,,
+2012,external_reserves_usd_billion,44.97,Markets & monetary,CBN/NGX/DMO/FRED,,
+2012,fgn_10yr_domestic_yield_pct,11.98,Markets & monetary,CBN/NGX/DMO/FRED,,
+2012,ngx_asi_yearend,28078.81,Markets & monetary,CBN/NGX/DMO/FRED,,
+2012,ngx_equity_mcap_naira_trillion,8.97,Markets & monetary,CBN/NGX/DMO/FRED,,
+2012,ngx_equity_mcap_usd_billion,56.21,Markets & monetary,CBN/NGX/DMO/FRED,,
+2012,tbill_91day_pct,11.77,Markets & monetary,CBN/NGX/DMO/FRED,,
+2013,nbs_other,2669.7,Capital importation,NBS Capital Importation,US$ million,gross
+2013,nbs_total,21318.38,Capital importation,NBS Capital Importation,US$ million,gross
+2013,d_covid_2020,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2013,d_fx_liberalization_2023ff,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2013,d_gfc_2008_09,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2013,d_oil_crash_2014_16,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2013,d_recession_2016,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2013,current_account_balance_usd,19048981238.38,External/markets,World Bank WDI,,
+2013,current_account_pct_gdp,3.6624,External/markets,World Bank WDI,,
+2013,debt_service_pct_exports,1.0464,External/markets,World Bank WDI,,
+2013,electricity_access_pct,55.6,External/markets,World Bank WDI,,
+2013,external_debt_stock_usd,42604005424.4,External/markets,World Bank WDI,,
+2013,fdi_net_outflows_usd,1227434198.22,External/markets,World Bank WDI,,
+2013,gdp_deflator_inflation_pct,4.9647,External/markets,World Bank WDI,,
+2013,interest_rate_risk_premium_pct,5.87,External/markets,World Bank WDI,,
+2013,net_errors_omissions_usd,-26734805125.6,External/markets,World Bank WDI,,
+2013,oil_rents_pct_gdp,9.8801,External/markets,World Bank WDI,,
+2013,real_effective_exch_rate_idx,117.5462,External/markets,World Bank WDI,,
+2013,stock_market_cap_pct_gdp,15.4984,External/markets,World Bank WDI,,
+2013,stock_market_cap_usd,80609900000,External/markets,World Bank WDI,,
+2013,total_reserves_usd,43675023637.58,External/markets,World Bank WDI,,
+2013,cbn_fdi_usd_million,5608.5,FDI,CBN,US$ million,net/inflow
+2013,nbs_fdi_gross_usd_million,1279.43,FDI,NBS Capital Importation,US$ million,gross
+2013,unctad_fdi_inflows_usd_million,5608.5,FDI,UNCTAD,US$ million,net inflow
+2013,unctad_fdi_inward_stock_usd_million,118114.2,FDI,UNCTAD,US$ million,stock
+2013,unctad_fdi_outflows_usd_million,1237.5,FDI,UNCTAD,US$ million,net outflow
+2013,wb_fdi_net_inflows_pct_gdp,1.07,FDI,World Bank WDI,% of GDP,net
+2013,wb_imf_fdi_net_inflows_usd,5562857987.47,FDI,World Bank WDI / IMF BoP,current US$,net
+2013,cbn_fpi_usd_million,13652.2,FPI,CBN,US$ million,net liabilities (equity+debt)
+2013,nbs_portfolio_investment_gross_usd_million,17369.25,FPI,NBS Capital Importation,US$ million,gross
+2013,wb_portfolio_equity_net_inflows_usd,5532059839.77,FPI,World Bank WDI,current US$,net (equity only)
+2013,wb_portfolio_investment_net_usd,-10320930912.99,FPI,World Bank WDI,current US$,net (equity+debt)
+2013,brent_crude_usd_bbl,108.55,Global push factor,FRED / World Bank,,
+2013,global_fdi_inflows_usd_billion,2167.12,Global push factor,FRED / World Bank,,
+2013,us_10y_treasury_yield_pct,2.35,Global push factor,FRED / World Bank,,
+2013,us_cpi_index_1982_84_100,232.95,Global push factor,FRED / World Bank,,
+2013,us_fed_funds_rate_pct,0.107,Global push factor,FRED / World Bank,,
+2013,vix_index,14.23,Global push factor,FRED / World Bank,,
+2013,CC_est,-1.185,Governance,World Bank WGI (Control of Corruption),index (-2.5..2.5),estimate
+2013,CC_score_0_100,23.86,Governance,World Bank WGI (Control of Corruption),score 0-100,percentile
+2013,GE_est,-0.982,Governance,World Bank WGI (Government Effectiveness),index (-2.5..2.5),estimate
+2013,GE_score_0_100,32.25,Governance,World Bank WGI (Government Effectiveness),score 0-100,percentile
+2013,PV_est,-1.989,Governance,World Bank WGI (Political Stability),index (-2.5..2.5),estimate
+2013,PV_score_0_100,31.91,Governance,World Bank WGI (Political Stability),score 0-100,percentile
+2013,RL_est,-1.186,Governance,World Bank WGI (Rule of Law),index (-2.5..2.5),estimate
+2013,RL_score_0_100,36.56,Governance,World Bank WGI (Rule of Law),score 0-100,percentile
+2013,RQ_est,-0.741,Governance,World Bank WGI (Regulatory Quality),index (-2.5..2.5),estimate
+2013,RQ_score_0_100,43.18,Governance,World Bank WGI (Regulatory Quality),score 0-100,percentile
+2013,VA_est,-0.667,Governance,World Bank WGI (Voice & Accountability),index (-2.5..2.5),estimate
+2013,VA_score_0_100,45.18,Governance,World Bank WGI (Voice & Accountability),score 0-100,percentile
+2013,greenfield_num_projects,79,Greenfield/M&A,UNCTAD WIR 2025,,
+2013,greenfield_value_usd_million,7609.9,Greenfield/M&A,UNCTAD WIR 2025,,
+2013,manda_net_purchases_usd_million,240.286,Greenfield/M&A,UNCTAD WIR 2025,,
+2013,manda_net_sales_usd_million,537.022,Greenfield/M&A,UNCTAD WIR 2025,,
+2013,doingbiz_rank_reportyear,131,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2013,fraser_efw_index_0_10,6.37,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2013,fraser_efw_rank,99,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2013,heritage_econ_freedom_score,55.1,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2013,heritage_rank,120,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2013,icrg_political_risk_0_100,46.0,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2013,ti_cpi_rank,144,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2013,ti_cpi_score,25,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2013,domestic_credit_private_pct_gdp,11.5332,Macro control,World Bank WDI,% of GDP,level
+2013,exchange_rate_lcu_per_usd,157.3117,Macro control,World Bank WDI,LCU per US$,level
+2013,gdp_current_usd,520117180313.91,Macro control,World Bank WDI,current US$,level
+2013,gdp_growth_pct,6.6713,Macro control,World Bank WDI,annual %,level
+2013,gdp_per_capita_usd,2872.79,Macro control,World Bank WDI,current US$,level
+2013,inflation_cpi_pct,8.4955,Macro control,World Bank WDI,annual %,level
+2013,internet_users_pct,19.1,Macro control,World Bank WDI,% of population,level
+2013,natural_resource_rents_pct_gdp,11.6227,Macro control,World Bank WDI,% of GDP,level
+2013,population_total,181049443,Macro control,World Bank WDI,persons,level
+2013,real_interest_rate_pct,11.2016,Macro control,World Bank WDI,%,level
+2013,unemployment_pct,3.711,Macro control,World Bank WDI,% of labor force,level
+2013,cbn_mpr_pct_yearend,12.0,Markets & monetary,CBN/NGX/DMO/FRED,,
+2013,external_reserves_usd_billion,43.68,Markets & monetary,CBN/NGX/DMO/FRED,,
+2013,fgn_10yr_domestic_yield_pct,11.77,Markets & monetary,CBN/NGX/DMO/FRED,,
+2013,ngx_asi_yearend,41329.19,Markets & monetary,CBN/NGX/DMO/FRED,,
+2013,ngx_equity_mcap_naira_trillion,13.23,Markets & monetary,CBN/NGX/DMO/FRED,,
+2013,ngx_equity_mcap_usd_billion,82.8,Markets & monetary,CBN/NGX/DMO/FRED,,
+2013,tbill_91day_pct,10.97,Markets & monetary,CBN/NGX/DMO/FRED,,
+2014,nbs_other,3556.54,Capital importation,NBS Capital Importation,US$ million,gross
+2014,nbs_total,20750.76,Capital importation,NBS Capital Importation,US$ million,gross
+2014,d_covid_2020,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2014,d_fx_liberalization_2023ff,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2014,d_gfc_2008_09,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2014,d_oil_crash_2014_16,1,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2014,d_recession_2016,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2014,current_account_balance_usd,906535877.21,External/markets,World Bank WDI,,
+2014,current_account_pct_gdp,0.1579,External/markets,World Bank WDI,,
+2014,debt_service_pct_exports,2.7443,External/markets,World Bank WDI,,
+2014,electricity_access_pct,54.2,External/markets,World Bank WDI,,
+2014,external_debt_stock_usd,46672476310.2,External/markets,World Bank WDI,,
+2014,fdi_net_outflows_usd,1614294500,External/markets,World Bank WDI,,
+2014,gdp_deflator_inflation_pct,4.6626,External/markets,World Bank WDI,,
+2014,interest_rate_risk_premium_pct,6.0058,External/markets,World Bank WDI,,
+2014,net_errors_omissions_usd,-13192769294.39,External/markets,World Bank WDI,,
+2014,oil_rents_pct_gdp,7.0739,External/markets,World Bank WDI,,
+2014,real_effective_exch_rate_idx,124.8401,External/markets,World Bank WDI,,
+2014,stock_market_cap_pct_gdp,10.9314,External/markets,World Bank WDI,,
+2014,stock_market_cap_usd,62766310000,External/markets,World Bank WDI,,
+2014,total_reserves_usd,35070259874.49,External/markets,World Bank WDI,,
+2014,cbn_fdi_usd_million,4693.8,FDI,CBN,US$ million,net/inflow
+2014,nbs_fdi_gross_usd_million,2277.04,FDI,NBS Capital Importation,US$ million,gross
+2014,unctad_fdi_inflows_usd_million,4693.8,FDI,UNCTAD,US$ million,net inflow
+2014,unctad_fdi_inward_stock_usd_million,142816.3,FDI,UNCTAD,US$ million,stock
+2014,unctad_fdi_outflows_usd_million,1614.3,FDI,UNCTAD,US$ million,net outflow
+2014,wb_fdi_net_inflows_pct_gdp,0.817,FDI,World Bank WDI,% of GDP,net
+2014,wb_imf_fdi_net_inflows_usd,4693828631.9,FDI,World Bank WDI / IMF BoP,current US$,net
+2014,cbn_fpi_usd_million,5292.8,FPI,CBN,US$ million,net liabilities (equity+debt)
+2014,nbs_portfolio_investment_gross_usd_million,14917.17,FPI,NBS Capital Importation,US$ million,gross
+2014,wb_portfolio_equity_net_inflows_usd,1044955627.95,FPI,World Bank WDI,current US$,net (equity only)
+2014,wb_portfolio_investment_net_usd,-1843622657.51,FPI,World Bank WDI,current US$,net (equity+debt)
+2014,brent_crude_usd_bbl,98.97,Global push factor,FRED / World Bank,,
+2014,global_fdi_inflows_usd_billion,1966.51,Global push factor,FRED / World Bank,,
+2014,us_10y_treasury_yield_pct,2.54,Global push factor,FRED / World Bank,,
+2014,us_cpi_index_1982_84_100,236.72,Global push factor,FRED / World Bank,,
+2014,us_fed_funds_rate_pct,0.089,Global push factor,FRED / World Bank,,
+2014,vix_index,14.18,Global push factor,FRED / World Bank,,
+2014,CC_est,-1.298,Governance,World Bank WGI (Control of Corruption),index (-2.5..2.5),estimate
+2014,CC_score_0_100,21.58,Governance,World Bank WGI (Control of Corruption),score 0-100,percentile
+2014,GE_est,-1.055,Governance,World Bank WGI (Government Effectiveness),index (-2.5..2.5),estimate
+2014,GE_score_0_100,30.83,Governance,World Bank WGI (Government Effectiveness),score 0-100,percentile
+2014,PV_est,-2.186,Governance,World Bank WGI (Political Stability),index (-2.5..2.5),estimate
+2014,PV_score_0_100,28.56,Governance,World Bank WGI (Political Stability),score 0-100,percentile
+2014,RL_est,-1.132,Governance,World Bank WGI (Rule of Law),index (-2.5..2.5),estimate
+2014,RL_score_0_100,37.48,Governance,World Bank WGI (Rule of Law),score 0-100,percentile
+2014,RQ_est,-0.794,Governance,World Bank WGI (Regulatory Quality),index (-2.5..2.5),estimate
+2014,RQ_score_0_100,42.34,Governance,World Bank WGI (Regulatory Quality),score 0-100,percentile
+2014,VA_est,-0.633,Governance,World Bank WGI (Voice & Accountability),index (-2.5..2.5),estimate
+2014,VA_score_0_100,45.77,Governance,World Bank WGI (Voice & Accountability),score 0-100,percentile
+2014,greenfield_num_projects,60,Greenfield/M&A,UNCTAD WIR 2025,,
+2014,greenfield_value_usd_million,10276.6,Greenfield/M&A,UNCTAD WIR 2025,,
+2014,manda_net_purchases_usd_million,2108.775,Greenfield/M&A,UNCTAD WIR 2025,,
+2014,manda_net_sales_usd_million,997.636,Greenfield/M&A,UNCTAD WIR 2025,,
+2014,doingbiz_rank_reportyear,147,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2014,fraser_efw_index_0_10,6.36,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2014,fraser_efw_rank,100,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2014,heritage_econ_freedom_score,54.3,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2014,heritage_rank,129,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2014,icrg_political_risk_0_100,42.5,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2014,ti_cpi_rank,136,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2014,ti_cpi_score,27,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2014,domestic_credit_private_pct_gdp,13.297,Macro control,World Bank WDI,% of GDP,level
+2014,exchange_rate_lcu_per_usd,158.5526,Macro control,World Bank WDI,LCU per US$,level
+2014,gdp_current_usd,574183763411.51,Macro control,World Bank WDI,current US$,level
+2014,gdp_growth_pct,6.3097,Macro control,World Bank WDI,annual %,level
+2014,gdp_per_capita_usd,3088.72,Macro control,World Bank WDI,current US$,level
+2014,inflation_cpi_pct,8.0474,Macro control,World Bank WDI,annual %,level
+2014,internet_users_pct,21,Macro control,World Bank WDI,% of population,level
+2014,natural_resource_rents_pct_gdp,8.7819,Macro control,World Bank WDI,% of GDP,level
+2014,population_total,185896915,Macro control,World Bank WDI,persons,level
+2014,real_interest_rate_pct,11.3562,Macro control,World Bank WDI,%,level
+2014,unemployment_pct,3.9,Macro control,World Bank WDI,% of labor force,level
+2014,cbn_mpr_pct_yearend,13.0,Markets & monetary,CBN/NGX/DMO/FRED,,
+2014,eurobond_10yr_yield_pct,6.51,Markets & monetary,CBN/NGX/DMO/FRED,,
+2014,eurobond_minus_us10y_spread_bps,434,Markets & monetary,CBN/NGX/DMO/FRED,,
+2014,external_reserves_usd_billion,35.07,Markets & monetary,CBN/NGX/DMO/FRED,,
+2014,fgn_10yr_domestic_yield_pct,15.11,Markets & monetary,CBN/NGX/DMO/FRED,,
+2014,ngx_asi_yearend,34657.15,Markets & monetary,CBN/NGX/DMO/FRED,,
+2014,ngx_equity_mcap_naira_trillion,11.49,Markets & monetary,CBN/NGX/DMO/FRED,,
+2014,ngx_equity_mcap_usd_billion,61.72,Markets & monetary,CBN/NGX/DMO/FRED,,
+2014,tbill_91day_pct,10.8,Markets & monetary,CBN/NGX/DMO/FRED,,
+2015,nbs_other,2195.0,Capital importation,NBS Capital Importation,US$ million,gross
+2015,nbs_total,9643.01,Capital importation,NBS Capital Importation,US$ million,gross
+2015,d_covid_2020,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2015,d_fx_liberalization_2023ff,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2015,d_gfc_2008_09,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2015,d_oil_crash_2014_16,1,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2015,d_recession_2016,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2015,current_account_balance_usd,-15438642533.97,External/markets,World Bank WDI,,
+2015,current_account_pct_gdp,-3.1314,External/markets,World Bank WDI,,
+2015,debt_service_pct_exports,4.7848,External/markets,World Bank WDI,,
+2015,electricity_access_pct,52.5,External/markets,World Bank WDI,,
+2015,external_debt_stock_usd,45024833871.7,External/markets,World Bank WDI,,
+2015,fdi_net_outflows_usd,1435203636.69,External/markets,World Bank WDI,,
+2015,gdp_deflator_inflation_pct,2.8637,External/markets,World Bank WDI,,
+2015,interest_rate_risk_premium_pct,7.4558,External/markets,World Bank WDI,,
+2015,net_errors_omissions_usd,20773244148.42,External/markets,World Bank WDI,,
+2015,oil_rents_pct_gdp,2.7835,External/markets,World Bank WDI,,
+2015,real_effective_exch_rate_idx,119.8626,External/markets,World Bank WDI,,
+2015,stock_market_cap_pct_gdp,10.1361,External/markets,World Bank WDI,,
+2015,stock_market_cap_usd,49973880000,External/markets,World Bank WDI,,
+2015,total_reserves_usd,29011450144.31,External/markets,World Bank WDI,,
+2015,cbn_fdi_usd_million,3064.2,FDI,CBN,US$ million,net/inflow
+2015,nbs_fdi_gross_usd_million,1447.0,FDI,NBS Capital Importation,US$ million,gross
+2015,unctad_fdi_inflows_usd_million,3064.2,FDI,UNCTAD,US$ million,net inflow
+2015,unctad_fdi_inward_stock_usd_million,142753.1,FDI,UNCTAD,US$ million,stock
+2015,unctad_fdi_outflows_usd_million,1435.2,FDI,UNCTAD,US$ million,net outflow
+2015,wb_fdi_net_inflows_pct_gdp,0.622,FDI,World Bank WDI,% of GDP,net
+2015,wb_imf_fdi_net_inflows_usd,3064168904.45,FDI,World Bank WDI / IMF BoP,current US$,net
+2015,cbn_fpi_usd_million,2535.2,FPI,CBN,US$ million,net liabilities (equity+debt)
+2015,nbs_portfolio_investment_gross_usd_million,6001.0,FPI,NBS Capital Importation,US$ million,gross
+2015,wb_portfolio_equity_net_inflows_usd,-476619500,FPI,World Bank WDI,current US$,net (equity only)
+2015,wb_portfolio_investment_net_usd,-858700673.5,FPI,World Bank WDI,current US$,net (equity+debt)
+2015,brent_crude_usd_bbl,52.32,Global push factor,FRED / World Bank,,
+2015,global_fdi_inflows_usd_billion,2793.91,Global push factor,FRED / World Bank,,
+2015,us_10y_treasury_yield_pct,2.138,Global push factor,FRED / World Bank,,
+2015,us_cpi_index_1982_84_100,237.0,Global push factor,FRED / World Bank,,
+2015,us_fed_funds_rate_pct,0.133,Global push factor,FRED / World Bank,,
+2015,vix_index,16.67,Global push factor,FRED / World Bank,,
+2015,CC_est,-1.161,Governance,World Bank WGI (Control of Corruption),index (-2.5..2.5),estimate
+2015,CC_score_0_100,24.35,Governance,World Bank WGI (Control of Corruption),score 0-100,percentile
+2015,GE_est,-0.914,Governance,World Bank WGI (Government Effectiveness),index (-2.5..2.5),estimate
+2015,GE_score_0_100,33.57,Governance,World Bank WGI (Government Effectiveness),score 0-100,percentile
+2015,PV_est,-1.668,Governance,World Bank WGI (Political Stability),index (-2.5..2.5),estimate
+2015,PV_score_0_100,37.41,Governance,World Bank WGI (Political Stability),score 0-100,percentile
+2015,RL_est,-0.961,Governance,World Bank WGI (Rule of Law),index (-2.5..2.5),estimate
+2015,RL_score_0_100,40.43,Governance,World Bank WGI (Rule of Law),score 0-100,percentile
+2015,RQ_est,-0.74,Governance,World Bank WGI (Regulatory Quality),index (-2.5..2.5),estimate
+2015,RQ_score_0_100,43.19,Governance,World Bank WGI (Regulatory Quality),score 0-100,percentile
+2015,VA_est,-0.517,Governance,World Bank WGI (Voice & Accountability),index (-2.5..2.5),estimate
+2015,VA_score_0_100,47.8,Governance,World Bank WGI (Voice & Accountability),score 0-100,percentile
+2015,greenfield_num_projects,53,Greenfield/M&A,UNCTAD WIR 2025,,
+2015,greenfield_value_usd_million,8018.1,Greenfield/M&A,UNCTAD WIR 2025,,
+2015,manda_net_purchases_usd_million,-335.66,Greenfield/M&A,UNCTAD WIR 2025,,
+2015,manda_net_sales_usd_million,1026.6,Greenfield/M&A,UNCTAD WIR 2025,,
+2015,doingbiz_dtf_score_0_100,47.33,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2015,doingbiz_rank_reportyear,170,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2015,fraser_efw_index_0_10,6.36,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2015,fraser_efw_rank,99,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2015,heritage_econ_freedom_score,55.6,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2015,heritage_rank,120,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2015,icrg_political_risk_0_100,45.0,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2015,ti_cpi_rank,136,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2015,ti_cpi_score,26,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2015,domestic_credit_private_pct_gdp,13.0787,Macro control,World Bank WDI,% of GDP,level
+2015,exchange_rate_lcu_per_usd,192.4403,Macro control,World Bank WDI,LCU per US$,level
+2015,gdp_current_usd,493026682800.63,Macro control,World Bank WDI,current US$,level
+2015,gdp_growth_pct,2.6527,Macro control,World Bank WDI,annual %,level
+2015,gdp_per_capita_usd,2585.73,Macro control,World Bank WDI,current US$,level
+2015,inflation_cpi_pct,9.0094,Macro control,World Bank WDI,annual %,level
+2015,internet_users_pct,22.5142,Macro control,World Bank WDI,% of population,level
+2015,natural_resource_rents_pct_gdp,4.5541,Macro control,World Bank WDI,% of GDP,level
+2015,population_total,190671878,Macro control,World Bank WDI,persons,level
+2015,real_interest_rate_pct,13.5962,Macro control,World Bank WDI,%,level
+2015,unemployment_pct,4.134,Macro control,World Bank WDI,% of labor force,level
+2015,cbn_mpr_pct_yearend,11.0,Markets & monetary,CBN/NGX/DMO/FRED,,
+2015,eurobond_10yr_yield_pct,8.56,Markets & monetary,CBN/NGX/DMO/FRED,,
+2015,eurobond_minus_us10y_spread_bps,629,Markets & monetary,CBN/NGX/DMO/FRED,,
+2015,external_reserves_usd_billion,29.01,Markets & monetary,CBN/NGX/DMO/FRED,,
+2015,fgn_10yr_domestic_yield_pct,11.09,Markets & monetary,CBN/NGX/DMO/FRED,,
+2015,ngx_asi_yearend,28642.25,Markets & monetary,CBN/NGX/DMO/FRED,,
+2015,ngx_equity_mcap_naira_trillion,9.86,Markets & monetary,CBN/NGX/DMO/FRED,,
+2015,ngx_equity_mcap_usd_billion,49.46,Markets & monetary,CBN/NGX/DMO/FRED,,
+2015,tbill_91day_pct,4.0,Markets & monetary,CBN/NGX/DMO/FRED,,
+2016,nbs_other,2268.2,Capital importation,NBS Capital Importation,US$ million,gross
+2016,nbs_total,5124.1,Capital importation,NBS Capital Importation,US$ million,gross
+2016,d_covid_2020,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2016,d_fx_liberalization_2023ff,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2016,d_gfc_2008_09,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2016,d_oil_crash_2014_16,1,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2016,d_recession_2016,1,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2016,current_account_balance_usd,5077217476.11,External/markets,World Bank WDI,,
+2016,current_account_pct_gdp,1.2547,External/markets,World Bank WDI,,
+2016,debt_service_pct_exports,12.8053,External/markets,World Bank WDI,,
+2016,electricity_access_pct,59.3,External/markets,World Bank WDI,,
+2016,external_debt_stock_usd,43735939488.9,External/markets,World Bank WDI,,
+2016,fdi_net_outflows_usd,335464994.2,External/markets,World Bank WDI,,
+2016,gdp_deflator_inflation_pct,9.5437,External/markets,World Bank WDI,,
+2016,interest_rate_risk_premium_pct,6.7272,External/markets,World Bank WDI,,
+2016,net_errors_omissions_usd,-15355378310.3,External/markets,World Bank WDI,,
+2016,oil_rents_pct_gdp,2.6843,External/markets,World Bank WDI,,
+2016,real_effective_exch_rate_idx,110.861,External/markets,World Bank WDI,,
+2016,stock_market_cap_pct_gdp,7.3625,External/markets,World Bank WDI,,
+2016,stock_market_cap_usd,29792434000.26,External/markets,World Bank WDI,,
+2016,total_reserves_usd,28020197619.34,External/markets,World Bank WDI,,
+2016,cbn_fdi_usd_million,3453.3,FDI,CBN,US$ million,net/inflow
+2016,nbs_fdi_gross_usd_million,1044.0,FDI,NBS Capital Importation,US$ million,gross
+2016,unctad_fdi_inflows_usd_million,3453.3,FDI,UNCTAD,US$ million,net inflow
+2016,unctad_fdi_inward_stock_usd_million,90002.3,FDI,UNCTAD,US$ million,stock
+2016,unctad_fdi_outflows_usd_million,335.5,FDI,UNCTAD,US$ million,net outflow
+2016,wb_fdi_net_inflows_pct_gdp,0.853,FDI,World Bank WDI,% of GDP,net
+2016,wb_imf_fdi_net_inflows_usd,3453258407.98,FDI,World Bank WDI / IMF BoP,current US$,net
+2016,cbn_fpi_usd_million,1887.7,FPI,CBN,US$ million,net liabilities (equity+debt)
+2016,nbs_portfolio_investment_gross_usd_million,1811.9,FPI,NBS Capital Importation,US$ million,gross
+2016,wb_portfolio_equity_net_inflows_usd,325125000.0,FPI,World Bank WDI,current US$,net (equity only)
+2016,wb_portfolio_investment_net_usd,-1894322228.78,FPI,World Bank WDI,current US$,net (equity+debt)
+2016,brent_crude_usd_bbl,43.64,Global push factor,FRED / World Bank,,
+2016,global_fdi_inflows_usd_billion,2752.32,Global push factor,FRED / World Bank,,
+2016,us_10y_treasury_yield_pct,1.837,Global push factor,FRED / World Bank,,
+2016,us_cpi_index_1982_84_100,240.01,Global push factor,FRED / World Bank,,
+2016,us_fed_funds_rate_pct,0.395,Global push factor,FRED / World Bank,,
+2016,vix_index,15.83,Global push factor,FRED / World Bank,,
+2016,CC_est,-1.091,Governance,World Bank WGI (Control of Corruption),index (-2.5..2.5),estimate
+2016,CC_score_0_100,25.77,Governance,World Bank WGI (Control of Corruption),score 0-100,percentile
+2016,GE_est,-0.919,Governance,World Bank WGI (Government Effectiveness),index (-2.5..2.5),estimate
+2016,GE_score_0_100,33.47,Governance,World Bank WGI (Government Effectiveness),score 0-100,percentile
+2016,PV_est,-1.71,Governance,World Bank WGI (Political Stability),index (-2.5..2.5),estimate
+2016,PV_score_0_100,36.68,Governance,World Bank WGI (Political Stability),score 0-100,percentile
+2016,RL_est,-0.879,Governance,World Bank WGI (Rule of Law),index (-2.5..2.5),estimate
+2016,RL_score_0_100,41.83,Governance,World Bank WGI (Rule of Law),score 0-100,percentile
+2016,RQ_est,-0.815,Governance,World Bank WGI (Regulatory Quality),index (-2.5..2.5),estimate
+2016,RQ_score_0_100,42.01,Governance,World Bank WGI (Regulatory Quality),score 0-100,percentile
+2016,VA_est,-0.583,Governance,World Bank WGI (Voice & Accountability),index (-2.5..2.5),estimate
+2016,VA_score_0_100,46.65,Governance,World Bank WGI (Voice & Accountability),score 0-100,percentile
+2016,greenfield_num_projects,51,Greenfield/M&A,UNCTAD WIR 2025,,
+2016,greenfield_value_usd_million,6739.9,Greenfield/M&A,UNCTAD WIR 2025,,
+2016,manda_net_purchases_usd_million,122.455,Greenfield/M&A,UNCTAD WIR 2025,,
+2016,manda_net_sales_usd_million,993.649,Greenfield/M&A,UNCTAD WIR 2025,,
+2016,doingbiz_dtf_score_0_100,44.69,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2016,doingbiz_rank_reportyear,169,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2016,fraser_efw_index_0_10,6.47,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2016,fraser_efw_rank,96,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2016,heritage_econ_freedom_score,57.5,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2016,heritage_rank,116,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2016,ti_cpi_rank,136,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2016,ti_cpi_score,28,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2016,domestic_credit_private_pct_gdp,14.608,Macro control,World Bank WDI,% of GDP,level
+2016,exchange_rate_lcu_per_usd,253.492,Macro control,World Bank WDI,LCU per US$,level
+2016,gdp_current_usd,404649125252.16,Macro control,World Bank WDI,current US$,level
+2016,gdp_growth_pct,-1.6169,Macro control,World Bank WDI,annual %,level
+2016,gdp_per_capita_usd,2070.41,Macro control,World Bank WDI,current US$,level
+2016,inflation_cpi_pct,15.6968,Macro control,World Bank WDI,annual %,level
+2016,internet_users_pct,24.1375,Macro control,World Bank WDI,% of population,level
+2016,natural_resource_rents_pct_gdp,4.6577,Macro control,World Bank WDI,% of GDP,level
+2016,population_total,195443700,Macro control,World Bank WDI,persons,level
+2016,real_interest_rate_pct,6.6862,Macro control,World Bank WDI,%,level
+2016,unemployment_pct,4.499,Macro control,World Bank WDI,% of labor force,level
+2016,cbn_mpr_pct_yearend,14.0,Markets & monetary,CBN/NGX/DMO/FRED,,
+2016,eurobond_10yr_yield_pct,6.92,Markets & monetary,CBN/NGX/DMO/FRED,,
+2016,eurobond_minus_us10y_spread_bps,447,Markets & monetary,CBN/NGX/DMO/FRED,,
+2016,external_reserves_usd_billion,28.02,Markets & monetary,CBN/NGX/DMO/FRED,,
+2016,fgn_10yr_domestic_yield_pct,16.11,Markets & monetary,CBN/NGX/DMO/FRED,,
+2016,ngx_asi_yearend,26874.62,Markets & monetary,CBN/NGX/DMO/FRED,,
+2016,ngx_equity_mcap_naira_trillion,9.26,Markets & monetary,CBN/NGX/DMO/FRED,,
+2016,ngx_equity_mcap_usd_billion,30.35,Markets & monetary,CBN/NGX/DMO/FRED,,
+2016,tbill_91day_pct,14.0,Markets & monetary,CBN/NGX/DMO/FRED,,
+2017,nbs_other,3917.75,Capital importation,NBS Capital Importation,US$ million,gross
+2017,nbs_total,12228.57,Capital importation,NBS Capital Importation,US$ million,gross
+2017,d_covid_2020,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2017,d_fx_liberalization_2023ff,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2017,d_gfc_2008_09,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2017,d_oil_crash_2014_16,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2017,d_recession_2016,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2017,current_account_balance_usd,13563765219.29,External/markets,World Bank WDI,,
+2017,current_account_pct_gdp,3.6098,External/markets,World Bank WDI,,
+2017,debt_service_pct_exports,7.4017,External/markets,World Bank WDI,,
+2017,electricity_access_pct,54.4,External/markets,World Bank WDI,,
+2017,external_debt_stock_usd,65142821169.8,External/markets,World Bank WDI,,
+2017,fdi_net_outflows_usd,310830719.0,External/markets,World Bank WDI,,
+2017,gdp_deflator_inflation_pct,11.1189,External/markets,World Bank WDI,,
+2017,interest_rate_risk_premium_pct,4.14,External/markets,World Bank WDI,,
+2017,net_errors_omissions_usd,-18819188732.73,External/markets,World Bank WDI,,
+2017,oil_rents_pct_gdp,5.4726,External/markets,World Bank WDI,,
+2017,real_effective_exch_rate_idx,101.4484,External/markets,World Bank WDI,,
+2017,stock_market_cap_pct_gdp,9.905,External/markets,World Bank WDI,,
+2017,stock_market_cap_usd,37217620000,External/markets,World Bank WDI,,
+2017,total_reserves_usd,40499220796.37,External/markets,World Bank WDI,,
+2017,cbn_fdi_usd_million,2413.0,FDI,CBN,US$ million,net/inflow
+2017,nbs_fdi_gross_usd_million,981.75,FDI,NBS Capital Importation,US$ million,gross
+2017,unctad_fdi_inflows_usd_million,2413.0,FDI,UNCTAD,US$ million,net inflow
+2017,unctad_fdi_inward_stock_usd_million,75510.4,FDI,UNCTAD,US$ million,stock
+2017,unctad_fdi_outflows_usd_million,310.8,FDI,UNCTAD,US$ million,net outflow
+2017,wb_fdi_net_inflows_pct_gdp,0.642,FDI,World Bank WDI,% of GDP,net
+2017,wb_imf_fdi_net_inflows_usd,2412974916.23,FDI,World Bank WDI / IMF BoP,current US$,net
+2017,cbn_fpi_usd_million,10513.8,FPI,CBN,US$ million,net liabilities (equity+debt)
+2017,nbs_portfolio_investment_gross_usd_million,7329.06,FPI,NBS Capital Importation,US$ million,gross
+2017,wb_portfolio_equity_net_inflows_usd,1360441234.49,FPI,World Bank WDI,current US$,net (equity only)
+2017,wb_portfolio_investment_net_usd,-10331328579.74,FPI,World Bank WDI,current US$,net (equity+debt)
+2017,brent_crude_usd_bbl,54.12,Global push factor,FRED / World Bank,,
+2017,global_fdi_inflows_usd_billion,2260.36,Global push factor,FRED / World Bank,,
+2017,us_10y_treasury_yield_pct,2.329,Global push factor,FRED / World Bank,,
+2017,us_cpi_index_1982_84_100,245.12,Global push factor,FRED / World Bank,,
+2017,us_fed_funds_rate_pct,1.002,Global push factor,FRED / World Bank,,
+2017,vix_index,11.09,Global push factor,FRED / World Bank,,
+2017,CC_est,-1.144,Governance,World Bank WGI (Control of Corruption),index (-2.5..2.5),estimate
+2017,CC_score_0_100,24.69,Governance,World Bank WGI (Control of Corruption),score 0-100,percentile
+2017,GE_est,-0.861,Governance,World Bank WGI (Government Effectiveness),index (-2.5..2.5),estimate
+2017,GE_score_0_100,34.6,Governance,World Bank WGI (Government Effectiveness),score 0-100,percentile
+2017,PV_est,-1.91,Governance,World Bank WGI (Political Stability),index (-2.5..2.5),estimate
+2017,PV_score_0_100,33.27,Governance,World Bank WGI (Political Stability),score 0-100,percentile
+2017,RL_est,-0.794,Governance,World Bank WGI (Rule of Law),index (-2.5..2.5),estimate
+2017,RL_score_0_100,43.3,Governance,World Bank WGI (Rule of Law),score 0-100,percentile
+2017,RQ_est,-0.778,Governance,World Bank WGI (Regulatory Quality),index (-2.5..2.5),estimate
+2017,RQ_score_0_100,42.59,Governance,World Bank WGI (Regulatory Quality),score 0-100,percentile
+2017,VA_est,-0.545,Governance,World Bank WGI (Voice & Accountability),index (-2.5..2.5),estimate
+2017,VA_score_0_100,47.31,Governance,World Bank WGI (Voice & Accountability),score 0-100,percentile
+2017,greenfield_num_projects,39,Greenfield/M&A,UNCTAD WIR 2025,,
+2017,greenfield_value_usd_million,4864.6,Greenfield/M&A,UNCTAD WIR 2025,,
+2017,manda_net_purchases_usd_million,-30.5,Greenfield/M&A,UNCTAD WIR 2025,,
+2017,manda_net_sales_usd_million,-295.559,Greenfield/M&A,UNCTAD WIR 2025,,
+2017,doingbiz_dtf_score_0_100,44.63,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2017,doingbiz_rank_reportyear,169,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2017,fraser_efw_index_0_10,6.51,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2017,fraser_efw_rank,101,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2017,heritage_econ_freedom_score,57.1,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2017,heritage_rank,115,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2017,ti_cpi_rank,148,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2017,ti_cpi_score,27,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2017,domestic_credit_private_pct_gdp,12.852,Macro control,World Bank WDI,% of GDP,level
+2017,exchange_rate_lcu_per_usd,305.7901,Macro control,World Bank WDI,LCU per US$,level
+2017,gdp_current_usd,375745731053.43,Macro control,World Bank WDI,current US$,level
+2017,gdp_growth_pct,0.8059,Macro control,World Bank WDI,annual %,level
+2017,gdp_per_capita_usd,1876.34,Macro control,World Bank WDI,current US$,level
+2017,inflation_cpi_pct,16.5023,Macro control,World Bank WDI,annual %,level
+2017,internet_users_pct,25.8779,Macro control,World Bank WDI,% of population,level
+2017,natural_resource_rents_pct_gdp,7.805,Macro control,World Bank WDI,% of GDP,level
+2017,population_total,200254579,Macro control,World Bank WDI,persons,level
+2017,real_interest_rate_pct,5.7906,Macro control,World Bank WDI,%,level
+2017,unemployment_pct,4.83,Macro control,World Bank WDI,% of labor force,level
+2017,cbn_mpr_pct_yearend,14.0,Markets & monetary,CBN/NGX/DMO/FRED,,
+2017,eurobond_10yr_yield_pct,6.02,Markets & monetary,CBN/NGX/DMO/FRED,,
+2017,eurobond_minus_us10y_spread_bps,362,Markets & monetary,CBN/NGX/DMO/FRED,,
+2017,external_reserves_usd_billion,40.5,Markets & monetary,CBN/NGX/DMO/FRED,,
+2017,fgn_10yr_domestic_yield_pct,13.21,Markets & monetary,CBN/NGX/DMO/FRED,,
+2017,ngx_asi_yearend,38243.19,Markets & monetary,CBN/NGX/DMO/FRED,,
+2017,ngx_equity_mcap_naira_trillion,13.609,Markets & monetary,CBN/NGX/DMO/FRED,,
+2017,ngx_equity_mcap_usd_billion,44.5,Markets & monetary,CBN/NGX/DMO/FRED,,
+2017,tbill_91day_pct,12.95,Markets & monetary,CBN/NGX/DMO/FRED,,
+2018,nbs_other,3815.53,Capital importation,NBS Capital Importation,US$ million,gross
+2018,nbs_total,16812.47,Capital importation,NBS Capital Importation,US$ million,gross
+2018,d_covid_2020,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2018,d_fx_liberalization_2023ff,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2018,d_gfc_2008_09,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2018,d_oil_crash_2014_16,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2018,d_recession_2016,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2018,current_account_balance_usd,7283154462.97,External/markets,World Bank WDI,,
+2018,current_account_pct_gdp,1.7269,External/markets,World Bank WDI,,
+2018,debt_service_pct_exports,8.4583,External/markets,World Bank WDI,,
+2018,electricity_access_pct,56.5,External/markets,World Bank WDI,,
+2018,external_debt_stock_usd,69440288784.6,External/markets,World Bank WDI,,
+2018,fdi_net_outflows_usd,565569111.65,External/markets,World Bank WDI,,
+2018,gdp_deflator_inflation_pct,10.2285,External/markets,World Bank WDI,,
+2018,interest_rate_risk_premium_pct,6.8191,External/markets,World Bank WDI,,
+2018,net_errors_omissions_usd,-7183702241.5,External/markets,World Bank WDI,,
+2018,oil_rents_pct_gdp,7.6907,External/markets,World Bank WDI,,
+2018,real_effective_exch_rate_idx,109.9044,External/markets,World Bank WDI,,
+2018,stock_market_cap_pct_gdp,7.4739,External/markets,World Bank WDI,,
+2018,stock_market_cap_usd,31520550000,External/markets,World Bank WDI,,
+2018,total_reserves_usd,42838869124.79,External/markets,World Bank WDI,,
+2018,cbn_fdi_usd_million,775.2,FDI,CBN,US$ million,net/inflow
+2018,nbs_fdi_gross_usd_million,1194.67,FDI,NBS Capital Importation,US$ million,gross
+2018,unctad_fdi_inflows_usd_million,775.2,FDI,UNCTAD,US$ million,net inflow
+2018,unctad_fdi_inward_stock_usd_million,80392.2,FDI,UNCTAD,US$ million,stock
+2018,unctad_fdi_outflows_usd_million,565.6,FDI,UNCTAD,US$ million,net outflow
+2018,wb_fdi_net_inflows_pct_gdp,0.184,FDI,World Bank WDI,% of GDP,net
+2018,wb_imf_fdi_net_inflows_usd,775247400.0,FDI,World Bank WDI / IMF BoP,current US$,net
+2018,cbn_fpi_usd_million,394.7,FPI,CBN,US$ million,net liabilities (equity+debt)
+2018,nbs_portfolio_investment_gross_usd_million,11802.27,FPI,NBS Capital Importation,US$ million,gross
+2018,wb_portfolio_equity_net_inflows_usd,1259167883.86,FPI,World Bank WDI,current US$,net (equity only)
+2018,wb_portfolio_investment_net_usd,6779467.05,FPI,World Bank WDI,current US$,net (equity+debt)
+2018,brent_crude_usd_bbl,71.33,Global push factor,FRED / World Bank,,
+2018,global_fdi_inflows_usd_billion,1106.79,Global push factor,FRED / World Bank,,
+2018,us_10y_treasury_yield_pct,2.911,Global push factor,FRED / World Bank,,
+2018,us_cpi_index_1982_84_100,251.1,Global push factor,FRED / World Bank,,
+2018,us_fed_funds_rate_pct,1.832,Global push factor,FRED / World Bank,,
+2018,vix_index,16.64,Global push factor,FRED / World Bank,,
+2018,CC_est,-1.145,Governance,World Bank WGI (Control of Corruption),index (-2.5..2.5),estimate
+2018,CC_score_0_100,24.67,Governance,World Bank WGI (Control of Corruption),score 0-100,percentile
+2018,GE_est,-0.846,Governance,World Bank WGI (Government Effectiveness),index (-2.5..2.5),estimate
+2018,GE_score_0_100,34.89,Governance,World Bank WGI (Government Effectiveness),score 0-100,percentile
+2018,PV_est,-1.885,Governance,World Bank WGI (Political Stability),index (-2.5..2.5),estimate
+2018,PV_score_0_100,33.69,Governance,World Bank WGI (Political Stability),score 0-100,percentile
+2018,RL_est,-0.814,Governance,World Bank WGI (Rule of Law),index (-2.5..2.5),estimate
+2018,RL_score_0_100,42.96,Governance,World Bank WGI (Rule of Law),score 0-100,percentile
+2018,RQ_est,-0.83,Governance,World Bank WGI (Regulatory Quality),index (-2.5..2.5),estimate
+2018,RQ_score_0_100,41.77,Governance,World Bank WGI (Regulatory Quality),score 0-100,percentile
+2018,VA_est,-0.498,Governance,World Bank WGI (Voice & Accountability),index (-2.5..2.5),estimate
+2018,VA_score_0_100,48.13,Governance,World Bank WGI (Voice & Accountability),score 0-100,percentile
+2018,greenfield_num_projects,64,Greenfield/M&A,UNCTAD WIR 2025,,
+2018,greenfield_value_usd_million,7965.3,Greenfield/M&A,UNCTAD WIR 2025,,
+2018,manda_net_purchases_usd_million,-49.489,Greenfield/M&A,UNCTAD WIR 2025,,
+2018,manda_net_sales_usd_million,219.62,Greenfield/M&A,UNCTAD WIR 2025,,
+2018,doingbiz_dtf_score_0_100,52.03,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2018,doingbiz_rank_reportyear,145,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2018,fraser_efw_index_0_10,6.7,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2018,fraser_efw_rank,88,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2018,heritage_econ_freedom_score,58.5,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2018,ti_cpi_rank,144,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2018,ti_cpi_score,27,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2018,domestic_credit_private_pct_gdp,10.2466,Macro control,World Bank WDI,% of GDP,level
+2018,exchange_rate_lcu_per_usd,306.0837,Macro control,World Bank WDI,LCU per US$,level
+2018,gdp_current_usd,421739251509.08,Macro control,World Bank WDI,current US$,level
+2018,gdp_growth_pct,1.9228,Macro control,World Bank WDI,annual %,level
+2018,gdp_per_capita_usd,2057.88,Macro control,World Bank WDI,current US$,level
+2018,inflation_cpi_pct,12.0951,Macro control,World Bank WDI,annual %,level
+2018,internet_users_pct,27.7437,Macro control,World Bank WDI,% of population,level
+2018,natural_resource_rents_pct_gdp,9.7985,Macro control,World Bank WDI,% of GDP,level
+2018,population_total,204938755,Macro control,World Bank WDI,persons,level
+2018,real_interest_rate_pct,6.056,Macro control,World Bank WDI,%,level
+2018,unemployment_pct,5.069,Macro control,World Bank WDI,% of labor force,level
+2018,cbn_mpr_pct_yearend,14.0,Markets & monetary,CBN/NGX/DMO/FRED,,
+2018,eurobond_10yr_yield_pct,8.32,Markets & monetary,CBN/NGX/DMO/FRED,,
+2018,eurobond_minus_us10y_spread_bps,563,Markets & monetary,CBN/NGX/DMO/FRED,,
+2018,external_reserves_usd_billion,42.84,Markets & monetary,CBN/NGX/DMO/FRED,,
+2018,fgn_10yr_domestic_yield_pct,15.5,Markets & monetary,CBN/NGX/DMO/FRED,,
+2018,ngx_asi_yearend,31430.5,Markets & monetary,CBN/NGX/DMO/FRED,,
+2018,ngx_equity_mcap_naira_trillion,11.72,Markets & monetary,CBN/NGX/DMO/FRED,,
+2018,ngx_equity_mcap_usd_billion,32.0,Markets & monetary,CBN/NGX/DMO/FRED,,
+2018,tbill_91day_pct,11.0,Markets & monetary,CBN/NGX/DMO/FRED,,
+2019,nbs_other,6690.25,Capital importation,NBS Capital Importation,US$ million,gross
+2019,nbs_total,23990.05,Capital importation,NBS Capital Importation,US$ million,gross
+2019,d_covid_2020,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2019,d_fx_liberalization_2023ff,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2019,d_gfc_2008_09,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2019,d_oil_crash_2014_16,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2019,d_recession_2016,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2019,current_account_balance_usd,-13685219004.2,External/markets,World Bank WDI,,
+2019,current_account_pct_gdp,-2.048,External/markets,World Bank WDI,,
+2019,debt_service_pct_exports,9.2393,External/markets,World Bank WDI,,
+2019,electricity_access_pct,55.4,External/markets,World Bank WDI,,
+2019,external_debt_stock_usd,81342753974.7,External/markets,World Bank WDI,,
+2019,fdi_net_outflows_usd,285318845.9,External/markets,World Bank WDI,,
+2019,gdp_deflator_inflation_pct,55.4449,External/markets,World Bank WDI,,
+2019,interest_rate_risk_premium_pct,5.7416,External/markets,World Bank WDI,,
+2019,net_errors_omissions_usd,-7750137909.96,External/markets,World Bank WDI,,
+2019,oil_rents_pct_gdp,6.5148,External/markets,World Bank WDI,,
+2019,real_effective_exch_rate_idx,124.1831,External/markets,World Bank WDI,,
+2019,stock_market_cap_pct_gdp,6.5729,External/markets,World Bank WDI,,
+2019,stock_market_cap_usd,43921600000,External/markets,World Bank WDI,,
+2019,total_reserves_usd,39382191478.77,External/markets,World Bank WDI,,
+2019,cbn_fdi_usd_million,2305.1,FDI,CBN,US$ million,net/inflow
+2019,nbs_fdi_gross_usd_million,934.34,FDI,NBS Capital Importation,US$ million,gross
+2019,unctad_fdi_inflows_usd_million,2305.1,FDI,UNCTAD,US$ million,net inflow
+2019,unctad_fdi_inward_stock_usd_million,84627.3,FDI,UNCTAD,US$ million,stock
+2019,unctad_fdi_outflows_usd_million,285.3,FDI,UNCTAD,US$ million,net outflow
+2019,wb_fdi_net_inflows_pct_gdp,0.345,FDI,World Bank WDI,% of GDP,net
+2019,wb_imf_fdi_net_inflows_usd,2305099811.7,FDI,World Bank WDI / IMF BoP,current US$,net
+2019,cbn_fpi_usd_million,3178.4,FPI,CBN,US$ million,net liabilities (equity+debt)
+2019,nbs_portfolio_investment_gross_usd_million,16365.46,FPI,NBS Capital Importation,US$ million,gross
+2019,wb_portfolio_equity_net_inflows_usd,-1548463201.73,FPI,World Bank WDI,current US$,net (equity only)
+2019,wb_portfolio_investment_net_usd,-3090853025.27,FPI,World Bank WDI,current US$,net (equity+debt)
+2019,brent_crude_usd_bbl,64.3,Global push factor,FRED / World Bank,,
+2019,global_fdi_inflows_usd_billion,1943.37,Global push factor,FRED / World Bank,,
+2019,us_10y_treasury_yield_pct,2.141,Global push factor,FRED / World Bank,,
+2019,us_cpi_index_1982_84_100,255.65,Global push factor,FRED / World Bank,,
+2019,us_fed_funds_rate_pct,2.158,Global push factor,FRED / World Bank,,
+2019,vix_index,15.39,Global push factor,FRED / World Bank,,
+2019,CC_est,-1.126,Governance,World Bank WGI (Control of Corruption),index (-2.5..2.5),estimate
+2019,CC_score_0_100,25.07,Governance,World Bank WGI (Control of Corruption),score 0-100,percentile
+2019,GE_est,-0.968,Governance,World Bank WGI (Government Effectiveness),index (-2.5..2.5),estimate
+2019,GE_score_0_100,32.52,Governance,World Bank WGI (Government Effectiveness),score 0-100,percentile
+2019,PV_est,-1.973,Governance,World Bank WGI (Political Stability),index (-2.5..2.5),estimate
+2019,PV_score_0_100,32.19,Governance,World Bank WGI (Political Stability),score 0-100,percentile
+2019,RL_est,-0.838,Governance,World Bank WGI (Rule of Law),index (-2.5..2.5),estimate
+2019,RL_score_0_100,42.55,Governance,World Bank WGI (Rule of Law),score 0-100,percentile
+2019,RQ_est,-0.865,Governance,World Bank WGI (Regulatory Quality),index (-2.5..2.5),estimate
+2019,RQ_score_0_100,41.23,Governance,World Bank WGI (Regulatory Quality),score 0-100,percentile
+2019,VA_est,-0.603,Governance,World Bank WGI (Voice & Accountability),index (-2.5..2.5),estimate
+2019,VA_score_0_100,46.3,Governance,World Bank WGI (Voice & Accountability),score 0-100,percentile
+2019,greenfield_num_projects,80,Greenfield/M&A,UNCTAD WIR 2025,,
+2019,greenfield_value_usd_million,10257.1,Greenfield/M&A,UNCTAD WIR 2025,,
+2019,manda_net_purchases_usd_million,472.807,Greenfield/M&A,UNCTAD WIR 2025,,
+2019,manda_net_sales_usd_million,197.237,Greenfield/M&A,UNCTAD WIR 2025,,
+2019,doingbiz_dtf_score_0_100,52.89,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2019,doingbiz_rank_reportyear,146,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2019,fraser_efw_index_0_10,6.71,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2019,fraser_efw_rank,88,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2019,heritage_econ_freedom_score,57.3,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2019,heritage_rank,111,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2019,ti_cpi_rank,146,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2019,ti_cpi_score,26,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2019,domestic_credit_private_pct_gdp,7.9232,Macro control,World Bank WDI,% of GDP,level
+2019,exchange_rate_lcu_per_usd,306.921,Macro control,World Bank WDI,LCU per US$,level
+2019,gdp_current_usd,668219992691.46,Macro control,World Bank WDI,current US$,level
+2019,gdp_growth_pct,2.2084,Macro control,World Bank WDI,annual %,level
+2019,gdp_per_capita_usd,3189.81,Macro control,World Bank WDI,current US$,level
+2019,inflation_cpi_pct,11.3964,Macro control,World Bank WDI,annual %,level
+2019,internet_users_pct,29.7441,Macro control,World Bank WDI,% of population,level
+2019,natural_resource_rents_pct_gdp,8.3532,Macro control,World Bank WDI,% of GDP,level
+2019,population_total,209485641,Macro control,World Bank WDI,persons,level
+2019,real_interest_rate_pct,-25.7765,Macro control,World Bank WDI,%,level
+2019,unemployment_pct,5.206,Macro control,World Bank WDI,% of labor force,level
+2019,cbn_mpr_pct_yearend,13.5,Markets & monetary,CBN/NGX/DMO/FRED,,
+2019,eurobond_10yr_yield_pct,6.86,Markets & monetary,CBN/NGX/DMO/FRED,,
+2019,eurobond_minus_us10y_spread_bps,494,Markets & monetary,CBN/NGX/DMO/FRED,,
+2019,external_reserves_usd_billion,39.38,Markets & monetary,CBN/NGX/DMO/FRED,,
+2019,fgn_10yr_domestic_yield_pct,12.0,Markets & monetary,CBN/NGX/DMO/FRED,,
+2019,ngx_asi_yearend,26842.07,Markets & monetary,CBN/NGX/DMO/FRED,,
+2019,ngx_equity_mcap_naira_trillion,12.97,Markets & monetary,CBN/NGX/DMO/FRED,,
+2019,ngx_equity_mcap_usd_billion,35.6,Markets & monetary,CBN/NGX/DMO/FRED,,
+2019,tbill_91day_pct,4.0,Markets & monetary,CBN/NGX/DMO/FRED,,
+2020,nbs_other,3514.39,Capital importation,NBS Capital Importation,US$ million,gross
+2020,nbs_total,9680.49,Capital importation,NBS Capital Importation,US$ million,gross
+2020,d_covid_2020,1,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2020,d_fx_liberalization_2023ff,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2020,d_gfc_2008_09,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2020,d_oil_crash_2014_16,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2020,d_recession_2016,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2020,current_account_balance_usd,-15985927540.77,External/markets,World Bank WDI,,
+2020,current_account_pct_gdp,-2.6706,External/markets,World Bank WDI,,
+2020,debt_service_pct_exports,13.0926,External/markets,World Bank WDI,,
+2020,electricity_access_pct,55.4,External/markets,World Bank WDI,,
+2020,external_debt_stock_usd,87591245939.4,External/markets,World Bank WDI,,
+2020,fdi_net_outflows_usd,1473332437.3,External/markets,World Bank WDI,,
+2020,gdp_deflator_inflation_pct,11.2525,External/markets,World Bank WDI,,
+2020,interest_rate_risk_premium_pct,12.0095,External/markets,World Bank WDI,,
+2020,net_errors_omissions_usd,16961330919.4,External/markets,World Bank WDI,,
+2020,oil_rents_pct_gdp,3.3124,External/markets,World Bank WDI,,
+2020,real_effective_exch_rate_idx,119.5157,External/markets,World Bank WDI,,
+2020,stock_market_cap_pct_gdp,9.2291,External/markets,World Bank WDI,,
+2020,stock_market_cap_usd,55244140000,External/markets,World Bank WDI,,
+2020,total_reserves_usd,38028751517.61,External/markets,World Bank WDI,,
+2020,cbn_fdi_usd_million,2385.3,FDI,CBN,US$ million,net/inflow
+2020,nbs_fdi_gross_usd_million,1028.91,FDI,NBS Capital Importation,US$ million,gross
+2020,unctad_fdi_inflows_usd_million,2385.3,FDI,UNCTAD,US$ million,net inflow
+2020,unctad_fdi_inward_stock_usd_million,87012.6,FDI,UNCTAD,US$ million,stock
+2020,unctad_fdi_outflows_usd_million,1473.3,FDI,UNCTAD,US$ million,net outflow
+2020,wb_fdi_net_inflows_pct_gdp,0.398,FDI,World Bank WDI,% of GDP,net
+2020,wb_imf_fdi_net_inflows_usd,2385277665.92,FDI,World Bank WDI / IMF BoP,current US$,net
+2020,cbn_fpi_usd_million,-3585.3,FPI,CBN,US$ million,net liabilities (equity+debt)
+2020,nbs_portfolio_investment_gross_usd_million,5137.2,FPI,NBS Capital Importation,US$ million,gross
+2020,wb_portfolio_equity_net_inflows_usd,-255230064.9,FPI,World Bank WDI,current US$,net (equity only)
+2020,wb_portfolio_investment_net_usd,3691340692.28,FPI,World Bank WDI,current US$,net (equity+debt)
+2020,brent_crude_usd_bbl,41.96,Global push factor,FRED / World Bank,,
+2020,global_fdi_inflows_usd_billion,1188.76,Global push factor,FRED / World Bank,,
+2020,us_10y_treasury_yield_pct,0.889,Global push factor,FRED / World Bank,,
+2020,us_cpi_index_1982_84_100,258.86,Global push factor,FRED / World Bank,,
+2020,us_fed_funds_rate_pct,0.376,Global push factor,FRED / World Bank,,
+2020,vix_index,29.25,Global push factor,FRED / World Bank,,
+2020,CC_est,-1.118,Governance,World Bank WGI (Control of Corruption),index (-2.5..2.5),estimate
+2020,CC_score_0_100,25.23,Governance,World Bank WGI (Control of Corruption),score 0-100,percentile
+2020,GE_est,-0.984,Governance,World Bank WGI (Government Effectiveness),index (-2.5..2.5),estimate
+2020,GE_score_0_100,32.2,Governance,World Bank WGI (Government Effectiveness),score 0-100,percentile
+2020,PV_est,-2.009,Governance,World Bank WGI (Political Stability),index (-2.5..2.5),estimate
+2020,PV_score_0_100,31.58,Governance,World Bank WGI (Political Stability),score 0-100,percentile
+2020,RL_est,-0.841,Governance,World Bank WGI (Rule of Law),index (-2.5..2.5),estimate
+2020,RL_score_0_100,42.49,Governance,World Bank WGI (Rule of Law),score 0-100,percentile
+2020,RQ_est,-0.887,Governance,World Bank WGI (Regulatory Quality),index (-2.5..2.5),estimate
+2020,RQ_score_0_100,40.87,Governance,World Bank WGI (Regulatory Quality),score 0-100,percentile
+2020,VA_est,-0.609,Governance,World Bank WGI (Voice & Accountability),index (-2.5..2.5),estimate
+2020,VA_score_0_100,46.19,Governance,World Bank WGI (Voice & Accountability),score 0-100,percentile
+2020,greenfield_num_projects,54,Greenfield/M&A,UNCTAD WIR 2025,,
+2020,greenfield_value_usd_million,5943.6,Greenfield/M&A,UNCTAD WIR 2025,,
+2020,manda_net_purchases_usd_million,30.15,Greenfield/M&A,UNCTAD WIR 2025,,
+2020,manda_net_sales_usd_million,417.388,Greenfield/M&A,UNCTAD WIR 2025,,
+2020,doingbiz_dtf_score_0_100,56.9,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2020,doingbiz_rank_reportyear,131,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2020,fraser_efw_index_0_10,6.31,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2020,fraser_efw_rank,103,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2020,heritage_econ_freedom_score,57.2,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2020,heritage_rank,116,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2020,ti_cpi_rank,149,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2020,ti_cpi_score,25,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2020,domestic_credit_private_pct_gdp,8.7596,Macro control,World Bank WDI,% of GDP,level
+2020,exchange_rate_lcu_per_usd,358.8108,Macro control,World Bank WDI,LCU per US$,level
+2020,gdp_current_usd,598586817819.07,Macro control,World Bank WDI,current US$,level
+2020,gdp_growth_pct,-6.3689,Macro control,World Bank WDI,annual %,level
+2020,gdp_per_capita_usd,2797.18,Macro control,World Bank WDI,current US$,level
+2020,inflation_cpi_pct,13.246,Macro control,World Bank WDI,annual %,level
+2020,internet_users_pct,31.8888,Macro control,World Bank WDI,% of population,level
+2020,natural_resource_rents_pct_gdp,5.0748,Macro control,World Bank WDI,% of GDP,level
+2020,population_total,213996181,Macro control,World Bank WDI,persons,level
+2020,real_interest_rate_pct,2.1479,Macro control,World Bank WDI,%,level
+2020,unemployment_pct,5.714,Macro control,World Bank WDI,% of labor force,level
+2020,cbn_mpr_pct_yearend,11.5,Markets & monetary,CBN/NGX/DMO/FRED,,
+2020,eurobond_10yr_yield_pct,6.55,Markets & monetary,CBN/NGX/DMO/FRED,,
+2020,eurobond_minus_us10y_spread_bps,562,Markets & monetary,CBN/NGX/DMO/FRED,,
+2020,external_reserves_usd_billion,38.03,Markets & monetary,CBN/NGX/DMO/FRED,,
+2020,fgn_10yr_domestic_yield_pct,6.0,Markets & monetary,CBN/NGX/DMO/FRED,,
+2020,ngx_asi_yearend,40270.72,Markets & monetary,CBN/NGX/DMO/FRED,,
+2020,ngx_equity_mcap_naira_trillion,21.06,Markets & monetary,CBN/NGX/DMO/FRED,,
+2020,ngx_equity_mcap_usd_billion,51.27,Markets & monetary,CBN/NGX/DMO/FRED,,
+2020,tbill_91day_pct,0.035,Markets & monetary,CBN/NGX/DMO/FRED,,
+2021,nbs_other,2616.14,Capital importation,NBS Capital Importation,US$ million,gross
+2021,nbs_total,6700.51,Capital importation,NBS Capital Importation,US$ million,gross
+2021,d_covid_2020,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2021,d_fx_liberalization_2023ff,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2021,d_gfc_2008_09,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2021,d_oil_crash_2014_16,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2021,d_recession_2016,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2021,current_account_balance_usd,-3254163170.28,External/markets,World Bank WDI,,
+2021,current_account_pct_gdp,-0.5342,External/markets,World Bank WDI,,
+2021,debt_service_pct_exports,15.111,External/markets,World Bank WDI,,
+2021,electricity_access_pct,59.5,External/markets,World Bank WDI,,
+2021,external_debt_stock_usd,96254706293.5,External/markets,World Bank WDI,,
+2021,fdi_net_outflows_usd,1817909994.5,External/markets,World Bank WDI,,
+2021,gdp_deflator_inflation_pct,12.6369,External/markets,World Bank WDI,,
+2021,interest_rate_risk_premium_pct,9.3165,External/markets,World Bank WDI,,
+2021,net_errors_omissions_usd,-3095813146.45,External/markets,World Bank WDI,,
+2021,oil_rents_pct_gdp,6.2467,External/markets,World Bank WDI,,
+2021,real_effective_exch_rate_idx,117.0536,External/markets,World Bank WDI,,
+2021,stock_market_cap_pct_gdp,8.9027,External/markets,World Bank WDI,,
+2021,stock_market_cap_usd,54230600000,External/markets,World Bank WDI,,
+2021,total_reserves_usd,41727503547.23,External/markets,World Bank WDI,,
+2021,cbn_fdi_usd_million,3313.2,FDI,CBN,US$ million,net/inflow
+2021,nbs_fdi_gross_usd_million,698.78,FDI,NBS Capital Importation,US$ million,gross
+2021,unctad_fdi_inflows_usd_million,3313.2,FDI,UNCTAD,US$ million,net inflow
+2021,unctad_fdi_inward_stock_usd_million,87525.4,FDI,UNCTAD,US$ million,stock
+2021,unctad_fdi_outflows_usd_million,1817.9,FDI,UNCTAD,US$ million,net outflow
+2021,wb_fdi_net_inflows_pct_gdp,0.544,FDI,World Bank WDI,% of GDP,net
+2021,wb_imf_fdi_net_inflows_usd,3313210000,FDI,World Bank WDI / IMF BoP,current US$,net
+2021,cbn_fpi_usd_million,6099.2,FPI,CBN,US$ million,net liabilities (equity+debt)
+2021,nbs_portfolio_investment_gross_usd_million,3385.59,FPI,NBS Capital Importation,US$ million,gross
+2021,wb_portfolio_equity_net_inflows_usd,71602136.46,FPI,World Bank WDI,current US$,net (equity only)
+2021,wb_portfolio_investment_net_usd,-5343327271.4,FPI,World Bank WDI,current US$,net (equity+debt)
+2021,brent_crude_usd_bbl,70.86,Global push factor,FRED / World Bank,,
+2021,global_fdi_inflows_usd_billion,2519.97,Global push factor,FRED / World Bank,,
+2021,us_10y_treasury_yield_pct,1.447,Global push factor,FRED / World Bank,,
+2021,us_cpi_index_1982_84_100,270.97,Global push factor,FRED / World Bank,,
+2021,us_fed_funds_rate_pct,0.08,Global push factor,FRED / World Bank,,
+2021,vix_index,19.66,Global push factor,FRED / World Bank,,
+2021,CC_est,-1.191,Governance,World Bank WGI (Control of Corruption),index (-2.5..2.5),estimate
+2021,CC_score_0_100,23.75,Governance,World Bank WGI (Control of Corruption),score 0-100,percentile
+2021,GE_est,-1.05,Governance,World Bank WGI (Government Effectiveness),index (-2.5..2.5),estimate
+2021,GE_score_0_100,30.92,Governance,World Bank WGI (Government Effectiveness),score 0-100,percentile
+2021,PV_est,-2.014,Governance,World Bank WGI (Political Stability),index (-2.5..2.5),estimate
+2021,PV_score_0_100,31.5,Governance,World Bank WGI (Political Stability),score 0-100,percentile
+2021,RL_est,-0.926,Governance,World Bank WGI (Rule of Law),index (-2.5..2.5),estimate
+2021,RL_score_0_100,41.02,Governance,World Bank WGI (Rule of Law),score 0-100,percentile
+2021,RQ_est,-0.873,Governance,World Bank WGI (Regulatory Quality),index (-2.5..2.5),estimate
+2021,RQ_score_0_100,41.1,Governance,World Bank WGI (Regulatory Quality),score 0-100,percentile
+2021,VA_est,-0.759,Governance,World Bank WGI (Voice & Accountability),index (-2.5..2.5),estimate
+2021,VA_score_0_100,43.56,Governance,World Bank WGI (Voice & Accountability),score 0-100,percentile
+2021,greenfield_num_projects,44,Greenfield/M&A,UNCTAD WIR 2025,,
+2021,greenfield_value_usd_million,1748.7,Greenfield/M&A,UNCTAD WIR 2025,,
+2021,manda_net_purchases_usd_million,0,Greenfield/M&A,UNCTAD WIR 2025,,
+2021,manda_net_sales_usd_million,-531.156,Greenfield/M&A,UNCTAD WIR 2025,,
+2021,fraser_efw_index_0_10,6.52,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2021,fraser_efw_rank,89,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2021,heritage_econ_freedom_score,58.7,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2021,heritage_rank,105,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2021,ti_cpi_rank,154,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2021,ti_cpi_score,24,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2021,domestic_credit_private_pct_gdp,9.7332,Macro control,World Bank WDI,% of GDP,level
+2021,exchange_rate_lcu_per_usd,401.152,Macro control,World Bank WDI,LCU per US$,level
+2021,gdp_current_usd,609147716972.86,Macro control,World Bank WDI,current US$,level
+2021,gdp_growth_pct,1.1093,Macro control,World Bank WDI,annual %,level
+2021,gdp_per_capita_usd,2787.49,Macro control,World Bank WDI,current US$,level
+2021,inflation_cpi_pct,16.9528,Macro control,World Bank WDI,annual %,level
+2021,internet_users_pct,35.5098,Macro control,World Bank WDI,% of population,level
+2021,natural_resource_rents_pct_gdp,8.553,Macro control,World Bank WDI,% of GDP,level
+2021,population_total,218529286,Macro control,World Bank WDI,persons,level
+2021,real_interest_rate_pct,-1.0243,Macro control,World Bank WDI,%,level
+2021,unemployment_pct,5.404,Macro control,World Bank WDI,% of labor force,level
+2021,cbn_mpr_pct_yearend,11.5,Markets & monetary,CBN/NGX/DMO/FRED,,
+2021,eurobond_10yr_yield_pct,8.0,Markets & monetary,CBN/NGX/DMO/FRED,,
+2021,eurobond_minus_us10y_spread_bps,648,Markets & monetary,CBN/NGX/DMO/FRED,,
+2021,external_reserves_usd_billion,41.73,Markets & monetary,CBN/NGX/DMO/FRED,,
+2021,fgn_10yr_domestic_yield_pct,11.65,Markets & monetary,CBN/NGX/DMO/FRED,,
+2021,ngx_asi_yearend,42716.44,Markets & monetary,CBN/NGX/DMO/FRED,,
+2021,ngx_equity_mcap_naira_trillion,22.3,Markets & monetary,CBN/NGX/DMO/FRED,,
+2021,ngx_equity_mcap_usd_billion,51.27,Markets & monetary,CBN/NGX/DMO/FRED,,
+2021,tbill_91day_pct,2.49,Markets & monetary,CBN/NGX/DMO/FRED,,
+2022,nbs_other,2418.56,Capital importation,NBS Capital Importation,US$ million,gross
+2022,nbs_total,5328.88,Capital importation,NBS Capital Importation,US$ million,gross
+2022,d_covid_2020,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2022,d_fx_liberalization_2023ff,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2022,d_gfc_2008_09,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2022,d_oil_crash_2014_16,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2022,d_recession_2016,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2022,current_account_balance_usd,1018598846.08,External/markets,World Bank WDI,,
+2022,current_account_pct_gdp,0.1574,External/markets,World Bank WDI,,
+2022,debt_service_pct_exports,12.0373,External/markets,World Bank WDI,,
+2022,electricity_access_pct,60.5,External/markets,World Bank WDI,,
+2022,external_debt_stock_usd,103064224482.6,External/markets,World Bank WDI,,
+2022,fdi_net_outflows_usd,-67063088.27,External/markets,World Bank WDI,,
+2022,gdp_deflator_inflation_pct,8.0466,External/markets,World Bank WDI,,
+2022,interest_rate_risk_premium_pct,8.7704,External/markets,World Bank WDI,,
+2022,net_errors_omissions_usd,-7513481266.88,External/markets,World Bank WDI,,
+2022,real_effective_exch_rate_idx,133.3295,External/markets,World Bank WDI,,
+2022,stock_market_cap_pct_gdp,9.6423,External/markets,World Bank WDI,,
+2022,stock_market_cap_usd,62380710000,External/markets,World Bank WDI,,
+2022,total_reserves_usd,36809762970.2,External/markets,World Bank WDI,,
+2022,cbn_fdi_usd_million,-186.8,FDI,CBN,US$ million,net/inflow
+2022,nbs_fdi_gross_usd_million,468.08,FDI,NBS Capital Importation,US$ million,gross
+2022,unctad_fdi_inflows_usd_million,894.8,FDI,UNCTAD,US$ million,net inflow
+2022,unctad_fdi_inward_stock_usd_million,86239.4,FDI,UNCTAD,US$ million,stock
+2022,unctad_fdi_outflows_usd_million,-2811.1,FDI,UNCTAD,US$ million,net outflow
+2022,wb_fdi_net_inflows_pct_gdp,-0.029,FDI,World Bank WDI,% of GDP,net
+2022,wb_imf_fdi_net_inflows_usd,-186792428.93,FDI,World Bank WDI / IMF BoP,current US$,net
+2022,cbn_fpi_usd_million,4556.5,FPI,CBN,US$ million,net liabilities (equity+debt)
+2022,nbs_portfolio_investment_gross_usd_million,2442.24,FPI,NBS Capital Importation,US$ million,gross
+2022,wb_portfolio_equity_net_inflows_usd,293462952.9,FPI,World Bank WDI,current US$,net (equity only)
+2022,wb_portfolio_investment_net_usd,-3864707334.29,FPI,World Bank WDI,current US$,net (equity+debt)
+2022,brent_crude_usd_bbl,100.93,Global push factor,FRED / World Bank,,
+2022,global_fdi_inflows_usd_billion,1938.01,Global push factor,FRED / World Bank,,
+2022,us_10y_treasury_yield_pct,2.951,Global push factor,FRED / World Bank,,
+2022,us_cpi_index_1982_84_100,292.63,Global push factor,FRED / World Bank,,
+2022,us_fed_funds_rate_pct,1.683,Global push factor,FRED / World Bank,,
+2022,vix_index,25.64,Global push factor,FRED / World Bank,,
+2022,CC_est,-1.225,Governance,World Bank WGI (Control of Corruption),index (-2.5..2.5),estimate
+2022,CC_score_0_100,23.06,Governance,World Bank WGI (Control of Corruption),score 0-100,percentile
+2022,GE_est,-1.057,Governance,World Bank WGI (Government Effectiveness),index (-2.5..2.5),estimate
+2022,GE_score_0_100,30.79,Governance,World Bank WGI (Government Effectiveness),score 0-100,percentile
+2022,PV_est,-1.953,Governance,World Bank WGI (Political Stability),index (-2.5..2.5),estimate
+2022,PV_score_0_100,32.54,Governance,World Bank WGI (Political Stability),score 0-100,percentile
+2022,RL_est,-1.0,Governance,World Bank WGI (Rule of Law),index (-2.5..2.5),estimate
+2022,RL_score_0_100,39.76,Governance,World Bank WGI (Rule of Law),score 0-100,percentile
+2022,RQ_est,-0.996,Governance,World Bank WGI (Regulatory Quality),index (-2.5..2.5),estimate
+2022,RQ_score_0_100,39.15,Governance,World Bank WGI (Regulatory Quality),score 0-100,percentile
+2022,VA_est,-0.767,Governance,World Bank WGI (Voice & Accountability),index (-2.5..2.5),estimate
+2022,VA_score_0_100,43.43,Governance,World Bank WGI (Voice & Accountability),score 0-100,percentile
+2022,greenfield_num_projects,50,Greenfield/M&A,UNCTAD WIR 2025,,
+2022,greenfield_value_usd_million,2011.8,Greenfield/M&A,UNCTAD WIR 2025,,
+2022,manda_net_purchases_usd_million,7.15,Greenfield/M&A,UNCTAD WIR 2025,,
+2022,manda_net_sales_usd_million,531.684,Greenfield/M&A,UNCTAD WIR 2025,,
+2022,fraser_efw_index_0_10,6.04,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2022,fraser_efw_rank,110,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2022,heritage_econ_freedom_score,54.4,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2022,heritage_rank,124,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2022,ti_cpi_rank,150,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2022,ti_cpi_score,24,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2022,domestic_credit_private_pct_gdp,9.5617,Macro control,World Bank WDI,% of GDP,level
+2022,exchange_rate_lcu_per_usd,425.9792,Macro control,World Bank WDI,LCU per US$,level
+2022,gdp_current_usd,646950257577.81,Macro control,World Bank WDI,current US$,level
+2022,gdp_growth_pct,4.3188,Macro control,World Bank WDI,annual %,level
+2022,gdp_per_capita_usd,2899.16,Macro control,World Bank WDI,current US$,level
+2022,inflation_cpi_pct,18.8472,Macro control,World Bank WDI,annual %,level
+2022,internet_users_pct,39.1472,Macro control,World Bank WDI,% of population,level
+2022,population_total,223150896,Macro control,World Bank WDI,persons,level
+2022,real_interest_rate_pct,3.9686,Macro control,World Bank WDI,%,level
+2022,unemployment_pct,3.827,Macro control,World Bank WDI,% of labor force,level
+2022,cbn_mpr_pct_yearend,16.5,Markets & monetary,CBN/NGX/DMO/FRED,,
+2022,eurobond_10yr_yield_pct,12.29,Markets & monetary,CBN/NGX/DMO/FRED,,
+2022,eurobond_minus_us10y_spread_bps,841,Markets & monetary,CBN/NGX/DMO/FRED,,
+2022,external_reserves_usd_billion,36.81,Markets & monetary,CBN/NGX/DMO/FRED,,
+2022,fgn_10yr_domestic_yield_pct,13.5,Markets & monetary,CBN/NGX/DMO/FRED,,
+2022,ngx_asi_yearend,51251.06,Markets & monetary,CBN/NGX/DMO/FRED,,
+2022,ngx_equity_mcap_naira_trillion,27.915,Markets & monetary,CBN/NGX/DMO/FRED,,
+2022,tbill_91day_pct,2.749,Markets & monetary,CBN/NGX/DMO/FRED,,
+2023,nbs_other,2375.61,Capital importation,NBS Capital Importation,US$ million,gross
+2023,nbs_total,3905.99,Capital importation,NBS Capital Importation,US$ million,gross
+2023,d_covid_2020,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2023,d_fx_liberalization_2023ff,1,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2023,d_gfc_2008_09,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2023,d_oil_crash_2014_16,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2023,d_recession_2016,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2023,current_account_balance_usd,6423222719.52,External/markets,World Bank WDI,,
+2023,current_account_pct_gdp,1.3179,External/markets,World Bank WDI,,
+2023,debt_service_pct_exports,15.3919,External/markets,World Bank WDI,,
+2023,electricity_access_pct,61.2,External/markets,World Bank WDI,,
+2023,external_debt_stock_usd,102472750412.9,External/markets,World Bank WDI,,
+2023,fdi_net_outflows_usd,255843349.33,External/markets,World Bank WDI,,
+2023,gdp_deflator_inflation_pct,10.8226,External/markets,World Bank WDI,,
+2023,interest_rate_risk_premium_pct,9.2781,External/markets,World Bank WDI,,
+2023,net_errors_omissions_usd,-24898571477.35,External/markets,World Bank WDI,,
+2023,real_effective_exch_rate_idx,115.5765,External/markets,World Bank WDI,,
+2023,stock_market_cap_pct_gdp,9.5303,External/markets,World Bank WDI,,
+2023,stock_market_cap_usd,46449580000,External/markets,World Bank WDI,,
+2023,total_reserves_usd,33452495121.73,External/markets,World Bank WDI,,
+2023,cbn_fdi_usd_million,1870.0,FDI,CBN,US$ million,net/inflow
+2023,nbs_fdi_gross_usd_million,377.38,FDI,NBS Capital Importation,US$ million,gross
+2023,unctad_fdi_inflows_usd_million,1872.5,FDI,UNCTAD,US$ million,net inflow
+2023,unctad_fdi_inward_stock_usd_million,75197.6,FDI,UNCTAD,US$ million,stock
+2023,unctad_fdi_outflows_usd_million,-255.8,FDI,UNCTAD,US$ million,net outflow
+2023,wb_fdi_net_inflows_pct_gdp,0.384,FDI,World Bank WDI,% of GDP,net
+2023,wb_imf_fdi_net_inflows_usd,1872520530.05,FDI,World Bank WDI / IMF BoP,current US$,net
+2023,cbn_fpi_usd_million,6470.0,FPI,CBN,US$ million,net liabilities (equity+debt)
+2023,nbs_portfolio_investment_gross_usd_million,1153.01,FPI,NBS Capital Importation,US$ million,gross
+2023,wb_portfolio_equity_net_inflows_usd,1588279928.25,FPI,World Bank WDI,current US$,net (equity only)
+2023,wb_portfolio_investment_net_usd,-6216386547.5,FPI,World Bank WDI,current US$,net (equity+debt)
+2023,brent_crude_usd_bbl,82.49,Global push factor,FRED / World Bank,,
+2023,global_fdi_inflows_usd_billion,956.76,Global push factor,FRED / World Bank,,
+2023,us_10y_treasury_yield_pct,3.959,Global push factor,FRED / World Bank,,
+2023,us_cpi_index_1982_84_100,304.7,Global push factor,FRED / World Bank,,
+2023,us_fed_funds_rate_pct,5.024,Global push factor,FRED / World Bank,,
+2023,vix_index,16.85,Global push factor,FRED / World Bank,,
+2023,CC_est,-1.099,Governance,World Bank WGI (Control of Corruption),index (-2.5..2.5),estimate
+2023,CC_score_0_100,25.61,Governance,World Bank WGI (Control of Corruption),score 0-100,percentile
+2023,GE_est,-0.868,Governance,World Bank WGI (Government Effectiveness),index (-2.5..2.5),estimate
+2023,GE_score_0_100,34.47,Governance,World Bank WGI (Government Effectiveness),score 0-100,percentile
+2023,PV_est,-1.956,Governance,World Bank WGI (Political Stability),index (-2.5..2.5),estimate
+2023,PV_score_0_100,32.48,Governance,World Bank WGI (Political Stability),score 0-100,percentile
+2023,RL_est,-0.935,Governance,World Bank WGI (Rule of Law),index (-2.5..2.5),estimate
+2023,RL_score_0_100,40.88,Governance,World Bank WGI (Rule of Law),score 0-100,percentile
+2023,RQ_est,-0.827,Governance,World Bank WGI (Regulatory Quality),index (-2.5..2.5),estimate
+2023,RQ_score_0_100,41.81,Governance,World Bank WGI (Regulatory Quality),score 0-100,percentile
+2023,VA_est,-0.737,Governance,World Bank WGI (Voice & Accountability),index (-2.5..2.5),estimate
+2023,VA_score_0_100,43.95,Governance,World Bank WGI (Voice & Accountability),score 0-100,percentile
+2023,greenfield_num_projects,61,Greenfield/M&A,UNCTAD WIR 2025,,
+2023,greenfield_value_usd_million,9198.4,Greenfield/M&A,UNCTAD WIR 2025,,
+2023,manda_net_purchases_usd_million,18.708,Greenfield/M&A,UNCTAD WIR 2025,,
+2023,manda_net_sales_usd_million,316.75,Greenfield/M&A,UNCTAD WIR 2025,,
+2023,fraser_efw_index_0_10,5.89,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2023,fraser_efw_rank,123,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2023,heritage_econ_freedom_score,53.9,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2023,heritage_rank,124,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2023,ti_cpi_rank,145,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2023,ti_cpi_score,25,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2023,exchange_rate_lcu_per_usd,645.1941,Macro control,World Bank WDI,LCU per US$,level
+2023,gdp_current_usd,487387801880.6,Macro control,World Bank WDI,current US$,level
+2023,gdp_growth_pct,3.3268,Macro control,World Bank WDI,annual %,level
+2023,gdp_per_capita_usd,2138.76,Macro control,World Bank WDI,current US$,level
+2023,inflation_cpi_pct,24.6596,Macro control,World Bank WDI,annual %,level
+2023,internet_users_pct,40.064,Macro control,World Bank WDI,% of population,level
+2023,population_total,227882945,Macro control,World Bank WDI,persons,level
+2023,real_interest_rate_pct,2.8766,Macro control,World Bank WDI,%,level
+2023,unemployment_pct,3.074,Macro control,World Bank WDI,% of labor force,level
+2023,cbn_mpr_pct_yearend,18.75,Markets & monetary,CBN/NGX/DMO/FRED,,
+2023,eurobond_10yr_yield_pct,9.6,Markets & monetary,CBN/NGX/DMO/FRED,,
+2023,eurobond_minus_us10y_spread_bps,572,Markets & monetary,CBN/NGX/DMO/FRED,,
+2023,external_reserves_usd_billion,33.45,Markets & monetary,CBN/NGX/DMO/FRED,,
+2023,fgn_10yr_domestic_yield_pct,14.7,Markets & monetary,CBN/NGX/DMO/FRED,,
+2023,ngx_asi_yearend,74773.77,Markets & monetary,CBN/NGX/DMO/FRED,,
+2023,ngx_equity_mcap_naira_trillion,40.918,Markets & monetary,CBN/NGX/DMO/FRED,,
+2023,tbill_91day_pct,7.0,Markets & monetary,CBN/NGX/DMO/FRED,,
+2024,nbs_other,3268.85,Capital importation,NBS Capital Importation,US$ million,gross
+2024,nbs_total,12322.32,Capital importation,NBS Capital Importation,US$ million,gross
+2024,d_covid_2020,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2024,d_fx_liberalization_2023ff,1,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2024,d_gfc_2008_09,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2024,d_oil_crash_2014_16,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2024,d_recession_2016,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2024,current_account_balance_usd,17215269315.54,External/markets,World Bank WDI,,
+2024,current_account_pct_gdp,6.8244,External/markets,World Bank WDI,,
+2024,debt_service_pct_exports,21.9136,External/markets,World Bank WDI,,
+2024,external_debt_stock_usd,108757630161.5,External/markets,World Bank WDI,,
+2024,fdi_net_outflows_usd,407953707.72,External/markets,World Bank WDI,,
+2024,gdp_deflator_inflation_pct,14.0897,External/markets,World Bank WDI,,
+2024,net_errors_omissions_usd,-5095537479.13,External/markets,World Bank WDI,,
+2024,real_effective_exch_rate_idx,63.9268,External/markets,World Bank WDI,,
+2024,stock_market_cap_pct_gdp,21.5653,External/markets,World Bank WDI,,
+2024,stock_market_cap_usd,54400940000,External/markets,World Bank WDI,,
+2024,total_reserves_usd,40405994024.8,External/markets,World Bank WDI,,
+2024,cbn_fdi_usd_million,1080.0,FDI,CBN,US$ million,net/inflow
+2024,nbs_fdi_gross_usd_million,674.71,FDI,NBS Capital Importation,US$ million,gross
+2024,unctad_fdi_inflows_usd_million,1080.3,FDI,UNCTAD,US$ million,net inflow
+2024,unctad_fdi_inward_stock_usd_million,69210.1,FDI,UNCTAD,US$ million,stock
+2024,unctad_fdi_outflows_usd_million,-408.0,FDI,UNCTAD,US$ million,net outflow
+2024,wb_fdi_net_inflows_pct_gdp,0.428,FDI,World Bank WDI,% of GDP,net
+2024,wb_imf_fdi_net_inflows_usd,1080310701.18,FDI,World Bank WDI / IMF BoP,current US$,net
+2024,cbn_fpi_usd_million,13350.0,FPI,CBN,US$ million,net liabilities (equity+debt)
+2024,nbs_portfolio_investment_gross_usd_million,8378.77,FPI,NBS Capital Importation,US$ million,gross
+2024,wb_portfolio_equity_net_inflows_usd,1917042383.32,FPI,World Bank WDI,current US$,net (equity only)
+2024,wb_portfolio_investment_net_usd,-13027259101.03,FPI,World Bank WDI,current US$,net (equity+debt)
+2024,brent_crude_usd_bbl,80.52,Global push factor,FRED / World Bank,,
+2024,global_fdi_inflows_usd_billion,1522.84,Global push factor,FRED / World Bank,,
+2024,us_10y_treasury_yield_pct,4.208,Global push factor,FRED / World Bank,,
+2024,us_cpi_index_1982_84_100,313.7,Global push factor,FRED / World Bank,,
+2024,us_fed_funds_rate_pct,5.143,Global push factor,FRED / World Bank,,
+2024,vix_index,15.55,Global push factor,FRED / World Bank,,
+2024,CC_est,-1.115,Governance,World Bank WGI (Control of Corruption),index (-2.5..2.5),estimate
+2024,CC_score_0_100,25.29,Governance,World Bank WGI (Control of Corruption),score 0-100,percentile
+2024,GE_est,-1.007,Governance,World Bank WGI (Government Effectiveness),index (-2.5..2.5),estimate
+2024,GE_score_0_100,31.77,Governance,World Bank WGI (Government Effectiveness),score 0-100,percentile
+2024,PV_est,-2.003,Governance,World Bank WGI (Political Stability),index (-2.5..2.5),estimate
+2024,PV_score_0_100,31.69,Governance,World Bank WGI (Political Stability),score 0-100,percentile
+2024,RL_est,-1.007,Governance,World Bank WGI (Rule of Law),index (-2.5..2.5),estimate
+2024,RL_score_0_100,39.63,Governance,World Bank WGI (Rule of Law),score 0-100,percentile
+2024,RQ_est,-0.633,Governance,World Bank WGI (Regulatory Quality),index (-2.5..2.5),estimate
+2024,RQ_score_0_100,44.87,Governance,World Bank WGI (Regulatory Quality),score 0-100,percentile
+2024,VA_est,-0.727,Governance,World Bank WGI (Voice & Accountability),index (-2.5..2.5),estimate
+2024,VA_score_0_100,44.13,Governance,World Bank WGI (Voice & Accountability),score 0-100,percentile
+2024,greenfield_num_projects,49,Greenfield/M&A,UNCTAD WIR 2025,,
+2024,greenfield_value_usd_million,4867.4,Greenfield/M&A,UNCTAD WIR 2025,,
+2024,manda_net_purchases_usd_million,0,Greenfield/M&A,UNCTAD WIR 2025,,
+2024,manda_net_sales_usd_million,-1870.487,Greenfield/M&A,UNCTAD WIR 2025,,
+2024,heritage_econ_freedom_score,53.1,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2024,heritage_rank,125,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2024,ti_cpi_rank,140,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2024,ti_cpi_score,26,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2024,exchange_rate_lcu_per_usd,1478.97,Macro control,World Bank WDI,LCU per US$,level
+2024,gdp_current_usd,252261880141.15,Macro control,World Bank WDI,current US$,level
+2024,gdp_growth_pct,4.0624,Macro control,World Bank WDI,annual %,level
+2024,gdp_per_capita_usd,1084.16,Macro control,World Bank WDI,current US$,level
+2024,inflation_cpi_pct,33.2421,Macro control,World Bank WDI,annual %,level
+2024,internet_users_pct,41.2114,Macro control,World Bank WDI,% of population,level
+2024,population_total,232679478,Macro control,World Bank WDI,persons,level
+2024,unemployment_pct,3.045,Macro control,World Bank WDI,% of labor force,level
+2024,cbn_mpr_pct_yearend,27.5,Markets & monetary,CBN/NGX/DMO/FRED,,
+2024,eurobond_10yr_yield_pct,9.98,Markets & monetary,CBN/NGX/DMO/FRED,,
+2024,eurobond_minus_us10y_spread_bps,540,Markets & monetary,CBN/NGX/DMO/FRED,,
+2024,external_reserves_usd_billion,40.41,Markets & monetary,CBN/NGX/DMO/FRED,,
+2024,ngx_asi_yearend,102926.4,Markets & monetary,CBN/NGX/DMO/FRED,,
+2024,ngx_equity_mcap_naira_trillion,62.763,Markets & monetary,CBN/NGX/DMO/FRED,,
+2024,tbill_91day_pct,18.0,Markets & monetary,CBN/NGX/DMO/FRED,,
+2025,nbs_other,2553.19,Capital importation,NBS Capital Importation,US$ million,gross
+2025,nbs_total,23220.82,Capital importation,NBS Capital Importation,US$ million,gross
+2025,d_covid_2020,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2025,d_fx_liberalization_2023ff,1,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2025,d_gfc_2008_09,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2025,d_oil_crash_2014_16,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2025,d_recession_2016,0,Event indicator (constructed),author-constructed from documented historical event,binary 0/1,event-indicator variable
+2025,stock_market_cap_usd,86942760000,External/markets,World Bank WDI,,
+2025,nbs_fdi_gross_usd_million,923.01,FDI,NBS Capital Importation,US$ million,gross
+2025,nbs_portfolio_investment_gross_usd_million,19744.64,FPI,NBS Capital Importation,US$ million,gross
+2025,brent_crude_usd_bbl,69.14,Global push factor,FRED / World Bank,,
+2025,us_10y_treasury_yield_pct,4.293,Global push factor,FRED / World Bank,,
+2025,us_cpi_index_1982_84_100,321.96,Global push factor,FRED / World Bank,,
+2025,us_fed_funds_rate_pct,4.213,Global push factor,FRED / World Bank,,
+2025,vix_index,18.93,Global push factor,FRED / World Bank,,
+2025,heritage_econ_freedom_score,53.4,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2025,heritage_rank,127,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2025,ti_cpi_rank,142,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2025,ti_cpi_score,26,Institutional index,TI/WB/Heritage/Fraser/PRS,,
+2025,cbn_mpr_pct_yearend,27.0,Markets & monetary,CBN/NGX/DMO/FRED,,
+2025,eurobond_10yr_yield_pct,7.47,Markets & monetary,CBN/NGX/DMO/FRED,,
+2025,eurobond_minus_us10y_spread_bps,329,Markets & monetary,CBN/NGX/DMO/FRED,,
+2025,external_reserves_usd_billion,45.71,Markets & monetary,CBN/NGX/DMO/FRED,,
+2025,ngx_asi_yearend,155613.03,Markets & monetary,CBN/NGX/DMO/FRED,,
+2025,ngx_equity_mcap_naira_trillion,99.376,Markets & monetary,CBN/NGX/DMO/FRED,,
+2025,ngx_equity_mcap_usd_billion,68.74,Markets & monetary,CBN/NGX/DMO/FRED,,
+2025,tbill_91day_pct,15.5,Markets & monetary,CBN/NGX/DMO/FRED,,

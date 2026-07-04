@@ -1,0 +1,13 @@
+year,real_gdp_growth_oldbase_pct,real_gdp_growth_rebased_pct,nominal_gdp_rebased_ngn_trn,oil_gdp_growth_pct,nonoil_gdp_growth_pct,agric_share_pct,industry_share_pct,services_share_pct,electricity_avg_mw,mfg_capacity_util_pct,npa_cargo_mt
+2015,2.65,,,,,,,,3557,,
+2016,-1.62,,,,,,,,,,
+2017,0.81,,,,,,,,,,
+2018,1.92,,,,,,,,,,
+2019,2.27,,205.09,,,25.8,22.1,53.1,,,
+2020,-1.79,-6.96,213.63,,,,,,,,
+2021,3.40,0.95,243.30,,,,,,,,
+2022,3.10,,274.23,,,,,,3892,,
+2023,2.74,,314.02,,,,,,,55.1,71.21
+2024,3.40,3.38,372.82,5.54,3.80,,,57.38,4207,57.0,103.34
+2025,,3.87,441.50,8.50,3.70,27.55,15.42,55.92,4770,,
+2026,,3.89,,6.79,3.99,,,,,,

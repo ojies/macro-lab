@@ -1,0 +1,9 @@
+asset,base,bull,bear,exp_usd_return,dispersion,downside,risk_adj
+NGN T-bills (1yr),11,15,2,9.6,4.6,0.0,0.97
+"FGN bonds (10yr, NGN)",14,24,-12,9.5,13.0,6.0,0.34
+FGN Eurobonds (USD),9,13,-8,5.6,8.0,4.0,0.06
+NGX equities (USD),8,22,-18,4.3,13.9,9.0,-0.05
+NGX banks (USD),12,28,-16,8.2,15.3,8.0,0.21
+USD / stablecoin (yield),5,4,6,5.0,0.7,0.0,0.0
+Lagos real estate (USD),3,8,-5,2.0,4.5,2.5,-0.68
+Gold / BTC (tail hedge),6,2,18,8.2,5.9,0.0,0.54

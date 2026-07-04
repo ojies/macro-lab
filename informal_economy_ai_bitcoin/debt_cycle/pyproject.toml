@@ -1,0 +1,21 @@
+[project]
+name = "nigeria-debt-cycle-models"
+version = "0.1.0"
+description = "Graph (MST), VAR/Bayesian-VAR, scenario, and stock-flow models for the Nigeria Big-Debt-Cycle dataset"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.0",
+    "scipy>=1.11",
+    "statsmodels>=0.14",
+    "matplotlib>=3.8",
+    "networkx>=3.2",
+]
+
+# Models in this project:
+#   scenario_model.py  - base/bull/bear projection engine (stdlib only)
+#   graph_model.py     - Mantegna MST + directed lead-lag (numpy/pandas)
+#   var_model.py       - VAR transmission / impulse-response (statsmodels)
+#   sfc_model.py       - stock-flow-consistent / system-dynamics sketch (numpy)
+# Run any with:  uv run python <script>.py

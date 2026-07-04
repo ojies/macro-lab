@@ -1,0 +1,18 @@
+indicator,value,unit,period,source
+household_consumption_share_gdp,61.2,pct,2023,CEIC/NBS
+household_consumption_share_gdp,65.0,pct,2022,CEIC/NBS
+household_consumption_total,139.8,ngn_trillion,2023,CEIC/NBS
+food_share_of_budget,56.65,pct,2018/19,NBS NLSS
+food_share_of_budget,60.2,pct,2009/10,NBS
+food_share_poorest_quintile,65,pct_plus,2018/19,World Bank/NBS
+cpi_food_weight_old,51.8,pct,pre-2025,NBS
+cpi_food_weight_rebased,40.1,pct,2025,NBS
+gross_savings_share_gdp,33.87,pct,2021,World Bank WDI
+informal_retail_share,90,pct,2024,BusinessDay/FieldAssist
+modern_trade_outlets,16500,count,2025,Brand Spur
+bnpl_market_size,1.55,usd_billion,2025,ResearchAndMarkets
+brand_switching_due_to_price,60,pct,2024,NielsenIQ
+bulk_buying,65,pct,2024,NielsenIQ
+households_skipping_meals,33,pct,2024,NBS GHS/SBM
+mobile_money_use_adults,57,pct,2023,EFInA
+digital_payment_transactions,7.9,billion,2024,ACI/industry
