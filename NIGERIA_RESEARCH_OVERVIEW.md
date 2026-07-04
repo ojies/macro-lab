@@ -3,8 +3,8 @@
 **Prepared by:** ojies · **Compiled:** 2026-06-28 · **Updated:** 2026-07-01
 
 This workspace now holds **three linked layers** that build on each other — a **data layer**
-(Nigeria FDI/FPI and its determinants), an **analysis layer** (a Big-Debt-Cycle diagnosis *plus an
-eight-model quantitative stack*), and an **application layer** (an opportunity assessment for
+(Nigeria FDI/FPI and its determinants), an **analysis layer** (a Big-Debt-Cycle diagnosis *plus a
+nine-model quantitative stack*), and an **application layer** (an opportunity assessment for
 building at the intersection of the informal economy, AI, and Bitcoin/stablecoins). Read this
 file first.
 
@@ -18,7 +18,7 @@ nigeria_data/
     └── debt_cycle/                         ← ANALYSIS LAYER (macro engine + models)
         ├── README.md · ANALYSIS.md · DATA_NOTES.md · SOURCES.md
         ├── 17 data CSVs (1980–2026) + 21 sourced staging files
-        ├── 8 models (graph · VAR · SFC · scenario · GCN · positioning · MonteCarlo)
+        ├── 9 models (graph · VAR · SFC · scenario · GCN · positioning · MC · DevAge)
         └── MODEL_AND_TRACKER · GRAPH_MODEL · ADVANCED_MODELS · ANALOGUE_CALIBRATION · POSITIONING
 ```
 
@@ -86,8 +86,8 @@ NBS capital-importation separate — they measure different things; (2) distingu
 
 ## Layer 2 — `informal_economy_ai_bitcoin/debt_cycle/` (analysis layer)
 
-Substantially expanded from the original 4-file forecast into a **strengthened dataset + an
-eight-model quantitative stack**. Start with its `README.md`; read `DATA_NOTES.md` before using
+Substantially expanded from the original 4-file forecast into a **strengthened dataset + a
+nine-model quantitative stack**. Start with its `README.md`; read `DATA_NOTES.md` before using
 any CSV (it documents four 2023–25 statistical breaks — CPI/GDP/unemployment rebasings + the
 naira float).
 
@@ -100,7 +100,7 @@ naira float).
 | Thematic | monetary/credit, markets, sectoral GDP, labour, cost-of-living, consumer, financial-inclusion, fiscal-detail, security/human-dev, **migration/japa**, private-capital/VC |
 | Sub-national | `state_panel.csv` (36 states + FCT: MPI poverty, IGR, population, fragility) |
 
-**The eight-model stack** (`uv run python <script>.py`; managed by `pyproject.toml`):
+**The nine-model stack** (`uv run python <script>.py`; managed by `pyproject.toml`):
 | Model | Question | Key finding |
 |---|---|---|
 | `graph_model.py` (Mantegna MST) | which gauges are hubs? | **current account = system hub**; spine oil→CA→reserves→FX→inflation |
@@ -110,8 +110,9 @@ naira float).
 | `state_gcn.py` (spatial GCN) | sub-national poverty? | border graph beats no-graph **8–18%** on real NBS data |
 | `positioning_model.py` | what to own? | **carry + USD-stablecoin/gold barbell** |
 | `montecarlo_model.py` | the full distribution? | 40k-draw regime-mixture MC → fan charts + event odds (P(regain 2023 income)≈26%) + portfolio VaR |
+| `development_age.py` | comparative / catch-up? | Nigeria ≈ **Korea-1970 income** but conditions tilt to **stall, not escape** (7/7 divergence factors adverse) |
 | calibration | scenario weights | analogues (Argentina/Turkey/Egypt/Ghana) → **base 55 / bull 20 / bear 25** |
-| docs | | `MODEL_AND_TRACKER.md`, `GRAPH_MODEL.md`, `ADVANCED_MODELS.md`, `ANALOGUE_CALIBRATION.md`, `POSITIONING.md` |
+| docs | | `MODEL_AND_TRACKER`, `GRAPH_MODEL`, `ADVANCED_MODELS`, `ANALOGUE_CALIBRATION`, `POSITIONING`, `DEVELOPMENT_AGE` |
 
 ## Layer 3 — `informal_economy_ai_bitcoin/` (application layer)
 

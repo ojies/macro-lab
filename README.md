@@ -1,6 +1,6 @@
 # macro-lab
 
-**Nigeria macro-economics research + an 8-model quantitative stack** — tracing one arc from raw
+**Nigeria macro-economics research + a 9-model quantitative stack** — tracing one arc from raw
 capital-flows data → a Ray-Dalio Big-Debt-Cycle diagnosis → a set of runnable models → an
 AI + Bitcoin/stablecoin opportunity thesis for the informal economy.
 
@@ -20,21 +20,21 @@ macro-lab/
     ├── README.md + 6 thematic deep-dives
     └── debt_cycle/                         ANALYSIS LAYER — macro engine + models
         ├── data: 17 CSVs (1980–2026) + 21 sourced staging files
-        ├── models: graph · VAR · SFC · scenario · GCN · positioning · Monte Carlo
+        ├── models: graph · VAR · SFC · scenario · GCN · positioning · Monte Carlo · Development-Age
         └── docs: DATA_NOTES · SOURCES · MODEL_AND_TRACKER · ADVANCED_MODELS · …
 ```
 
 1. **Data layer** (`nigeria_fdi_fpi/`) — capital flows (FDI & FPI) and the variables that explain
    them: the six governance indicators, macro fundamentals, markets/monetary, global push factors.
 2. **Analysis layer** (`.../debt_cycle/`) — a Big-Debt-Cycle diagnosis of Nigeria plus an
-   **eight-model quantitative stack** and a strengthened **1980–2026** dataset.
+   **nine-model quantitative stack** and a strengthened **1980–2026** dataset.
 3. **Application layer** (`informal_economy_ai_bitcoin/`) — what to *build* given that macro
    reality: a financial-services opportunity for the informal economy using AI to underwrite and
    stablecoins to settle.
 
 ---
 
-## The eight-model stack
+## The nine-model stack
 
 Managed with [uv](https://docs.astral.sh/uv/) (`pyproject.toml` in `.../debt_cycle/`). From that folder:
 
@@ -52,6 +52,7 @@ uv run python scenario_model.py    # (or any model below)
 | `state_gcn.py` (spatial GCN) | sub-national poverty/conflict? | real NBS+ACLED data; border graph beats no-graph, + conflict-shock early-warning |
 | `positioning_model.py` | what to own? | carry + USD-stablecoin/gold **barbell** |
 | `montecarlo_model.py` | the odds, not 3 points? | 40k-draw regime-mixture MC → fan charts + event probabilities (**P(dollar income regains 2023) ≈ 26%**) + portfolio VaR |
+| `development_age.py` | how does Nigeria compare? | by development *level*, Nigeria ≈ **Korea-1970 income** — but conditions (security/oil/institutions) tilt it to **stall, not escape** |
 
 Scenario weights (**base 55 / bull 20 / bear 25**) are calibrated against historical
 inflationary deleveragings (Argentina, Turkey, Egypt, Ghana) in `ANALOGUE_CALIBRATION.md`.
