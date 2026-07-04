@@ -1,0 +1,280 @@
+<style>
+  :root{
+    --bg:#eef1f4; --surface:#fbfcfd; --surface-2:#f3f5f8;
+    --ink:#0f1319; --secondary:#4b515c; --muted:#878d99; --hair:#dbe0e7;
+    --korea:#2a78d6; --china:#1baf7a; --brazil:#e34948; --nigeria:#eb6834; --japan:#4a3aa7;
+    --accent:#eb6834; --adverse:#c8432f; --adverse-bg:#fbe9e4;
+    --band-1:#cde2fb; --band-2:#9ec5f4; --band-line:#256abf;
+    --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+    --sans:-apple-system,"Segoe UI",system-ui,Roboto,sans-serif;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --bg:#0d1014; --surface:#161a20; --surface-2:#1c2129;
+      --ink:#f4f6f9; --secondary:#b9c0cc; --muted:#7c8391; --hair:#2a303a;
+      --korea:#3987e5; --china:#199e70; --brazil:#e66767; --nigeria:#d95926; --japan:#9085e9;
+      --accent:#f0783f; --adverse:#f0836e; --adverse-bg:#33201b;
+      --band-1:#153154; --band-2:#1c5cab; --band-line:#6da7ec;
+    }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+    line-height:1.55;-webkit-font-smoothing:antialiased;font-variant-numeric:tabular-nums}
+  .wrap{max-width:1020px;margin:0 auto;padding:clamp(20px,4vw,56px) clamp(16px,4vw,40px)}
+  .prose{max-width:66ch}
+  .eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--muted);margin:0 0 14px}
+  h1{font-size:clamp(30px,5.4vw,52px);line-height:1.04;letter-spacing:-.02em;font-weight:800;
+    margin:0 0 8px;text-wrap:balance}
+  h1 .em{color:var(--accent)}
+  .dek{font-size:clamp(17px,2.4vw,21px);color:var(--secondary);margin:0 0 30px;max-width:34ch;text-wrap:balance}
+  h2{font-size:clamp(20px,2.8vw,26px);letter-spacing:-.01em;font-weight:750;margin:0 0 4px;text-wrap:balance}
+  .sub{color:var(--secondary);font-size:15px;margin:0 0 18px;max-width:64ch}
+  section{margin-top:clamp(44px,7vw,80px)}
+  .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin:8px 0 0}
+  .tile{background:var(--surface);border:1px solid var(--hair);border-radius:12px;padding:18px 18px 16px}
+  .tile .k{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  .tile .v{font-size:26px;font-weight:800;letter-spacing:-.02em;margin-top:6px;line-height:1.1}
+  .tile .n{font-size:13.5px;color:var(--secondary);margin-top:5px}
+  .tile .v.warn{color:var(--adverse)}
+  .panel{background:var(--surface);border:1px solid var(--hair);border-radius:16px;
+    padding:clamp(16px,2.4vw,24px);margin-top:18px}
+  figure{margin:0}
+  .legend{display:flex;flex-wrap:wrap;gap:14px 20px;margin:2px 0 14px;font-size:13.5px}
+  .legend span{display:inline-flex;align-items:center;gap:7px;color:var(--secondary)}
+  .swatch{width:22px;height:3px;border-radius:2px;display:inline-block}
+  .swatch.dot{width:10px;height:10px;border-radius:50%}
+  .cap{font-size:13px;color:var(--muted);margin-top:12px;max-width:70ch}
+  svg{display:block;width:100%;height:auto;overflow:visible}
+  .grid line{stroke:var(--hair)}
+  .axis text{fill:var(--muted);font-size:11px;font-family:var(--mono)}
+  .axtitle{fill:var(--secondary);font-size:12px}
+  .lbl{font-size:12.5px;font-weight:700}
+  .tt{position:fixed;pointer-events:none;background:var(--ink);color:var(--bg);font-size:12px;
+    font-family:var(--mono);padding:7px 9px;border-radius:8px;opacity:0;transition:opacity .1s;z-index:9;
+    box-shadow:0 6px 22px rgba(0,0,0,.25);white-space:nowrap}
+  .scorecard{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin-top:16px}
+  .factor{background:var(--surface);border:1px solid var(--hair);border-left:3px solid var(--adverse);
+    border-radius:10px;padding:13px 15px}
+  .factor .f{font-weight:700;font-size:15px}
+  .factor .d{color:var(--secondary);font-size:13px;margin-top:3px}
+  .chip{display:inline-block;font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--adverse);background:var(--adverse-bg);border-radius:100px;padding:2px 8px;margin-top:8px}
+  .verdict{background:var(--surface);border:1px solid var(--hair);border-radius:16px;padding:clamp(20px,3vw,30px)}
+  .verdict p{margin:0 0 12px;max-width:70ch}
+  .verdict .big{font-size:clamp(19px,2.6vw,24px);font-weight:750;letter-spacing:-.01em;text-wrap:balance}
+  .verdict .big .em{color:var(--accent)}
+  .rail{display:flex;align-items:baseline;gap:12px;margin-top:6px}
+  .readiness{font-family:var(--mono);font-size:13px;color:var(--secondary)}
+  .readiness b{color:var(--adverse);font-size:20px}
+  footer{margin-top:64px;padding-top:20px;border-top:1px solid var(--hair);color:var(--muted);font-size:12.5px;max-width:74ch}
+  footer a{color:var(--secondary)}
+</style>
+
+<div class="wrap">
+  <header class="prose">
+    <p class="eyebrow">macro-lab · development-age model</p>
+    <h1>Nigeria is at South&nbsp;Korea's <span class="em">1970 income</span>—</h1>
+    <p class="dek">but not South Korea's 1970 conditions. Same starting line, very different odds.</p>
+    <div class="tiles">
+      <div class="tile"><div class="k">Nigeria today</div><div class="v">$2,207</div><div class="n">GDP/capita, Maddison 2011$ PPP</div></div>
+      <div class="tile"><div class="k">Same income as</div><div class="v">Korea '70</div><div class="n">· China 1983 · Japan 1919 · US 1862</div></div>
+      <div class="tile"><div class="k">Trajectory since 2010</div><div class="v warn">−0.2%/yr</div><div class="n">per-capita income has <em>fallen</em> — a lost decade</div></div>
+    </div>
+  </header>
+
+  <section>
+    <h2>The catch-up divergence</h2>
+    <p class="sub">Line up each economy at the moment it reached Nigeria's current income (year&nbsp;0), and index that income to 100. From the same start, Korea and China multiply; Brazil crawls; Nigeria is flat and slipping.</p>
+    <div class="panel">
+      <div class="legend" id="lg1"></div>
+      <figure><div id="chart1"></div></figure>
+    </div>
+    <p class="cap">GDP per capita, indexed to 100 at the year each country reached ~$2,207 (log scale). Korea from 1970, China from 1983, Brazil from 1950, Nigeria from its 2010 peak. Source: Maddison Project Database 2023.</p>
+  </section>
+
+  <section>
+    <h2>Development is uneven — a 22-year spread</h2>
+    <p class="sub">Map Nigeria onto Korea's timeline dimension by dimension. If development were coherent, every marker would land on the same Korea-year. Instead urbanization has run ~22 years <em>ahead</em> of health and industry: Nigeria built cities before jobs, health, or factories caught up.</p>
+    <div class="panel">
+      <figure><div id="chart2"></div></figure>
+    </div>
+    <p class="cap">Each dimension placed at the year South Korea had Nigeria's current value. Composite (income+health+urbanization+structure+demography) ≈ Korea 1970. Source: World Bank WDI, Maddison.</p>
+  </section>
+
+  <section>
+    <h2>The odds, not three points</h2>
+    <p class="sub">A 40,000-draw Monte&nbsp;Carlo over the base/bull/bear scenarios (weights 55/20/25) turns the 2030 outlook into a distribution. The median dollar income rises but does not regain its 2023 level ($2,139) — that happens in only about a quarter of draws.</p>
+    <div class="panel">
+      <div class="legend" id="lg3"></div>
+      <figure><div id="chart3"></div></figure>
+    </div>
+    <p class="cap">GDP per capita (current US$), Monte-Carlo percentile fan 2025→2030. Band = 5th–95th percentile; inner band = 25th–75th; line = median. Dashed = 2023 level. P(regain 2023 income) ≈ 26%.</p>
+  </section>
+
+  <section>
+    <h2>Why the parallel is unearned</h2>
+    <p class="sub">The income match is arithmetic; the outcome depends on initial conditions. On the seven catch-up determinants, Nigeria today is adverse versus the escapers at the same stage — and the factors compound (oil rents both corrode institutions and crowd out manufacturing).</p>
+    <div class="scorecard" id="scorecard"></div>
+    <div class="rail"><span class="readiness">Structural-readiness index &nbsp;<b>0</b>/100 &nbsp;· 7 of 7 factors adverse (demographics the one latent upside)</span></div>
+  </section>
+
+  <section>
+    <div class="verdict">
+      <p class="big">Nigeria sits at Korea-1970's income, but its path tilts toward the <span class="em">Brazil stall, not the Korea escape</span> — and it isn't matching Brazil yet: per-capita income has fallen since 2010.</p>
+      <p>The escaper template was 35–45% savings, export manufacturing, and low debt → income doubling in ~8–10 years. Nigeria runs ~15–20% savings, manufacturing ~8–9% of GDP (falling), and is urbanizing without industrializing. Escape requires security, institutions, fertility, human capital, and a manufacturing jobs-ladder to flip <em>together</em> — the same governance swing-factor the debt-cycle tracker already flags as the top bear trigger.</p>
+    </div>
+  </section>
+
+  <footer>
+    Generated by <strong>macro-lab</strong> · <a href="https://github.com/ojies/macro-lab">github.com/ojies/macro-lab</a>. Data: Maddison Project Database 2023, World Bank WDI, IMF, ACLED, WGI. A scenario/analysis tool, not investment advice or a forecast — assumptions, not arithmetic, carry the uncertainty.
+  </footer>
+</div>
+
+<div class="tt" id="tt"></div>
+
+<script>
+const css=n=>getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const tt=document.getElementById('tt');
+const SVG='http://www.w3.org/2000/svg';
+function el(t,a={},p){const e=document.createElementNS(SVG,t);for(const k in a)e.setAttribute(k,a[k]);if(p!=null)e.textContent=p;return e;}
+function moveTT(ev,html){tt.innerHTML=html;tt.style.opacity=1;tt.style.left=(ev.clientX+14)+'px';tt.style.top=(ev.clientY-10)+'px';}
+function hideTT(){tt.style.opacity=0;}
+
+// ---------- Chart 1: catch-up divergence (log y, indexed) ----------
+(function(){
+  const series=[
+    {name:'South Korea',color:css('--korea'),w:2.4,pts:[[0,100],[10,229],[20,520],[30,781],[40,1172],[50,1420],[52,1461]]},
+    {name:'China',color:css('--china'),w:2.4,pts:[[0,100],[7,135],[17,214],[27,438],[37,780],[39,872]]},
+    {name:'Brazil',color:css('--brazil'),w:2.4,pts:[[0,101],[10,152],[20,207],[30,369],[40,351],[50,440],[60,636],[70,612],[72,655]]},
+    {name:'Nigeria',color:css('--nigeria'),w:3.6,pts:[[0,100],[10,92],[12,97]]},
+  ];
+  const W=940,H=430,m={t:16,r:96,b:44,l:52};
+  const iw=W-m.l-m.r, ih=H-m.t-m.b;
+  const xmax=72, ymin=80, ymax=1600;
+  const x=v=>m.l+v/xmax*iw;
+  const ly=Math.log(ymin), lymax=Math.log(ymax);
+  const y=v=>m.t+ih-(Math.log(v)-ly)/(lymax-ly)*ih;
+  const svg=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img','aria-label':'Catch-up divergence: GDP per capita indexed from Nigeria’s income level'});
+  const g=el('g',{class:'grid'});
+  [100,200,400,800,1600].forEach(v=>{g.appendChild(el('line',{x1:m.l,x2:m.l+iw,y1:y(v),y2:y(v)}));});
+  svg.appendChild(g);
+  const ax=el('g',{class:'axis'});
+  [100,200,400,800,1600].forEach(v=>ax.appendChild(el('text',{x:m.l-9,y:y(v)+4,'text-anchor':'end'},v==100?'100':'×'+(v/100))));
+  [0,10,20,30,40,50,60,70].forEach(v=>ax.appendChild(el('text',{x:x(v),y:m.t+ih+20,'text-anchor':'middle'},v)));
+  ax.appendChild(el('text',{x:m.l+iw/2,y:H-6,'text-anchor':'middle',class:'axtitle'},'years after reaching Nigeria’s current income'));
+  ax.appendChild(el('text',{x:m.l-38,y:m.t+ih/2,'text-anchor':'middle',class:'axtitle',transform:`rotate(-90 ${m.l-38} ${m.t+ih/2})`},'income, indexed to 100'));
+  svg.appendChild(ax);
+  // start marker
+  svg.appendChild(el('circle',{cx:x(0),cy:y(100),r:4,fill:css('--muted')}));
+  series.forEach(s=>{
+    const d=s.pts.map((p,i)=>(i?'L':'M')+x(p[0]).toFixed(1)+' '+y(p[1]).toFixed(1)).join(' ');
+    svg.appendChild(el('path',{d,fill:'none',stroke:s.color,'stroke-width':s.w,'stroke-linejoin':'round','stroke-linecap':'round'}));
+    const last=s.pts[s.pts.length-1];
+    svg.appendChild(el('circle',{cx:x(last[0]),cy:y(last[1]),r:s.name=='Nigeria'?4.5:3.5,fill:s.color}));
+    const t=el('text',{x:x(last[0])+8,y:y(last[1])+4,class:'lbl',fill:s.color},s.name);
+    svg.appendChild(t);
+    s.pts.forEach(p=>{const c=el('circle',{cx:x(p[0]),cy:y(p[1]),r:9,fill:'transparent',style:'cursor:pointer'});
+      c.addEventListener('mousemove',ev=>moveTT(ev,`<b>${s.name}</b> · yr ${p[0]}<br>index ${p[1]} (×${(p[1]/100).toFixed(2)})`));
+      c.addEventListener('mouseleave',hideTT);svg.appendChild(c);});
+  });
+  document.getElementById('chart1').appendChild(svg);
+  const lg=document.getElementById('lg1');
+  series.forEach(s=>lg.insertAdjacentHTML('beforeend',`<span><i class="swatch" style="background:${s.color}"></i>${s.name}</span>`));
+})();
+
+// ---------- Chart 2: uneven development (lollipop by Korea-year) ----------
+(function(){
+  const rows=[
+    {dim:'Health (life expectancy)',yr:1961,note:'behind'},
+    {dim:'Structure (agriculture share)',yr:1969,note:''},
+    {dim:'Income (GDP/capita)',yr:1970,note:''},
+    {dim:'Demography (fertility)',yr:1970,note:''},
+    {dim:'Urbanization',yr:1983,note:'ahead'},
+  ];
+  const W=940,H=270,m={t:22,r:60,b:40,l:210};
+  const iw=W-m.l-m.r, ih=H-m.t-m.b;
+  const xmin=1958,xmax=1986;
+  const x=v=>m.l+(v-xmin)/(xmax-xmin)*iw;
+  const yb=(H-m.t-m.b)/rows.length;
+  const svg=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img','aria-label':'Nigeria mapped onto Korea’s timeline by dimension'});
+  const ax=el('g',{class:'axis'});
+  [1960,1965,1970,1975,1980,1985].forEach(v=>{
+    svg.appendChild(el('line',{x1:x(v),x2:x(v),y1:m.t-6,y2:m.t+ih,stroke:css('--hair')}));
+    ax.appendChild(el('text',{x:x(v),y:m.t+ih+20,'text-anchor':'middle'},v));});
+  // span bar 1961-1983
+  svg.appendChild(el('rect',{x:x(1961),y:m.t-10,width:x(1983)-x(1961),height:4,rx:2,fill:css('--surface-2')}));
+  svg.appendChild(el('text',{x:(x(1961)+x(1983))/2,y:m.t-16,'text-anchor':'middle',class:'axtitle',fill:css('--muted')},'22-year spread'));
+  rows.forEach((r,i)=>{
+    const cy=m.t+yb*(i+0.5);
+    svg.appendChild(el('line',{x1:m.l,x2:x(r.yr),y1:cy,y2:cy,stroke:css('--hair'),'stroke-width':1}));
+    const col=r.dim.startsWith('Income')||r.dim.startsWith('Demography')?css('--muted'):(r.note=='ahead'?css('--nigeria'):css('--korea'));
+    const c=el('circle',{cx:x(r.yr),cy,r:7,fill:col,stroke:css('--surface'),'stroke-width':2,style:'cursor:pointer'});
+    c.addEventListener('mousemove',ev=>moveTT(ev,`<b>${r.dim}</b><br>≈ Korea in ${r.yr}`));
+    c.addEventListener('mouseleave',hideTT);
+    svg.appendChild(el('text',{x:m.l-14,y:cy+4,'text-anchor':'end',class:'lbl',fill:css('--secondary')},r.dim));
+    svg.appendChild(el('text',{x:x(r.yr),y:cy-13,'text-anchor':'middle',class:'axis',fill:col,style:'font-weight:700'},'’'+String(r.yr).slice(2)));
+    svg.appendChild(c);
+    if(r.note){svg.appendChild(el('text',{x:x(r.yr)+(r.note=='ahead'?14:-14),y:cy+4,'text-anchor':r.note=='ahead'?'start':'end',class:'axis',fill:col},r.note));}
+  });
+  svg.appendChild(ax);
+  document.getElementById('chart2').appendChild(svg);
+})();
+
+// ---------- Chart 3: Monte Carlo fan ----------
+(function(){
+  // year:[p5,p25,p50,p75,p95]
+  const D={2025:[1239,1239,1239,1239,1239],2026:[1234,1325,1391,1460,1566],2027:[1271,1407,1513,1625,1804],
+    2028:[1340,1506,1640,1789,2060],2029:[1470,1642,1779,1958,2313],2030:[1627,1803,1947,2152,2574]};
+  const yrs=Object.keys(D).map(Number);
+  const W=940,H=400,m={t:16,r:64,b:40,l:56};
+  const iw=W-m.l-m.r, ih=H-m.t-m.b;
+  const xmin=2025,xmax=2030,ymin=1150,ymax=2650;
+  const x=v=>m.l+(v-xmin)/(xmax-xmin)*iw;
+  const y=v=>m.t+ih-(v-ymin)/(ymax-ymin)*ih;
+  const svg=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img','aria-label':'Monte Carlo 2030 fan chart of GDP per capita'});
+  const g=el('g',{class:'grid'});
+  [1200,1600,2000,2400].forEach(v=>g.appendChild(el('line',{x1:m.l,x2:m.l+iw,y1:y(v),y2:y(v)})));
+  svg.appendChild(g);
+  const band=(lo,hi,fill)=>{let d='M';yrs.forEach((yr,i)=>{d+=(i?'L':'')+x(yr).toFixed(1)+' '+y(D[yr][hi]).toFixed(1)+' ';});
+    for(let i=yrs.length-1;i>=0;i--){d+='L'+x(yrs[i]).toFixed(1)+' '+y(D[yrs[i]][lo]).toFixed(1)+' ';}d+='Z';
+    svg.appendChild(el('path',{d,fill,stroke:'none'}));};
+  band(0,4,css('--band-1')); band(1,3,css('--band-2'));
+  // median
+  let dm='';yrs.forEach((yr,i)=>dm+=(i?'L':'M')+x(yr).toFixed(1)+' '+y(D[yr][2]).toFixed(1)+' ');
+  svg.appendChild(el('path',{d:dm,fill:'none',stroke:css('--band-line'),'stroke-width':2.6,'stroke-linecap':'round'}));
+  // 2023 reference
+  svg.appendChild(el('line',{x1:m.l,x2:m.l+iw,y1:y(2139),y2:y(2139),stroke:css('--accent'),'stroke-width':1.5,'stroke-dasharray':'5 4'}));
+  svg.appendChild(el('text',{x:m.l+iw,y:y(2139)-7,'text-anchor':'end',class:'lbl',fill:css('--accent')},'2023 level $2,139  ·  regained in ~26% of draws'));
+  const ax=el('g',{class:'axis'});
+  [1200,1600,2000,2400].forEach(v=>ax.appendChild(el('text',{x:m.l-9,y:y(v)+4,'text-anchor':'end'},'$'+v)));
+  yrs.forEach(v=>ax.appendChild(el('text',{x:x(v),y:m.t+ih+20,'text-anchor':'middle'},v)));
+  ax.appendChild(el('text',{x:x(2030),y:y(D[2030][2])+4,class:'lbl',fill:css('--band-line'),'text-anchor':'start',dx:8},'median'));
+  svg.appendChild(ax);
+  yrs.forEach(yr=>{const c=el('rect',{x:x(yr)-14,y:m.t,width:28,height:ih,fill:'transparent',style:'cursor:pointer'});
+    c.addEventListener('mousemove',ev=>moveTT(ev,`<b>${yr}</b> GDP/capita<br>median $${D[yr][2]}<br>P5–P95 $${D[yr][0]}–$${D[yr][4]}`));
+    c.addEventListener('mouseleave',hideTT);svg.appendChild(c);});
+  document.getElementById('chart3').appendChild(svg);
+  const lg=document.getElementById('lg3');
+  lg.innerHTML=`<span><i class="swatch" style="background:${css('--band-2')}"></i>25–75th pct</span>`+
+    `<span><i class="swatch" style="background:${css('--band-1')}"></i>5–95th pct</span>`+
+    `<span><i class="swatch" style="background:${css('--band-line')}"></i>median</span>`+
+    `<span><i class="swatch" style="background:${css('--accent')}"></i>2023 income line</span>`;
+})();
+
+// ---------- divergence scorecard ----------
+(function(){
+  const F=[
+    ['Security / conflict','Insurgency + banditry ~10–13k fatalities/yr, concurrent with the would-be takeoff'],
+    ['Institutions','Rule of law −1.0; extractive corruption on weak state capacity'],
+    ['Resource dependence','Oil ~88% of exports — Dutch-disease rentier trap; tigers were resource-poor'],
+    ['Human capital','~18m out-of-school; 74% of 7–14s below basic skills'],
+    ['Premature deindustrialization','Manufacturing ~8–9% of GDP and falling — the escalator is closing'],
+    ['Global context','Deglobalization + automation + climate vs the tigers’ globalization tailwind'],
+    ['Demographics','Slow fertility decline squanders the dividend — the one latent upside'],
+  ];
+  const el2=document.getElementById('scorecard');
+  F.forEach(f=>el2.insertAdjacentHTML('beforeend',
+    `<div class="factor"><div class="f">${f[0]}</div><div class="d">${f[1]}</div><span class="chip">adverse</span></div>`));
+})();
+</script>
