@@ -59,6 +59,12 @@ inflationary deleveragings (Argentina, Turkey, Egypt, Ghana) in `ANALOGUE_CALIBR
 
 ---
 
+## Beyond Nigeria — comparative macro
+
+macro-lab is becoming a **multi-country** engine:
+- **`development_age.py`** — compares countries by development *level*: Nigeria ≈ Korea-1970 income, but conditions tilt it to stall not escape (+ a visual brief, `development_age_viz.html`).
+- **`debt_cycle/usa/`** — the **US reserve-currency pole**: a monetary-transmission VAR (a +100bp Fed hike → GDP −0.57pp, unemployment +0.37pp) and a Fed-cycle event study (soft landings are ~⅓ of tightening cycles). Nigeria = inflationary EM cycle with no policy space; the US = reserve-currency cycle where the Fed is the lever — the two poles of the debt-cycle spectrum, same toolkit.
+
 ## The thesis in four lines
 
 1. Nigeria is mid-way through an **inflationary deleveraging**: the state's finances are being
