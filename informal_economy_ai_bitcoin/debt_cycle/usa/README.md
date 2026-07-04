@@ -19,7 +19,10 @@ uv run python usa/usa_monetary_var.py
 | `usa_presidential.py` | **Presidential scorecard** — rankings + by-party pattern, framed on-watch-not-causation |
 | `usa_debt_cycle_gauges.csv` | US Big-Debt-Cycle gauges 1960–2025: debt/GDP, deficit, interest/revenue, foreign-held share, USD reserve share, NIIP, real yield |
 | `usa_debt_cycle.py` | **US big-debt-cycle diagnosis** (Dalio lens) + the programmatic **US-vs-Nigeria "two poles" comparison** |
-| *(staging 27–30)* | Sourced data notes (FRED/IMF/BEA/Treasury ids, transforms, framing caveats) |
+| `usa_fiscal_packages.csv` · `usa_qe_episodes.csv` | Major fiscal packages (1981–2022, size + multiplier) and QE/QT episodes (balance sheet + yield effect) |
+| `usa_fiscal_qe.py` | **Fiscal-multiplier + QE-channel model** — the policy space the US has and Nigeria doesn't |
+| `two_poles_viz.html` | Self-contained visual: US late-cycle gauges, the Fed rate-hike transmission, and the comparison |
+| *(staging 27–31)* | Sourced data notes (FRED/IMF/BEA/Treasury/CBO ids, transforms, framing caveats) |
 
 ## What the model finds
 
@@ -56,4 +59,10 @@ uv run python usa/usa_monetary_var.py
 
 > **The US is running down its exorbitant privilege slowly; Nigeria never had it.** Same Dalio template, opposite ends.
 
-Remaining in the US module (per the plan): fiscal multipliers / stimulus-effect view, and the QE-balance-sheet channel folded into the monetary model.
+**5. Fiscal multipliers + QE channel (`usa_fiscal_qe.py`)** — the two extra levers a reserve-currency issuer can pull:
+- **Fiscal multipliers** move on two things — **composition** (spending/transfers/infrastructure ~0.94 avg vs high-income/corporate tax cuts ~0.39) and **state** (recession/ZLB > expansion). The pandemic bills dwarf everything by size (CARES 10.4% of GDP, ARP 8.0%).
+- **QE** compressed the 10y by a cumulative **~−265bp (QE1–3 + COVID)** but with clear **diminishing returns** (QE1 ~−100bp in dysfunctional markets → QE2 ~−20bp); QT reverses it.
+- **The punchline:** this fiscal + QE space is the reserve-currency issuer's privilege — the US can cushion a downturn with slack as the only real constraint; **Nigeria hits FX/BoP and inflation walls first and can't print its hard-currency debt**, so it has almost none of it.
+
+### US module — complete ✅
+All four planned pieces built: monetary VAR + Fed-cycle event study · presidential scorecard · big-debt-cycle diagnosis + two-poles comparison · fiscal multipliers + QE channel. Every model runs via `uv run python usa/<script>.py`.
