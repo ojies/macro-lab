@@ -61,6 +61,7 @@ The modelling stack has four complementary layers (`pyproject.toml` + `uv` manag
 | **Spatial / sub-national** | `state_gcn.py` · **`ADVANCED_MODELS.md`** | State-level poverty/fragility via a **spatial GCN** (graph beats no-graph) over 36 states + FCT |
 | **Probability calibration** | **`ANALOGUE_CALIBRATION.md`** | Backtest vs Argentina/Turkey/Egypt/Ghana/Nigeria-2005 → scenario weights (55/20/25) |
 | **Positioning (Phase 4)** | `positioning_model.py` → `positioning_returns.csv` · **`POSITIONING.md`** | Scenario → assets: USD-return barbell; bridges back to the AI+Bitcoin layer |
+| **Monte Carlo (Phase 5)** | `montecarlo_model.py` → `montecarlo_summary.csv` | Regime-mixture MC (40k draws): the discrete scenarios → a **distribution** — fan charts, 2030 event probabilities, portfolio VaR/expected-shortfall |
 
 Key findings: the graph identifies the **current account (oil-driven external balance) as the system hub**; the VAR confirms **oil → FX (1-yr lag) → inflation** (Granger-significant); the SFC's **dollarization loop** is the macro engine behind the stablecoin thesis; the analogue calibration set the weights at **base 55% / bull 20% / bear 25%**; positioning resolves to a **carry + USD-stablecoin/gold barbell**.
 
