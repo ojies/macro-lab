@@ -1,0 +1,6 @@
+name,debt_gdp,buffer,sustain,fertility,median_age,why,vitality,resilience,fragility
+Nigeria,39,8,25,4.5,17.8,"no reserve status, FX-constrained, thin reserves; debt-service >100% of retained revenue",98.5,40.3,59.7
+China,99,62,40,1.0,39.1,"huge reserves + capital controls + state banks (own-currency workout), but no reserve currency; credit-intensity ×3.1, property",20.5,42.9,57.1
+Europe,89,48,45,1.5,45.0,UK sovereign vs euro-periphery no currency control (blend); ECB backstop but union-without-fiscal-union,18.1,38.1,61.9
+United States,120,95,55,1.6,38.0,reserve currency + the Fed + deep markets; interest/revenue ~21% and rising is the one soft spot,30.3,63.6,36.4
+Japan,206,72,50,1.2,49.0,own CB + world's largest net creditor + domestic debt (206% at ~1% yields); demographics the drag,8.1,46.2,53.8
