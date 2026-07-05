@@ -84,4 +84,4 @@ prints this **from each module's live gauges** + a cross-pole positioning read:
 **The composite index (`macro_index.py`)** — resilience = 0.40·buffer + 0.30·debt-sustainability + 0.30·demographic-vitality: **US 64 (most resilient) → Europe 38 (most fragile)**. Its point is the *decomposition*: Nigeria screens middling only because its demographic vitality (99/100) offsets the worst buffer — strip demographics and it collapses to 15. **Resilient-but-dying (Japan/China) vs fragile-but-young (Nigeria).**
 
 - **The through-line:** the debt *ratio* is not the danger — **policy space** is. Nigeria carries the least debt (39%) and the most acute risk; Japan the most (206%) and a managed grind.
-- Visual briefs: `development_age_viz.html` · `usa/two_poles_viz.html` · `five_poles_viz.html` (dashboard).
+- All visuals now live in the **[`app/`](app/) dashboard** (FastAPI + Next.js) — every chart pulled live from the models.

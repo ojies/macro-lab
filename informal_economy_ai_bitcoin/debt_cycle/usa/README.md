@@ -21,8 +21,9 @@ uv run python usa/usa_monetary_var.py
 | `usa_debt_cycle.py` | **US big-debt-cycle diagnosis** (Dalio lens) + the programmatic **US-vs-Nigeria "two poles" comparison** |
 | `usa_fiscal_packages.csv` · `usa_qe_episodes.csv` | Major fiscal packages (1981–2022, size + multiplier) and QE/QT episodes (balance sheet + yield effect) |
 | `usa_fiscal_qe.py` | **Fiscal-multiplier + QE-channel model** — the policy space the US has and Nigeria doesn't |
-| `two_poles_viz.html` | Self-contained visual: US late-cycle gauges, the Fed rate-hike transmission, and the comparison |
 | *(staging 27–31)* | Sourced data notes (FRED/IMF/BEA/Treasury/CBO ids, transforms, framing caveats) |
+
+> The US gauges, the Fed rate-hike transmission, and the US↔Nigeria comparison are rendered live in the **[`app/`](../../../app/) dashboard** (Two Poles view).
 
 ## What the model finds
 
