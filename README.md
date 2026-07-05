@@ -1,8 +1,11 @@
 # macro-lab
 
-**Nigeria macro-economics research + a 9-model quantitative stack** — tracing one arc from raw
+[![models](https://github.com/ojies/macro-lab/actions/workflows/models.yml/badge.svg)](https://github.com/ojies/macro-lab/actions/workflows/models.yml)
+
+**Nigeria macro-economics research + a multi-country quantitative stack** — tracing one arc from raw
 capital-flows data → a Ray-Dalio Big-Debt-Cycle diagnosis → a set of runnable models → an
-AI + Bitcoin/stablecoin opportunity thesis for the informal economy.
+AI + Bitcoin/stablecoin opportunity thesis for the informal economy — now extended to the **US**
+(and, in progress, **Europe** and **China**) as comparative poles of the debt cycle.
 
 Every figure is sourced; every model is re-runnable (`uv run python <script>.py`); every
 statistical break is flagged. Start with **[`NIGERIA_RESEARCH_OVERVIEW.md`](NIGERIA_RESEARCH_OVERVIEW.md)**.
