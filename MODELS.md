@@ -1,5 +1,10 @@
 # macro-lab — model index
 
+> **Dashboard:** the full-stack web app in [`app/`](app/) (FastAPI backend + Next.js frontend)
+> renders all of these as one animated, navigable dashboard — every quantitative cell pulled
+> live from the model outputs. See [`app/README.md`](app/README.md).
+
+
 Every model is a plain Python script run through one shared `uv` environment. From
 `informal_economy_ai_bitcoin/debt_cycle/`:
 
@@ -71,6 +76,7 @@ prints this **from each module's live gauges** + a cross-pole positioning read:
 | Tool | Script | Output |
 |---|---|---|
 | **Composite index** | `macro_index.py` | a **computed resilience/fragility score** per pole from 3 pillars (buffer · debt-sustainability · demographic vitality) |
+| **Demographics** | `demographics.py` | births-vs-deaths: who is in natural decline (Italy/Japan/Germany/China/Korea) vs growing (Nigeria); the 2100 trajectory. Feeds the index's vitality pillar. |
 | Five-pole comparison | `compare_poles.py` | live matrix (debt/growth/inflation) + policy-space + **positioning read** |
 | US ↔ Nigeria | `usa/usa_debt_cycle.py` | the two-poles table, programmatic |
 | Catch-up / development index | `development_age.py` | the composite **development-age index** + structural-readiness (0/100); Nigeria on the 11-country axis |
