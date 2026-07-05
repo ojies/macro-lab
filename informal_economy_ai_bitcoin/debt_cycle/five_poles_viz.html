@@ -71,7 +71,7 @@
     <h2>Government debt, compared like-for-like</h2>
     <p class="sub">Same measure — general-government gross debt — so the bars are comparable. Nigeria's is the lowest by far; the strain there is FX and revenue, not the debt ratio. Within Europe, Italy (~137%) sits far above Germany.</p>
     <div class="panel"><figure><div id="bars"></div></figure></div>
-    <p class="cap">General-government gross debt, % of GDP, 2025. Bars coloured by pole. Note: China's figure is government-only; its total non-financial debt (household + corporate + government) is ~300%.</p>
+    <p class="cap">General-government gross debt, % of GDP, 2025. Bars coloured by pole. Note: China's figure is government-only; its total non-financial debt (household + corporate + government) is ~300%. Japan's ~206% is the current IMF WEO basis (revised down ~25–30pp from the older ~250% figure) — still the highest in the developed world.</p>
   </section>
 
   <section>
@@ -112,7 +112,7 @@ const POLES=[
   {key:'us',name:'United States',color:css('--us'),debt:120,space:92,type:'late reserve power',
     diag:'Vast space (Fed + fiscal + QE); privilege eroding at the margin.',
     cyc:'LATE (reserve power)',lever:'the Fed — vast',risk:'inflation / debasement',trap:'exorbitant privilege eroding'},
-  {key:'jp',name:'Japan',color:css('--jp'),debt:250,space:60,type:'the precedent',
+  {key:'jp',name:'Japan',color:css('--jp'),debt:206,space:60,type:'the precedent',
     diag:'The balance-sheet recession the others are measured against.',
     cyc:'VERY LATE',lever:'BoJ (YCC, own currency)',risk:'stagnation / demographics',trap:'30 years of deleveraging'},
 ];
@@ -152,7 +152,7 @@ const POLES=[
 // ---- debt bars ----
 (function(){
   const D=[{n:'Nigeria',v:39,c:css('--ng')},{n:'Euro area',v:89,c:css('--eu')},{n:'China (govt)',v:99,c:css('--cn')},
-    {n:'UK',v:104,c:css('--eu')},{n:'United States',v:120,c:css('--us')},{n:'Italy',v:137,c:css('--eu')},{n:'Japan',v:250,c:css('--jp')}];
+    {n:'UK',v:104,c:css('--eu')},{n:'United States',v:120,c:css('--us')},{n:'Italy',v:137,c:css('--eu')},{n:'Japan',v:206,c:css('--jp')}];
   const W=980,rowH=42,m={t:8,r:70,b:30,l:120};const iw=W-m.l-m.r;const H=m.t+D.length*rowH+m.b;
   const xmax=270,X=v=>m.l+v/xmax*iw;
   const svg=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img','aria-label':'Government debt by country'});

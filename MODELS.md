@@ -47,11 +47,18 @@ is proof the whole stack reproduces from `pyproject.toml` + `uv.lock` alone.
 |---|---|---|
 | Growth-model exhaustion | `china/china_model.py` | the catch-up's reckoning? → debt 127%→300%, **credit-intensity ×3.1**, property halved, "old before rich" |
 
+## Japan — the precedent (`japan/`)
+
+| Model | Script | Question → finding |
+|---|---|---|
+| Balance-sheet recession | `japan/japan_model.py` | why 206% debt & no crisis? → **domestic + yen + own CB + net-creditor** — the debt ratio isn't destiny |
+
 ---
 
 ## The comparative layer
 
-macro-lab lines the economies up as **poles of one debt cycle**, same Dalio template:
+macro-lab lines the economies up as **poles of one debt cycle**, same Dalio template. `compare_poles.py`
+prints this **from each module's live gauges** + a cross-pole positioning read:
 
 | Pole | Type | Policy space | The trap |
 |---|---|---|---|
@@ -59,8 +66,13 @@ macro-lab lines the economies up as **poles of one debt cycle**, same Dalio temp
 | **China** | state-directed workout | managed (closed capital acct, state banks) | debt/property/demographic trilemma |
 | **Europe** | aging stagnation | UK: own currency · periphery: none | union without fiscal union |
 | **United States** | late reserve power | vast (Fed + fiscal + QE) | exorbitant privilege eroding |
-| *Japan* | *the precedent* | *moderate* | *the balance-sheet recession others are measured against* |
+| **Japan** | the precedent | moderate (own CB, net creditor) | 30-year deleveraging (never a crisis) |
 
-- `usa/usa_debt_cycle.py` prints the **US ↔ Nigeria** comparison programmatically.
-- `development_age.py` places Nigeria on the **11-country** catch-up map.
-- Visual briefs: `development_age_viz.html`, `usa/two_poles_viz.html` (and the multi-country dashboard).
+| Tool | Script | Output |
+|---|---|---|
+| Five-pole comparison | `compare_poles.py` | live matrix (debt/growth/inflation) + policy-space + **positioning read** |
+| US ↔ Nigeria | `usa/usa_debt_cycle.py` | the two-poles table, programmatic |
+| Catch-up map | `development_age.py` | Nigeria on the **11-country** development-age axis |
+
+- **The through-line:** the debt *ratio* is not the danger — **policy space** is. Nigeria carries the least debt (39%) and the most acute risk; Japan the most (206%) and a managed grind.
+- Visual briefs: `development_age_viz.html` · `usa/two_poles_viz.html` · `five_poles_viz.html` (dashboard).
