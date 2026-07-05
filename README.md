@@ -5,7 +5,9 @@
 **Nigeria macro-economics research + a multi-country quantitative stack** — tracing one arc from raw
 capital-flows data → a Ray-Dalio Big-Debt-Cycle diagnosis → a set of runnable models → an
 AI + Bitcoin/stablecoin opportunity thesis for the informal economy — now extended to the **US,
-Europe, and China** as comparative poles of the debt cycle. **See [MODELS.md](MODELS.md) for the full model index.**
+Europe, China, and Japan** as comparative poles of the debt cycle. **See [MODELS.md](MODELS.md) for the
+full model index**, and **[WORLD_ORDER.md](WORLD_ORDER.md)** for the capstone synthesis — where the
+world is going and what it's aligning with, drawn from the models.
 
 Every figure is sourced; every model is re-runnable (`uv run python <script>.py`); every
 statistical break is flagged. Start with **[`NIGERIA_RESEARCH_OVERVIEW.md`](NIGERIA_RESEARCH_OVERVIEW.md)**.
