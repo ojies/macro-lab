@@ -77,3 +77,13 @@ jobs:
         run: npm ci
       - name: Build the dashboard
         run: npm run build
+
+  docker-build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build both images (compose)
+        run: docker compose build
