@@ -40,3 +40,40 @@ jobs:
             echo "::endgroup::"
           done
           exit $fail
+
+  backend-api:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: app/backend
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+      - name: Sync backend deps
+        run: uv sync --frozen || uv sync
+      - name: Smoke-test the API (imports + reads model data)
+        run: |
+          uv run python -c "import main; \
+            assert main.health()['data_present'], 'model data not found'; \
+            assert main.poles()['poles'], 'poles empty'; \
+            assert main.macro_index()['poles'], 'index empty'; \
+            assert main.development_age()['trajectories'], 'dev-age empty'; \
+            print('backend ok — endpoints return live model data')"
+
+  frontend-build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: app/frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: app/frontend/package-lock.json
+      - name: Install deps
+        run: npm ci
+      - name: Build the dashboard
+        run: npm run build
