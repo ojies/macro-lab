@@ -1,0 +1,76 @@
+:root {
+  --bg: #eef1f4;
+  --surface: #fbfcfd;
+  --surface-2: #f2f4f7;
+  --ink: #0f1319;
+  --secondary: #4b515c;
+  --muted: #868d99;
+  --hair: #dae0e7;
+  --accent: #2a78d6;
+  --grow: #c2571f;
+  --shrink: #3f5d80;
+  --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --sans: -apple-system, "Segoe UI", system-ui, Roboto, sans-serif;
+  --serif: "Iowan Old Style", Palatino, Georgia, serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0c0f13;
+    --surface: #151920;
+    --surface-2: #1b2028;
+    --ink: #f4f6f9;
+    --secondary: #b9c0cc;
+    --muted: #7c8391;
+    --hair: #262c36;
+    --accent: #3987e5;
+  }
+}
+* { box-sizing: border-box; }
+html, body { padding: 0; margin: 0; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--sans);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  font-variant-numeric: tabular-nums;
+}
+a { color: inherit; }
+svg { display: block; }
+
+/* ---------- animations ---------- */
+@keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes popIn { from { opacity: 0; transform: scale(.85); } to { opacity: 1; transform: scale(1); } }
+@keyframes growUp { from { transform: scaleY(0); } to { transform: scaleY(1); } }
+
+.fade-up { animation: fadeUp .55s cubic-bezier(.2,.7,.2,1) both; }
+.fade-in { animation: fadeIn .5s ease both; }
+.view-enter { animation: fadeUp .45s cubic-bezier(.2,.7,.2,1) both; }
+.stagger > * { animation: fadeUp .5s cubic-bezier(.2,.7,.2,1) both; }
+.stagger > *:nth-child(1) { animation-delay: .04s; }
+.stagger > *:nth-child(2) { animation-delay: .10s; }
+.stagger > *:nth-child(3) { animation-delay: .16s; }
+.stagger > *:nth-child(4) { animation-delay: .22s; }
+.stagger > *:nth-child(5) { animation-delay: .28s; }
+.stagger > *:nth-child(6) { animation-delay: .34s; }
+
+@media (prefers-reduced-motion: reduce) {
+  .fade-up, .fade-in, .view-enter, .stagger > * { animation: none !important; }
+}
+
+/* ---------- layout primitives ---------- */
+.tt {
+  position: fixed; pointer-events: none; z-index: 50;
+  background: var(--ink); color: var(--bg); font: 12px/1.4 var(--mono);
+  padding: 8px 10px; border-radius: 8px; box-shadow: 0 8px 26px rgba(0,0,0,.28);
+  white-space: nowrap; opacity: 0; transition: opacity .1s; max-width: 260px;
+}
+.panel {
+  background: var(--surface); border: 1px solid var(--hair);
+  border-radius: 16px; padding: clamp(14px, 2.2vw, 24px);
+}
+.eyebrow { font: 12px var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.axis text { fill: var(--muted); font: 11px var(--mono); }
+.grid line { stroke: var(--hair); }
+.chart-title { font-weight: 750; font-size: 15px; }

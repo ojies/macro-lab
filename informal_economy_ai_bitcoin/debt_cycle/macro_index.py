@@ -46,17 +46,35 @@ POLES = [
 ]
 
 
-def vitality(fert, age):
-    """COMPUTED demographic vitality 0-100: half fertility (vs replacement), half youth (median age)."""
+# map each pole to a representative entity in demographics.csv (Europe = Germany+Italy blend)
+DEMO_MAP = {"Nigeria": ["Nigeria"], "China": ["China"], "Europe": ["Germany", "Italy"],
+            "United States": ["United States"], "Japan": ["Japan"]}
+
+
+def _demo():
+    p = os.path.join(HERE, "demographics.csv")
+    return pd.read_csv(p).set_index("country") if os.path.exists(p) else None
+
+
+def vitality(pole_name, fert, age, demo):
+    """COMPUTED demographic vitality 0-100. Now folds in the actual BIRTH-vs-DEATH dynamic:
+    0.4 fertility (vs replacement) + 0.3 youth (median age) + 0.3 natural increase (births−deaths).
+    Falls back to fertility+youth if demographics.csv is absent."""
     f = max(0, min(100, (fert - 0.7) / (4.5 - 0.7) * 100))
     y = max(0, min(100, (50 - age) / (50 - 17) * 100))
-    return 0.5 * f + 0.5 * y
+    if demo is None:
+        return 0.5 * f + 0.5 * y
+    ent = [e for e in DEMO_MAP.get(pole_name, []) if e in demo.index]
+    ni = demo.loc[ent, "natural_increase_per_1000"].mean() if ent else 0.0   # births−deaths /1000
+    n = max(0, min(100, (ni + 8) / (30 + 8) * 100))                          # −8→0, +30→100
+    return 0.4 * f + 0.3 * y + 0.3 * n
 
 
 def main():
+    demo = _demo()
     rows = []
     for p in POLES:
-        c = vitality(p["fertility"], p["median_age"])
+        c = vitality(p["name"], p["fertility"], p["median_age"], demo)
         res = WA * p["buffer"] + WB * p["sustain"] + WC * c
         rows.append({**p, "vitality": c, "resilience": res, "fragility": 100 - res})
     df = pd.DataFrame(rows)

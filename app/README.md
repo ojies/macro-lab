@@ -1,0 +1,50 @@
+# macro-lab — dashboard (full-stack)
+
+A **FastAPI backend** that serves the quantitative models as JSON, and a **Next.js frontend** that
+renders them as an animated, navigable dashboard. Both live in this `app/` folder.
+
+```
+app/
+├── backend/   FastAPI — reads the debt_cycle model CSVs, serves /api/* JSON
+└── frontend/  Next.js (App Router) — six animated views over the API
+```
+
+## Run it (two terminals)
+
+**1 · backend** (Python, via uv — reuses the model data in `../informal_economy_ai_bitcoin/debt_cycle/`):
+```bash
+cd app/backend
+uv sync
+uv run uvicorn main:app --reload --port 8000     # http://localhost:8000/docs
+```
+
+**2 · frontend** (Node ≥ 18):
+```bash
+cd app/frontend
+npm install
+npm run dev                                       # http://localhost:3000
+```
+The frontend proxies `/api/*` → `http://localhost:8000` (set `API_URL` to point elsewhere), so the
+browser fetches same-origin — no CORS setup needed.
+
+## The views
+| View | Source endpoint | Shows |
+|---|---|---|
+| **World Order** | `/api/reserves` + `/api/poles` | the demographic pivot, reserve fragmentation, the alignment vectors |
+| **Development Age** | `/api/development-age` | the catch-up divergence, the 22-year spread, the Monte-Carlo 2030 fan, the conditioning scorecard |
+| **Two Poles** | `/api/us` | US late-cycle gauges, the Fed rate-hike transmission, the US↔Nigeria table |
+| **Five Poles** | `/api/poles` | debt-vs-policy-space map, debt bars, the five-regime matrix |
+| **Index** | `/api/index` | the computed resilience/fragility score + pillar decomposition |
+| **Demographics** | `/api/demographics` | births-vs-deaths (who's shrinking), fertility, the 2100 trajectory |
+
+Every quantitative cell is pulled **live from the model outputs** — run a model in `debt_cycle/`,
+its CSV changes, and the dashboard reflects it on next load.
+
+## Backend endpoints
+`/api/health` · `/api/index` · `/api/poles` · `/api/development-age` · `/api/us` · `/api/reserves` ·
+`/api/demographics` · interactive docs at `/docs`.
+
+## Notes
+- Charts are hand-built animated SVG (line-draw, bar-grow, bubble pop-in) — no chart-lib dependency.
+- Respects `prefers-reduced-motion` and `prefers-color-scheme` (dark mode).
+- Data provenance and model definitions: see [`../MODELS.md`](../MODELS.md).
