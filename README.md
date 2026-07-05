@@ -36,14 +36,12 @@ macro-lab/
 ## Run the dashboard (`app/`)
 
 An interactive web app (six animated views) over the models — every chart pulled **live** from the
-model outputs. Two terminals; full details in **[`app/README.md`](app/README.md)**.
+model outputs. One command; full details in **[`app/README.md`](app/README.md)**.
 
 ```bash
-# 1 · backend (Python, via uv)
-cd app/backend && uv sync && uv run uvicorn main:app --port 8000     # → localhost:8000/docs
-
-# 2 · frontend (Node ≥ 18)
-cd app/frontend && npm install && npm run dev                        # → localhost:3000
+cd app && docker compose up --build     # containerized → localhost:3000  (API :8000/docs)
+#  — or, locally with uv + Node:
+cd app && make install && make dev       # runs backend + frontend together (Ctrl-C stops both)
 ```
 
 The frontend proxies `/api/*` to the backend, so the browser fetches same-origin — no CORS setup.

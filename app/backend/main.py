@@ -3,13 +3,18 @@ macro-lab API — serves the model outputs (the debt_cycle CSVs) as JSON for the
 Run (from app/backend/):  uv run uvicorn main:app --reload --port 8000
 Docs at http://localhost:8000/docs
 """
+import os
 from pathlib import Path
 import numpy as np
 import pandas as pd
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-DATA = Path(__file__).resolve().parents[2] / "informal_economy_ai_bitcoin" / "debt_cycle"
+# Model data dir: env override (used in Docker) else the in-repo path.
+DATA = Path(os.environ.get(
+    "MODEL_DATA_DIR",
+    Path(__file__).resolve().parents[2] / "informal_economy_ai_bitcoin" / "debt_cycle",
+))
 
 app = FastAPI(title="macro-lab API", version="0.1.0",
               description="Serves the macro-lab quantitative models as JSON.")

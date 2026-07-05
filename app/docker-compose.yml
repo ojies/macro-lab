@@ -1,0 +1,22 @@
+# macro-lab dashboard — one command brings up backend + frontend together:
+#   cd app && docker compose up --build
+# then open http://localhost:3000  (API at http://localhost:8000/docs)
+services:
+  backend:
+    build: ./backend
+    environment:
+      MODEL_DATA_DIR: /data
+    volumes:
+      # mount the model outputs read-only so the API serves live CSVs
+      - ../informal_economy_ai_bitcoin/debt_cycle:/data:ro
+    ports:
+      - "8000:8000"
+
+  frontend:
+    build: ./frontend
+    environment:
+      API_URL: http://backend:8000
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend

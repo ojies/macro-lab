@@ -9,23 +9,35 @@ app/
 └── frontend/  Next.js (App Router) — six animated views over the API
 ```
 
-## Run it (two terminals)
+## Run it
 
-**1 · backend** (Python, via uv — reuses the model data in `../informal_economy_ai_bitcoin/debt_cycle/`):
+**Option A — one command, containerized** (needs Docker/Podman):
 ```bash
-cd app/backend
-uv sync
-uv run uvicorn main:app --reload --port 8000     # http://localhost:8000/docs
+cd app
+docker compose up --build          # → frontend http://localhost:3000 · API http://localhost:8000
+```
+Compose mounts the model outputs read-only, so the API serves live CSVs.
+
+**Option B — one command, local** (needs `uv` + Node ≥ 18):
+```bash
+cd app
+make install                       # backend (uv) + frontend (npm) deps, once
+make dev                           # runs BOTH dev servers together; Ctrl-C stops both
+```
+`make help` lists all targets (`backend`, `frontend`, `up`, `build`, `clean`). `make dev` just calls
+`./dev.sh`.
+
+**Option C — two terminals** (most explicit):
+```bash
+# terminal 1 — backend (reuses model data in ../informal_economy_ai_bitcoin/debt_cycle/)
+cd app/backend && uv sync && uv run uvicorn main:app --reload --port 8000   # :8000/docs
+
+# terminal 2 — frontend
+cd app/frontend && npm install && npm run dev                              # :3000
 ```
 
-**2 · frontend** (Node ≥ 18):
-```bash
-cd app/frontend
-npm install
-npm run dev                                       # http://localhost:3000
-```
-The frontend proxies `/api/*` → `http://localhost:8000` (set `API_URL` to point elsewhere), so the
-browser fetches same-origin — no CORS setup needed.
+The frontend proxies `/api/*` → the backend (set `API_URL` to point elsewhere), so the browser
+fetches same-origin — no CORS setup needed.
 
 ## The views
 | View | Source endpoint | Shows |
