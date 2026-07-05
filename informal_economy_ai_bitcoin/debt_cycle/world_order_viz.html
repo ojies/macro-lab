@@ -1,0 +1,216 @@
+<style>
+  :root{
+    --bg:#ece7dd; --surface:#faf7f1; --surface-2:#f1ece2;
+    --ink:#1a1712; --secondary:#57503f; --muted:#8f8672; --hair:#ddd6c8;
+    --grow:#c2571f; --shrink:#3f5d80; --gold:#b8892b;
+    --us:#2a78d6; --accent:#c2571f;
+    --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --sans:-apple-system,"Segoe UI",system-ui,Roboto,sans-serif;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --bg:#14120e; --surface:#1d1a14; --surface-2:#241f18;
+      --ink:#f3efe6; --secondary:#c1b8a4; --muted:#8b8270; --hair:#332e24;
+      --grow:#e0793d; --shrink:#6d90bd; --gold:#d3a850; --us:#4e94e8;
+    }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.6;
+    -webkit-font-smoothing:antialiased;font-variant-numeric:tabular-nums}
+  .wrap{max-width:1000px;margin:0 auto;padding:clamp(22px,4vw,60px) clamp(16px,4vw,40px)}
+  .prose{max-width:64ch}
+  .eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:0 0 18px}
+  h1{font-family:var(--serif);font-size:clamp(34px,6.2vw,64px);line-height:1.0;letter-spacing:-.01em;font-weight:700;margin:0 0 16px;text-wrap:balance}
+  .lede{font-size:clamp(18px,2.5vw,23px);color:var(--secondary);margin:0;max-width:38ch;line-height:1.4;text-wrap:balance}
+  .lede b{color:var(--ink)}
+  .thesis{border-left:3px solid var(--accent);padding:2px 0 2px 20px;margin:32px 0 0;max-width:60ch}
+  .thesis p{margin:0;font-size:17px;color:var(--secondary)} .thesis b{color:var(--ink)}
+  h2{font-family:var(--serif);font-size:clamp(23px,3.4vw,32px);letter-spacing:-.01em;font-weight:700;margin:0 0 4px;text-wrap:balance}
+  .num{font-family:var(--mono);font-size:12px;color:var(--accent);letter-spacing:.1em;text-transform:uppercase}
+  .sub{color:var(--secondary);font-size:15.5px;margin:6px 0 18px;max-width:64ch}
+  section{margin-top:clamp(48px,8vw,88px)}
+  .panel{background:var(--surface);border:1px solid var(--hair);border-radius:14px;padding:clamp(16px,2.4vw,26px);margin-top:14px}
+  figure{margin:0}
+  .legend{display:flex;flex-wrap:wrap;gap:12px 20px;margin:0 0 12px;font-size:13.5px}
+  .legend span{display:inline-flex;align-items:center;gap:7px;color:var(--secondary)}
+  .dot{width:11px;height:11px;border-radius:50%;display:inline-block}
+  .swatch{width:20px;height:3px;border-radius:2px;display:inline-block}
+  .cap{font-size:12.5px;color:var(--muted);margin-top:12px;max-width:72ch}
+  svg{display:block;width:100%;height:auto;overflow:visible}
+  .grid line{stroke:var(--hair)}
+  .axis text{fill:var(--muted);font-size:11px;font-family:var(--mono)}
+  .axtitle{fill:var(--secondary);font-size:12px}
+  .tt{position:fixed;pointer-events:none;background:var(--ink);color:var(--bg);font-size:12px;font-family:var(--mono);
+    padding:8px 10px;border-radius:8px;opacity:0;transition:opacity .1s;z-index:9;box-shadow:0 8px 26px rgba(0,0,0,.3);white-space:nowrap}
+  .vectors{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:16px}
+  .vec{background:var(--surface);border:1px solid var(--hair);border-radius:12px;padding:18px}
+  .vec .i{font-family:var(--serif);font-size:26px;color:var(--accent);line-height:1}
+  .vec .h{font-weight:750;font-size:16px;margin:8px 0 5px} .vec .d{font-size:13.5px;color:var(--secondary)}
+  .scen{display:grid;gap:10px;margin-top:16px}
+  .s{display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:baseline;padding:14px 16px;background:var(--surface);border:1px solid var(--hair);border-radius:10px}
+  .s .t{font-family:var(--serif);font-weight:700;font-size:16px} .s .t.a{color:var(--grow)} .s .t.b{color:var(--shrink)} .s .t.c{color:var(--gold)}
+  .s .d{font-size:14px;color:var(--secondary)}
+  .watch{margin-top:16px;padding:16px 18px;background:var(--surface-2);border:1px solid var(--hair);border-radius:10px;font-size:14.5px}
+  .watch b{color:var(--ink)}
+  footer{margin-top:70px;padding-top:20px;border-top:1px solid var(--hair);color:var(--muted);font-size:12.5px;max-width:74ch}
+  footer a{color:var(--secondary)}
+</style>
+
+<div class="wrap">
+  <header class="prose">
+    <p class="eyebrow">macro-lab · capstone synthesis</p>
+    <h1>Where the world is going</h1>
+    <p class="lede">The incumbents are <b>all late in the same debt cycle at once</b>. The money is fragmenting. The people are moving south.</p>
+    <div class="thesis"><p>Drawn from the lab's 17 models across five economies. The through-line: <b>the debt ratio is not the danger — policy space is</b>, and the deepest current underneath it all is <b>demographic</b>. This is a lens, not a prophecy.</p></div>
+  </header>
+
+  <section>
+    <p class="num">01 · the deepest current</p>
+    <h2>The people are moving south</h2>
+    <p class="sub">Every economy below its replacement line (2.1 births/woman) is set to shrink once age-momentum fades. Almost the entire developed and risen world is there — <b>South Korea at 0.72, China at 1.00, Japan 1.20</b> — while the labour force of the century sits in the young South. Bubble size = population; only Nigeria and Indonesia are still above replacement.</p>
+    <div class="panel">
+      <div class="legend" id="lgdem"></div>
+      <figure><div id="demo"></div></figure>
+    </div>
+    <p class="cap">Total fertility rate (2023, World Bank) vs median age. The vertical line is replacement (2.1). Left of it, births no longer replace deaths — a shrinking population is only a matter of time. South Korea's 0.72 is the lowest ever recorded. <em>(A full birth-vs-death / population-to-2100 model is being added to the lab.)</em></p>
+  </section>
+
+  <section>
+    <p class="num">02 · the money</p>
+    <h2>The reserve order is fragmenting — slowly</h2>
+    <p class="sub">Not dollar collapse (nothing can yet replace it) but a steady erosion of the unipolar system: the dollar's share of global reserves has slid from <b>72% to 57%</b> since 2000, and foreign ownership of US Treasuries is thinning. Central banks are buying gold; capital is drifting toward assets that sit on no one's balance sheet.</p>
+    <div class="panel">
+      <div class="legend" id="lgres"></div>
+      <figure><div id="res"></div></figure>
+    </div>
+    <p class="cap">USD share of allocated global FX reserves (IMF COFER) and foreign-held share of US Treasuries (Treasury TIC). Source: macro-lab <code>usa_debt_cycle.py</code>.</p>
+  </section>
+
+  <section>
+    <p class="num">03 · the cycle</p>
+    <h2>A synchronized late-cycle world</h2>
+    <p class="sub">The incumbents are late in their big debt cycles together — and the lab's counter-intuitive finding is that the debt <em>ratio</em> doesn't rank the danger. Nigeria carries the least and the most acute risk; Japan the most and no crisis.</p>
+    <div class="panel"><figure><div id="bars"></div></figure></div>
+    <p class="cap">Government debt, % of GDP (2025). The order of <em>risk</em> is nearly the reverse — set by policy space: currency sovereignty, who owns the debt, reserve status. Source: <code>compare_poles.py</code>.</p>
+  </section>
+
+  <section>
+    <p class="num">04 · the alignment</p>
+    <h2>What the world is aligning with</h2>
+    <div class="vectors">
+      <div class="vec"><div class="i">①</div><div class="h">Neutral &amp; real assets</div><div class="d">Gold, Bitcoin, commodities, land — what no state can print or freeze, as the reserve issuer's own resolution becomes inflation, not default.</div></div>
+      <div class="vec"><div class="i">②</div><div class="h">Sovereignty as the premium</div><div class="d">Who controls their money, energy, food, chips. The dividing line — not rich/poor. The euro periphery and most EMs lack it.</div></div>
+      <div class="vec"><div class="i">③</div><div class="h">The young South as the frontier</div><div class="d">The labour and consumers the aging North lost — <em>if</em> it converts the dividend. The lab warns Nigeria's is "structurally unearned."</div></div>
+      <div class="vec"><div class="i">④</div><div class="h">Digital dollar rails</div><div class="d">For the dollar-scarce: stablecoins are dollar access without a US bank; AI-underwritten credit is institutions without a strong state.</div></div>
+    </div>
+  </section>
+
+  <section>
+    <p class="num">05 · how it can go</p>
+    <h2>Three roads</h2>
+    <div class="scen">
+      <div class="s"><span class="t a">Ordered multipolarity</span><span class="d">The dollar stays first-among-several; gold/BTC and regional currencies take share; the young South industrializes selectively. Slower, more balanced.</span></div>
+      <div class="s"><span class="t b">Messy fragmentation</span><span class="d">Trade/tech blocs harden, a euro-periphery or China-property workout breaks badly, the South's dividend is squandered. Volatile, lower-growth.</span></div>
+      <div class="s"><span class="t c">A new synthesis</span><span class="d">Digital rails + AI productivity + African demography combine into a genuine new growth engine. The case the lab's application layer is built for.</span></div>
+    </div>
+    <div class="watch">The models don't pick one — they tell you <b>what to watch</b>: the USD reserve share · the euro Bund spread · China's credit-intensity &amp; property · the BoJ's exit · and the swing factor in every Nigeria model — <b>governance</b>.</div>
+  </section>
+
+  <footer>
+    <strong>macro-lab</strong> · <a href="https://github.com/ojies/macro-lab">github.com/ojies/macro-lab</a> · synthesis of 17 models across 5 economies. Data: IMF, World Bank/UN WPP, FRED, IMF COFER, Eurostat, BIS. A scenario/analysis lens — not investment advice or a forecast. <em>Watch the gauges, not the headlines.</em>
+  </footer>
+</div>
+
+<div class="tt" id="tt"></div>
+
+<script>
+const css=n=>getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const SVG='http://www.w3.org/2000/svg';const tt=document.getElementById('tt');
+function el(t,a={},p){const e=document.createElementNS(SVG,t);for(const k in a)e.setAttribute(k,a[k]);if(p!=null)e.textContent=p;return e;}
+function moveTT(ev,h){tt.innerHTML=h;tt.style.opacity=1;tt.style.left=Math.min(ev.clientX+14,innerWidth-230)+'px';tt.style.top=(ev.clientY-10)+'px';}
+function hideTT(){tt.style.opacity=0;}
+
+// ---- 01 demographic pivot: fertility x, median age y, bubble = population ----
+(function(){
+  const D=[
+    {c:'Nigeria',f:4.48,a:17.8,p:223},{c:'Indonesia',f:2.13,a:29.8,p:281},{c:'India',f:1.98,a:28.1,p:1441},
+    {c:'Vietnam',f:1.91,a:32.4,p:99},{c:'Brazil',f:1.62,a:33.9,p:217},{c:'United States',f:1.62,a:38.0,p:340},
+    {c:'United Kingdom',f:1.56,a:39.8,p:69},{c:'Germany',f:1.39,a:45.1,p:84},{c:'Japan',f:1.20,a:49.0,p:124},
+    {c:'China',f:1.00,a:39.1,p:1410},{c:'South Korea',f:0.72,a:44.5,p:52}];
+  const W=960,H=520,m={t:20,r:30,b:52,l:52};const iw=W-m.l-m.r,ih=H-m.t-m.b;
+  const fx=v=>m.l+(4.8-v)/(4.8-0.4)*iw;           // fertility, reversed (low-fertility → right? no) — keep low left
+  const X=v=>m.l+(v-0.4)/(4.8-0.4)*iw, Y=v=>m.t+ih-(v-15)/(52-15)*ih;
+  const R=p=>4+Math.sqrt(p)/2.6;
+  const svg=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img','aria-label':'Fertility vs median age'});
+  const g=el('g',{class:'grid'});
+  [1,2,3,4].forEach(v=>g.appendChild(el('line',{x1:X(v),x2:X(v),y1:m.t,y2:m.t+ih})));
+  [20,30,40,50].forEach(v=>g.appendChild(el('line',{x1:m.l,x2:m.l+iw,y1:Y(v),y2:Y(v)})));
+  svg.appendChild(g);
+  // replacement line 2.1
+  svg.appendChild(el('line',{x1:X(2.1),x2:X(2.1),y1:m.t-4,y2:m.t+ih,stroke:css('--accent'),'stroke-width':1.5,'stroke-dasharray':'5 4'}));
+  svg.appendChild(el('text',{x:X(2.1)-8,y:m.t+10,'text-anchor':'end',style:'font-size:11px;font-weight:700;fill:'+css('--accent')},'replacement 2.1'));
+  svg.appendChild(el('rect',{x:m.l,y:m.t,width:X(2.1)-m.l,height:ih,fill:css('--shrink'),opacity:.05}));
+  svg.appendChild(el('text',{x:m.l+8,y:m.t+ih-8,style:'font-size:11px;fill:'+css('--shrink')+';opacity:.85'},'↤ below replacement — set to shrink'));
+  const ax=el('g',{class:'axis'});
+  [1,2,3,4].forEach(v=>ax.appendChild(el('text',{x:X(v),y:m.t+ih+20,'text-anchor':'middle'},v.toFixed(1))));
+  [20,30,40,50].forEach(v=>ax.appendChild(el('text',{x:m.l-9,y:Y(v)+4,'text-anchor':'end'},v)));
+  ax.appendChild(el('text',{x:m.l+iw/2,y:H-8,'text-anchor':'middle',class:'axtitle'},'births per woman  →'));
+  ax.appendChild(el('text',{x:-(m.t+ih/2),y:15,'text-anchor':'middle',class:'axtitle',transform:'rotate(-90)'},'median age  →'));
+  svg.appendChild(ax);
+  D.forEach(d=>{
+    const cx=X(d.f),cy=Y(d.a),col=d.f>=2.1?css('--grow'):css('--shrink');
+    svg.appendChild(el('circle',{cx,cy,r:R(d.p),fill:col,opacity:.82,stroke:css('--surface'),'stroke-width':1.5}));
+    const big=['South Korea','Nigeria','Japan','China','United States','India','Germany'].includes(d.c);
+    if(big){const off=R(d.p)+4;
+      svg.appendChild(el('text',{x:cx,y:cy-off-2,'text-anchor':'middle',style:`font-size:12px;font-weight:700;fill:${col}`},d.c==='United States'?'US':d.c==='South Korea'?'S. Korea':d.c));}
+    const hit=el('circle',{cx,cy,r:Math.max(R(d.p),11),fill:'transparent',style:'cursor:pointer'});
+    hit.addEventListener('mousemove',ev=>moveTT(ev,`<b>${d.c}</b><br>fertility ${d.f} · median age ${d.a}<br>pop ~${d.p}m · ${d.f>=2.1?'growing':'below replacement'}`));
+    hit.addEventListener('mouseleave',hideTT);svg.appendChild(hit);
+  });
+  document.getElementById('lgdem').innerHTML=
+    `<span><i class="dot" style="background:${css('--grow')}"></i>at/above replacement (growing)</span>`+
+    `<span><i class="dot" style="background:${css('--shrink')}"></i>below replacement (set to shrink)</span>`+
+    `<span style="color:var(--muted)">bubble = population</span>`;
+})();
+
+// ---- 02 reserve fragmentation ----
+(function(){
+  const S=[
+    {name:'USD share of reserves',color:css('--us'),pts:[[2000,71.1],[2007,63.9],[2010,61.8],[2020,58.9],[2024,57.8],[2025,56.9]]},
+    {name:'Foreign-held US Treasuries',color:css('--accent'),pts:[[2007,25.5],[2010,31.6],[2013,34],[2020,25.5],[2024,23.8],[2025,24.1]]}];
+  const W=960,H=360,m={t:16,r:150,b:40,l:44};const iw=W-m.l-m.r,ih=H-m.t-m.b;
+  const X=v=>m.l+(v-2000)/(2025-2000)*iw,Y=v=>m.t+ih-(v-20)/(75-20)*ih;
+  const svg=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img','aria-label':'Reserve fragmentation'});
+  const g=el('g',{class:'grid'});[20,35,50,65].forEach(v=>g.appendChild(el('line',{x1:m.l,x2:m.l+iw,y1:Y(v),y2:Y(v)})));svg.appendChild(g);
+  const ax=el('g',{class:'axis'});
+  [20,35,50,65].forEach(v=>ax.appendChild(el('text',{x:m.l-9,y:Y(v)+4,'text-anchor':'end'},v+'%')));
+  [2000,2005,2010,2015,2020,2025].forEach(v=>ax.appendChild(el('text',{x:X(v),y:m.t+ih+20,'text-anchor':'middle'},v)));
+  svg.appendChild(ax);
+  S.forEach(s=>{
+    const d=s.pts.map((p,i)=>(i?'L':'M')+X(p[0]).toFixed(1)+' '+Y(p[1]).toFixed(1)).join(' ');
+    svg.appendChild(el('path',{d,fill:'none',stroke:s.color,'stroke-width':2.6,'stroke-linejoin':'round','stroke-linecap':'round'}));
+    const last=s.pts[s.pts.length-1];svg.appendChild(el('circle',{cx:X(last[0]),cy:Y(last[1]),r:3.5,fill:s.color}));
+    svg.appendChild(el('text',{x:X(last[0])+9,y:Y(last[1])+4,style:`font-size:12.5px;font-weight:700;fill:${s.color}`},s.name));
+    s.pts.forEach(p=>{const c=el('circle',{cx:X(p[0]),cy:Y(p[1]),r:9,fill:'transparent',style:'cursor:pointer'});
+      c.addEventListener('mousemove',ev=>moveTT(ev,`<b>${s.name}</b><br>${p[0]}: ${p[1]}%`));c.addEventListener('mouseleave',hideTT);svg.appendChild(c);});
+  });
+  document.getElementById('lgres').innerHTML=S.map(s=>`<span><i class="swatch" style="background:${s.color}"></i>${s.name}</span>`).join('');
+})();
+
+// ---- 03 debt bars ----
+(function(){
+  const D=[{n:'Nigeria',v:39},{n:'Euro area',v:89},{n:'China (govt)',v:99},{n:'United States',v:120},{n:'Japan',v:206}];
+  const cols={Nigeria:css('--grow'),'Euro area':css('--shrink'),'China (govt)':css('--shrink'),'United States':css('--us'),Japan:css('--muted')};
+  const W=960,rowH=40,m={t:6,r:64,b:26,l:120};const iw=W-m.l-m.r;const H=m.t+D.length*rowH+m.b;
+  const X=v=>m.l+v/230*iw;
+  const svg=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img','aria-label':'Government debt'});
+  const g=el('g',{class:'grid'});[0,50,100,150,200].forEach(v=>g.appendChild(el('line',{x1:X(v),x2:X(v),y1:m.t,y2:m.t+D.length*rowH})));svg.appendChild(g);
+  D.forEach((d,i)=>{const y=m.t+i*rowH+7,bh=rowH-16;
+    svg.appendChild(el('text',{x:m.l-12,y:y+bh/2+4,'text-anchor':'end',style:'font-size:13px;font-weight:600;fill:'+css('--secondary')},d.n));
+    svg.appendChild(el('rect',{x:m.l,y,width:Math.max(2,X(d.v)-m.l),height:bh,rx:4,fill:cols[d.n]}));
+    svg.appendChild(el('text',{x:X(d.v)+8,y:y+bh/2+4,style:'font-size:12.5px;font-weight:700;fill:'+css('--ink')},d.v+'%'));});
+  const ax=el('g',{class:'axis'});[0,50,100,150,200].forEach(v=>ax.appendChild(el('text',{x:X(v),y:m.t+D.length*rowH+16,'text-anchor':'middle'},v)));svg.appendChild(ax);
+  document.getElementById('bars').appendChild(svg);
+})();
+</script>
