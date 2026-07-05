@@ -4,8 +4,8 @@
 
 **Nigeria macro-economics research + a multi-country quantitative stack** — tracing one arc from raw
 capital-flows data → a Ray-Dalio Big-Debt-Cycle diagnosis → a set of runnable models → an
-AI + Bitcoin/stablecoin opportunity thesis for the informal economy — now extended to the **US**
-(and, in progress, **Europe** and **China**) as comparative poles of the debt cycle.
+AI + Bitcoin/stablecoin opportunity thesis for the informal economy — now extended to the **US,
+Europe, and China** as comparative poles of the debt cycle. **See [MODELS.md](MODELS.md) for the full model index.**
 
 Every figure is sourced; every model is re-runnable (`uv run python <script>.py`); every
 statistical break is flagged. Start with **[`NIGERIA_RESEARCH_OVERVIEW.md`](NIGERIA_RESEARCH_OVERVIEW.md)**.
@@ -22,9 +22,12 @@ macro-lab/
     ├── MASTER_REPORT.md                    the AI + Bitcoin thesis (start here for layer 3)
     ├── README.md + 6 thematic deep-dives
     └── debt_cycle/                         ANALYSIS LAYER — macro engine + models
-        ├── data: 17 CSVs (1980–2026) + 21 sourced staging files
-        ├── models: graph · VAR · SFC · scenario · GCN · positioning · Monte Carlo · Development-Age
-        └── docs: DATA_NOTES · SOURCES · MODEL_AND_TRACKER · ADVANCED_MODELS · …
+        ├── data: 17 CSVs (1980–2026) + 30+ sourced staging files
+        ├── Nigeria models: graph · VAR · SFC · scenario · GCN · positioning · Monte-Carlo · Development-Age
+        ├── usa/     — monetary VAR · presidential scorecard · debt-cycle · fiscal+QE  (reserve-currency pole)
+        ├── europe/  — stagnation diagnosis + euro fragility gauge                      (stagnation pole)
+        ├── china/   — state-directed-model exhaustion                                  (state-directed pole)
+        └── docs: MODELS.md (index) · DATA_NOTES · SOURCES · ADVANCED_MODELS · …
 ```
 
 1. **Data layer** (`nigeria_fdi_fpi/`) — capital flows (FDI & FPI) and the variables that explain
