@@ -30,7 +30,23 @@ macro-lab/
         ├── europe/  — stagnation diagnosis + euro fragility gauge                      (stagnation pole)
         ├── china/   — state-directed-model exhaustion                                  (state-directed pole)
         └── docs: MODELS.md (index) · DATA_NOTES · SOURCES · ADVANCED_MODELS · …
+    └── app/                                 DASHBOARD — FastAPI backend + Next.js frontend
 ```
+
+## Run the dashboard (`app/`)
+
+An interactive web app (six animated views) over the models — every chart pulled **live** from the
+model outputs. Two terminals; full details in **[`app/README.md`](app/README.md)**.
+
+```bash
+# 1 · backend (Python, via uv)
+cd app/backend && uv sync && uv run uvicorn main:app --port 8000     # → localhost:8000/docs
+
+# 2 · frontend (Node ≥ 18)
+cd app/frontend && npm install && npm run dev                        # → localhost:3000
+```
+
+The frontend proxies `/api/*` to the backend, so the browser fetches same-origin — no CORS setup.
 
 1. **Data layer** (`nigeria_fdi_fpi/`) — capital flows (FDI & FPI) and the variables that explain
    them: the six governance indicators, macro fundamentals, markets/monetary, global push factors.
