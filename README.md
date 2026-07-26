@@ -12,6 +12,11 @@ world is going and what it's aligning with, drawn from the models.
 Every figure is sourced; every model is re-runnable (`uv run python <script>.py`); every
 statistical break is flagged. Start with **[`NIGERIA_RESEARCH_OVERVIEW.md`](NIGERIA_RESEARCH_OVERVIEW.md)**.
 
+| | |
+|---|---|
+| [![The debt ratio isn't the danger — policy space is](docs/macrolab_debt_vs_space.png)](docs/macrolab_debt_vs_space.png) | [![Which economies are quietly dying off?](docs/macrolab_demographic_pivot.png)](docs/macrolab_demographic_pivot.png) |
+| **The debt ratio isn't the danger — policy space is.** Nigeria carries the least debt (39%) and the most risk; Japan the most (206%) and no crisis. | **Which economies are quietly dying off?** Left of the 2.1 replacement line, a population is set to shrink — Korea 0.72, Nigeria still doubling. |
+
 ---
 
 ## What's inside — three linked layers
